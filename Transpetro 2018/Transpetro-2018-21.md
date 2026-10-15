@@ -209,56 +209,250 @@ Com base na leitura do texto, entende-se que o desabafo de Lobo Neves ao longo d
 (B) &nbsp;sua família  
 (C) &nbsp;seu casamento  
 (D) &nbsp;teatro da época  
-(E) &nbsp;glamour da sociedade  
+(E) &nbsp;*glamour* da sociedade  
+
+
+A alternativa correta é a **(A) vida pública**.
+
+### Justificativa:
+
+No texto, Lobo Neves demonstra explicitamente sua insatisfação ao relatar suas amarguras com a carreira e a política:
+
+1. **Linhas 15-17:** *"...contou-me que a **vida política** era um tecido de invejas, despeitos, intrigas, perfídias, interesses, vaidades."*
+2. **Linhas 22-25:** *"Entrei na política por gosto, por família, por ambição, e um pouco por vaidade. Já vê que reuni em mim só todos os motivos que levam o homem à **vida pública**..."*
+
+As metáforas do teatro e a lamentação de que *"não há constância de sentimentos, não há gratidão, não há nada..."* reforçam o desapontamento do personagem com as engrenagens e desilusões da carreira política e social no ambiente público.
 
 ---
 
 ### 2
+Em \"Como adorasse a mulher, não se vexava de mo dizer muitas vezes\" (&ell;. 2-3), o conector **como** estabelece, com a oração seguinte, uma relação semântica de
+
+(A) &nbsp; causa  
+(B) &nbsp; condição  
+(C) &nbsp; contraste  
+(D) &nbsp; comparação  
+(E) &nbsp; consequência  
+
+A alternativa correta é a **(A) causa**.
+
+### Justificativa:
+
+No trecho *"**Como** adorasse a mulher, não se vexava de mo dizer muitas vezes"*, o conector **"como"** introduz a **razão** ou o **motivo** (a causa) pelo qual Lobo Neves não tinha vergonha de dizer o quanto a estimava.
+
+* **Teste de substituição:** A conjunção subordinativa causal *"como"* pode ser substituída por equivalentes causais como **"já que"**, **"visto que"** ou **"porque"**:
+> *"**Já que** adorava a mulher, não se vexava de mo dizer muitas vezes."*  
+> *"**Visto que** adorava a mulher, não se vexava de mo dizer muitas vezes."*
+
+Quando a oração causal vem **anteposta** (no início do período), a conjunção *"como"* introduz invariavelmente uma ideia de **causa**.
+
+---
+
+### 3 
+A palavra carcoma foi empregada metaforicamente no trecho \"Um dia confessou-me que trazia uma triste carcoma na existência\" (&ell;. 7-8).\nUm outro exemplo de metáfora empregada no texto é:
+
+(A) &nbsp; \"Lobo Neves, a princípio, metia-me grandes sustos\" (&ell;. 1-2)"  
+(B) &nbsp; \"De fresta que era, chegou a porta escancarada\" (&ell;. 6-7)"  
+(C) &nbsp; \"Evidentemente havia aí uma crise de melancolia; tratei de combatê-la\" (&ell;. 17-18)"  
+(D) &nbsp; \"Entrei na política por gosto, por família, por ambição, e um pouco por vaidade\" (&ell;. 21-23)"  
+(E) &nbsp; \"Lobo Neves recebeu-os com alegria\" (&ell;. 43)"  
 
 
+A alternativa correta é a **(B) "De fresta que era, chegou a porta escancarada" (&ell;. 6-7)**.
 
-  
-  
-  
+### Justificativa:
 
- 
+A **metáfora** é uma figura de linguagem que consiste no uso figurado de uma palavra ou expressão para estabelecer uma comparação implícita (sem conector comparativo explícito).
 
+Na alternativa **(B)**, o narrador não se refere a portas ou frestas físicas reais, mas sim ao nível de **confiança e intimidade** que Lobo Neves demonstrava em relação a ele:
 
+* **"Fresta":** Representa o início de uma abertura/revelação modesta de sentimentos.
+* **"Porta escancarada":** Representa a abertura total e desinibida para fazer confidências.
 
-  
+As demais alternativas expressam fatos em linguagem figurada comum ou puramente literal (denotativa) no contexto da narrativa.
 
+---
 
+### 4
+O trecho do texto \"Vira o teatro pelo lado da plateia; e, palavra, que era bonito!\" (&ell;. 25-26) faz referência ao fato de Lobo Neves
 
+(A) &nbsp; misturar política e lazer.  
+(B) &nbsp; ter uma vida social muito intensa.  
+(C) &nbsp; poder deslumbrar-se com o teatro.  
+(D) &nbsp; estar saudoso de sua vida como ator.  
+(E) &nbsp; ter ignorado as dificuldades da atividade política.  
 
+A alternativa correta é a **(D) esperava ainda ter uma atuação política satisfatória**.
 
+### Justificativa:
 
+O trecho em questão descreve a reação de Lobo Neves ao ouvir as palavras de incentivo do narrador sobre a glória pública:
 
+* A expressão **"unção religiosa"** denota a seriedade, a devoção e o profundo respeito com que ele ouvia aquilo.
+* O **"desejo que não quer acabar de morrer"** refere-se diretamente à **ambição política** dele — um anseio profundo por destaque na vida pública que, apesar de cansado e frustrado pelas desilusões, recusava-se a extinguir-se por completo.
 
+As demais alternativas estão incorretas:
 
+* (A) e (E) interpretam a palavra "morrer" de forma literal ou exagerada, ignorando o sentido figurado da persistência do desejo.
+* (B) toma uma expressão de cunho metafórico ("unção religiosa") como uma característica literal da personalidade do personagem.
+* (C) contraria o contexto, que gira em torno da ambição e frustração na vida pública e política, e não de um desejo de fuga física.
 
+---
 
+### 5
+O trecho do texto \"Vira o teatro pelo lado da plateia; e, palavra, que era bonito!\" (l. 25-26) faz referência ao fato de Lobo Neves"
 
+"A": "misturar política e lazer.",
+"B": "ter uma vida social muito intensa.",
+"C": "poder deslumbrar-se com o teatro.",
+"D": "estar saudoso de sua vida como ator.",
+"E": "ter ignorado as dificuldades da atividade política."
 
+---
 
+### 6
+Os sinais de pontuação contribuem para a construção dos sentidos dos textos.\nNo fragmento do texto \"Escriturei-me; deram-me um papel que... mas para que o estou a fatigar com isso? Deixe-me ficar com as minhas amofinações\" (l. 28-30), as reticências são usadas para demarcar a
 
+"A": "interrupção de uma ideia.",
+"B": "insinuação de uma ameaça.",
+"C": "hesitação comum na oralidade.",
+"D": "continuidade de uma ação ou fato.",
+"E": "omissão proposital de algo que se devia dizer."
+---
 
+### 7
+O fragmento no qual a regência do verbo em destaque é a mesma do verbo referir no trecho \"que não referisse a ninguém o que se passara entre nós\" (l. 40-41) é
 
+"A": "\"Como adorasse a mulher\" (l. 2)",
+"B": "\"Virgília era a perfeição mesma\" (l. 3-4)",
+"C": "\"Um dia confessou-me que trazia uma triste carcoma na existência\" (l. 7-8)",
+"D": "\"Mas para que o estou a fatigar com isto?\" (l. 28-29)",
+"E": "\"Entraram dois deputados e um chefe político da paróquia\" (l. 42-43)"
 
+---
 
+### 8
 
+### 9
 
+### 10
 
+### 11
 
+### 12
 
+### 13
 
+### 14
 
+### 15
 
+### 16
 
+### 17
 
+### 18
 
+### 19
 
+### 20
 
+### 21
 
+### 22
 
+### 23
 
+### 24
 
+### 25
+
+### 26
+
+### 27
+
+### 28
+
+### 29
+
+### 30
+
+### 31
+
+### 32
+
+### 33
+
+### 34
+
+### 35
+
+### 36
+
+### 37
+
+### 38
+
+### 39
+
+### 40
+
+### 41
+
+### 42
+
+### 43
+
+### 44
+
+### 45
+
+### 46
+
+### 47
+
+### 48
+
+### 49
+
+### 50
+
+### 51
+
+### 52
+
+### 53
+
+### 54
+
+### 55
+
+### 56
+
+### 57
+
+### 58
+
+### 59
+
+### 60
+
+### 61
+
+### 62
+
+### 63
+
+### 64
+
+### 65
+
+### 66
+
+### 67
+
+### 68
+
+### 69
+
+### 70
