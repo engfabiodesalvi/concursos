@@ -8,8 +8,8 @@
 Memórias Póstumas de Brás Cubas
 
 <table style="border: none; border-collapse: collapse;">
-  <tr style="border: none; background-color: transparent;">
-    <td style="border: none;"></td>
+  <tr>
+    <td style="font-style: italic; padding-right: 15px; border: none !important;"></td>
     <td style="padding: 1px; border: none;">&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lobo Neves, a princípio, metia-me grandes sus-  </td>
   </tr>
   <tr>
@@ -25,7 +25,7 @@ Memórias Póstumas de Brás Cubas
     <td style="padding: 1px; border: none;">era a perfeição mesma, um conjunto de qualidades</td>
   </tr>
   <tr>
-    <td style="font-style: italic; padding-right: 15px; border: none !important;">5</td>
+    <td style="font-style: italic; padding-right: 15px; border: none !important;"> 5</td>
     <td style="font-style: italic; padding-right: 15px; border: none !important;">sólidas e finas, amorável, elegante, austera, um mo-</td>
   </tr>
   <tr>
@@ -77,7 +77,15 @@ Memórias Póstumas de Brás Cubas
     <td style="padding: 1px; border: none;">tos, intrigas, perfídias, interesses, vaidades. Eviden-</td>
   </tr>
   <tr>
-    <td style="font-style: italic; padding-right: 15px; border: none !important;"></td>
+    <td style="font-style: italic; padding-right: 15px; border: none !important;">      <math xmlns="http://w3.org">
+        <mi>E</mi>
+        <mo>=</mo>
+        <mi>m</mi>
+        <msup>
+          <mi>c</mi>
+          <mn>2</mn>
+        </msup>
+      </math></td>
     <td style="padding: 1px; border: none;">temente havia aí uma crise de melancolia; tratei de</td>
   </tr>
   <tr>
@@ -200,6 +208,8 @@ Memórias Póstumas de Brás Cubas
 
     ASSIS, M. de. Memórias Póstumas de Brás Cubas; IN: CHIARA, A. C. et alli (Orgs.). Machado de Assis para jovens leitores. Rio de Janeiro: Eduerj, 2008.
 
+---
+
 ### 1
 Com base na leitura do texto, entende-se que o desabafo de Lobo Neves ao longo do texto deve-se à sua insatisfação com a(o)
 
@@ -208,6 +218,8 @@ Com base na leitura do texto, entende-se que o desabafo de Lobo Neves ao longo d
 (C) &nbsp;seu casamento  
 (D) &nbsp;teatro da época  
 (E) &nbsp;glamour da sociedade  
+
+---
 
 ### 2
 
