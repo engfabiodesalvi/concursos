@@ -77,15 +77,7 @@ Memórias Póstumas de Brás Cubas
     <td style="padding: 1px; border: none;">tos, intrigas, perfídias, interesses, vaidades. Eviden-</td>
   </tr>
   <tr>
-    <td style="font-style: italic; padding-right: 15px; border: none !important;">      <math xmlns="http://w3.org">
-        <mi>E</mi>
-        <mo>=</mo>
-        <mi>m</mi>
-        <msup>
-          <mi>c</mi>
-          <mn>2</mn>
-        </msup>
-      </math></td>
+    <td style="font-style: italic; padding-right: 15px; border: none !important;"></td>
     <td style="padding: 1px; border: none;">temente havia aí uma crise de melancolia; tratei de</td>
   </tr>
   <tr>
