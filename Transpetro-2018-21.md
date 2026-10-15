@@ -8,8 +8,8 @@
 Memórias Póstumas de Brás Cubas
 
 <table style="border: none; border-collapse: collapse;">
-  <tr>
-    <td style="font-style: italic; padding-right: 15px; border: none !important;"></td>
+  <tr style="border: none; background-color: transparent;">
+    <td style="border: none;"></td>
     <td style="padding: 1px; border: none;">&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lobo Neves, a princípio, metia-me grandes sus-  </td>
   </tr>
   <tr>
