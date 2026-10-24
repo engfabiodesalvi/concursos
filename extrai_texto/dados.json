@@ -1,0 +1,77 @@
+{
+  "texto1": {
+    "titulo": "Texto 1 - Exemplo de título",
+    "linhas": [
+      {
+        "linha": 1,
+        "texto": "Primeira linha do texto de exemplo, com <acentuação> & símbolos."
+      },
+      {
+        "linha": 2,
+        "texto": "Segunda linha do texto."
+      },
+      {
+        "linha": 3,
+        "texto": "Terceira linha do texto."
+      },
+      {
+        "linha": 4,
+        "texto": "Quarta linha do texto."
+      },
+      {
+        "linha": 5,
+        "texto": "Quinta linha: aqui o número deve aparecer."
+      },
+      {
+        "linha": 6,
+        "texto": "Sexta linha do texto."
+      },
+      {
+        "linha": 7,
+        "texto": ""
+      },
+      {
+        "linha": 8,
+        "texto": "Oitava linha do texto."
+      },
+      {
+        "linha": 9,
+        "texto": "Nona linha do texto."
+      },
+      {
+        "linha": 10,
+        "texto": "Décima linha: o número aparece novamente."
+      }
+    ]
+  },
+  "texto2": {
+    "titulo": "Texto 2 - Outro exemplo",
+    "linhas": [
+      {
+        "linha": 1,
+        "texto": "Linha um do segundo texto."
+      },
+      {
+        "linha": 2,
+        "texto": "Linha dois do segundo texto."
+      },
+      {
+        "linha": 3,
+        "texto": "Linha três do segundo texto."
+      },
+      {
+        "linha": 4,
+        "texto": "Linha quatro do segundo texto."
+      },
+      {
+        "linha": 5,
+        "texto": "Linha cinco do segundo texto."
+      },
+      {
+        "linha": 6,
+        "texto": "Linha seis do segundo texto."
+      }
+    ]
+  },
+  "questoes": []
+}
