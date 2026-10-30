@@ -221,21 +221,6 @@ a(o)
 (D) &nbsp;teatro da época  
 (E) &nbsp;_glamour_ da sociedade  
 
-A alternativa correta é a **(A) vida pública**.
-
-#### Justificativa:
-
-No texto, Lobo Neves demonstra explicitamente sua insatisfação ao relatar suas amarguras com a carreira e a política:
-
-1. **Linhas 15-17:** _"...contou-me que a **vida política** era um tecido de invejas, despeitos, intrigas, perfídias,
-interesses, vaidades."_
-2. **Linhas 22-25:** _"Entrei na política por gosto, por família, por ambição, e um pouco por vaidade. Já vê que reuni
-em mim só todos os motivos que levam o homem à **vida pública**..."_
-
-As metáforas do teatro e a lamentação de que _"não há constância de sentimentos, não há gratidão, não há nada..."_
-reforçam o desapontamento do personagem com as engrenagens e desilusões da carreira política e social no ambiente
-público.
-
 ---
 
 ### 2
@@ -248,21 +233,6 @@ a oração seguinte, uma relação semântica de
 (C) &nbsp; contraste  
 (D) &nbsp; comparação  
 (E) &nbsp; consequência  
-
-A alternativa correta é a **(A) causa**.
-
-#### Justificativa:
-
-No trecho _"**Como** adorasse a mulher, não se vexava de mo dizer muitas vezes"_, o conector **"como"** introduz a
-**razão** ou o **motivo** (a causa) pelo qual Lobo Neves não tinha vergonha de dizer o quanto a estimava.
-
-- **Teste de substituição:** A conjunção subordinativa causal _"como"_ pode ser substituída por equivalentes causais
-como **"já que"**, **"visto que"** ou **"porque"**:
-> _"**Já que** adorava a mulher, não se vexava de mo dizer muitas vezes."_
-> _"**Visto que** adorava a mulher, não se vexava de mo dizer muitas vezes."_
-
-Quando a oração causal vem **anteposta** (no início do período), a conjunção _"como"_ introduz invariavelmente uma ideia
-de **causa**.
 
 ---
 
@@ -277,22 +247,6 @@ existência\" (&ell;. 7-8).\nUm outro exemplo de metáfora empregada no texto é
 (D) &nbsp; \"Entrei na política por gosto, por família, por ambição, e um pouco por vaidade\" (&ell;. 21-23)"  
 (E) &nbsp; \"Lobo Neves recebeu-os com alegria\" (&ell;. 43)"  
 
-A alternativa correta é a **(B) "De fresta que era, chegou a porta escancarada" (&ell;. 6-7)**.
-
-#### Justificativa:
-
-A **metáfora** é uma figura de linguagem que consiste no uso figurado de uma palavra ou expressão para estabelecer uma
-comparação implícita (sem conector comparativo explícito).
-
-Na alternativa **(B)**, o narrador não se refere a portas ou frestas físicas reais, mas sim ao nível de **confiança e
-intimidade** que Lobo Neves demonstrava em relação a ele:
-
-- **"Fresta":** Representa o início de uma abertura/revelação modesta de sentimentos.
-- **"Porta escancarada":** Representa a abertura total e desinibida para fazer confidências.
-
-As demais alternativas expressam fatos em linguagem figurada comum ou puramente literal (denotativa) no contexto da
-narrativa.
-
 ---
 
 ### 4
@@ -306,27 +260,6 @@ fato de Lobo Neves
 (D) &nbsp; estar saudoso de sua vida como ator.  
 (E) &nbsp; ter ignorado as dificuldades da atividade política.  
 
-A alternativa correta é a **(D) esperava ainda ter uma atuação política satisfatória**.
-
-#### Justificativa:
-
-O trecho em questão descreve a reação de Lobo Neves ao ouvir as palavras de incentivo do narrador sobre a glória
-pública:
-
-- A expressão **"unção religiosa"** denota a seriedade, a devoção e o profundo respeito com que ele ouvia aquilo.
-- O **"desejo que não quer acabar de morrer"** refere-se diretamente à **ambição política** dele — um anseio profundo
-por destaque na vida pública que, apesar de cansado e frustrado pelas desilusões, recusava-se a extinguir-se por
-completo.
-
-As demais alternativas estão incorretas:
-
-- (A) e (E) interpretam a palavra "morrer" de forma literal ou exagerada, ignorando o sentido figurado da persistência
-do desejo.
-- (B) toma uma expressão de cunho metafórico ("unção religiosa") como uma característica literal da personalidade do
-personagem.
-- (C) contraria o contexto, que gira em torno da ambição e frustração na vida pública e política, e não de um desejo de
-fuga física.
-
 ---
 
 ### 5
@@ -339,22 +272,6 @@ fato de Lobo Neves"
 (C) &nbsp; poder deslumbrar-se com o teatro.  
 (D) &nbsp; estar saudoso de sua vida como ator.  
 (E) &nbsp; ter ignorado as dificuldades da atividade política."  
-
-A alternativa correta é a **(E) ter ignorado as dificuldades da atividade política.**
-
-#### Justificativa:
-
-No trecho em questão, Lobo Neves recorre a uma metáfora teatral para explicar como ele via a política antes de nela
-ingressar:
-
-1. **Visão externa (a plateia):** Antes de fazer parte da vida pública, ele via apenas o espetáculo por fora (o
-_"soberbo cenário, vida, movimento e graça"_), ou seja, enxergava apenas o lado belo, glamouroso e atraente da política.
-2. **Entrada na política (a representação/o palco):** Ao dizer _"Escriturei-me; deram-me um papel..."_, ele relata sua
-entrada efetiva na carreira e o consequente choque com a realidade de "invejas, despeitos, intrigas, perfídias" que não
-conseguia enxergar quando estava apenas na "plateia".
-
-Portanto, a expressão faz referência ao fato de que, antes de se engajar na política, ele desconhecia ou **ignorava as
-verdadeiras dificuldades e os bastidores amargos da atividade pública.**
 
 ---
 
@@ -370,27 +287,6 @@ deram-me um papel que... mas para que o estou a fatigar com isso? Deixe-me ficar
 (D) &nbsp; continuidade de uma ação ou fato.  
 (E) &nbsp; omissão proposital de algo que se devia dizer.  
 
-A alternativa correta é a **(A) interrupção de uma ideia.**
-
-#### Justificativa:
-
-No trecho _"Escriturei-me; deram-me um papel que... Mas para que o estou a fatigar com isto?"_, o personagem Lobo Neves
-começa a explicar qual foi o papel que lhe deram no "teatro" da política, mas **interrompe abruptamente o próprio
-pensamento** no meio da frase.
-
-Essa interrupção (uma **aposiopese** ou **reticência de pensamento**) serve para cortar o raciocínio que vinha
-desenvolvendo ao perceber que não vale a pena continuar desabafando e "fatigando" o ouvinte com suas amarguras.
-
-As demais alternativas estão incorretas porque:
-
-- **(B)** Não há qualquer ideia de ameaça no discurso.
-- **(C)** O corte não marca uma simples dúvida/hesitação na fala, mas a parada completa de uma frase que não é
-concluída.
-- **(D)** As reticências aqui não indicam algo que continua ocorrendo, mas o oposto (a interrupção da fala e da
-narrativa da ideia).
-- **(E)** Ele não omite propositalmente algo por segredo ou tabu (o que seria uma elipse ou reticência com valor de
-insinuação), e sim por desistir voluntariamente de concluir o pensamento para não cansar o interlocutor.
-
 ---
 
 ### 7
@@ -403,37 +299,6 @@ ninguém o que se passara entre nós\" (&ell; 40-41) é
 (C) &nbsp; \"Um dia **confessou**-me que trazia uma triste carcoma na existência\" (&ell; 7-8)  
 (D) &nbsp; \"Mas para que o estou a **fatigar** com isto?\" (&ell; 28-29)  
 (E) &nbsp; \"**Entraram** dois deputados e um chefe político da paróquia\" (&ell; 42-43)  
-
-A alternativa correta é a **(C) "Um dia confessou-me que trazia uma triste carcoma na existência" (l. 7-8)**.
-
-#### Justificativa:
-
-Para responder a essa questão, analisamos a **regência verbal** (transitividade) do verbo principal no enunciado e
-comparamos com as alternativas:
-
-1. **Análise do termo do enunciado:**
-
-- No trecho: _"que não **referisse** a ninguém o que se passara entre nós"_:
-- Quem refere, refere **algo** (_o que se passara entre nós_ = Objeto Direto) **a alguém** (_a ninguém_ = Objeto
-Indireto).
-- Trata-se de um **Verbo Transitivo Direto e Indireto (VTDI)**.
-
-2. **Análise do verbo na alternativa (C):**
-
-- No trecho: _"Um dia **confessou**-me que trazia uma triste carcoma na existência"_:
-- Quem confessa, confessa **algo** (_que trazia uma triste carcoma na existência_ = Oração Subordinada Substantiva
-Objetiva Direta) **a alguém** (_-me_ = Objeto Indireto).
-- O verbo **confessar** apresenta exatamente a mesma predicação: **Verbo Transitivo Direto e Indireto (VTDI)**.
-
-#### Análise das demais alternativas:
-
-- **(A) _"Como adorasse a mulher"_**: O verbo _adorar_ é **Verbo Transitivo Direto (VTD)** (_a mulher_ é Objeto Direto).
-- **(B) _"Virgília era a perfeição mesma"_**: O verbo _ser_ é **Verbo de Ligação (VL)** (_a perfeição mesma_ é
-Predicativo do Sujeito).
-- **(D) _"Mas para que o estou a fatigar com isto?"_**: O verbo _fatigar_ exige complemento direto do ser fatigado (_o_
-= Objeto Direto) e complemento indireto/circunstancial com preposição (_com isto_).
-- **(E) _"Entraram dois deputados e um chefe político da paróquia"_**: O verbo _entrar_ é **Verbo Intransitivo (VI)**
-(tem como sujeito _dois deputados e um chefe político..._).
 
 ---
 
@@ -448,7 +313,7 @@ O pronome oblíquo átono está empregado de acordo com o que prevê a variedade
 (E)  &nbsp; Se atormentou com aquela crise de melancolia que parecia não ter fim.
 
 --- 
-  
+
 ###  9
 
 Em português, o acento grave indica a contração de dois &quot;a&quot; em um só, em um processo chamado crase, e está corretamente empregado em:
@@ -459,7 +324,7 @@ Em português, o acento grave indica a contração de dois &quot;a&quot; em um s
 (D)  &nbsp; Em referência àqueles pensamentos, Lobo Neves calou-os rapidamente.  
 (E)  &nbsp; A política, à qual não quero mais em minha vida, causou-me muitos problemas.
 
---- 
+---
   
 ###  10
 
