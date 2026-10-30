@@ -211,7 +211,9 @@ Rio de Janeiro: Eduerj, 2008.
 
 ---
 ---
-<!-- resolva a questão contexto do concurso transpetro com banca cesgranrio: -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ### 1
 
 Com base na leitura do texto, entende-se que o desabafo de Lobo Neves ao longo do texto deve-se à sua insatisfação com
@@ -239,7 +241,9 @@ Embora ele mencione a admiração pela esposa (C) e use metáforas sobre o teatr
 
 ---
 ---
-<!-- resolva a questão contexto do concurso transpetro com banca cesgranrio: -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ### 2
 
 Em \"Como adorasse a mulher, não se vexava de mo dizer muitas vezes\" (&ell;. 2-3), o conector **como** estabelece, com
@@ -265,7 +269,9 @@ No trecho *"**Como** adorasse a mulher, não se vexava de mo dizer muitas vezes"
 
 ---
 ---
-<!-- resolva a questão contexto do concurso transpetro com banca cesgranrio: -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ### 3
 
 A palavra carcoma foi empregada metaforicamente no trecho \"Um dia confessou-me que trazia uma triste carcoma na
@@ -294,7 +300,9 @@ As demais alternativas utilizam a linguagem em seu sentido denotativo (literal) 
 
 ---
 ---
-<!-- resolva a questão contexto do concurso transpetro com banca cesgranrio: -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ### 4
 
 O trecho do texto \"Vira o teatro pelo lado da plateia; e, palavra, que era bonito!\" (&ell;. 25-26) faz referência ao
@@ -321,7 +329,9 @@ Assim, o trecho refere-se ao momento em que Lobo Neves **ignorava as amarguras e
 
 ---
 ---
-<!-- resolva a questão contexto do concurso transpetro com banca cesgranrio: -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ### 5
 
 O trecho do texto \"Vira o teatro pelo lado da plateia; e, palavra, que era bonito!\" (&ell;. 25-26) faz referência ao
@@ -368,7 +378,9 @@ Portanto, a metáfora de ver o teatro do lado da plateia refere-se ao momento em
 
 ---
 ---
-<!-- resolva a questão contexto do concurso transpetro com banca cesgranrio: -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ### 6
 
 Os sinais de pontuação contribuem para a construção dos sentidos dos textos.\nNo fragmento do texto \"Escriturei-me;
@@ -406,7 +418,9 @@ insinuação), e sim por desistir voluntariamente de concluir o pensamento para 
 
 ---
 ---
-<!-- resolva a questão contexto do concurso transpetro com banca cesgranrio: -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ### 7
 
 O fragmento no qual a regência do verbo em destaque é a mesma do verbo **referir** no trecho \"que não referisse a
@@ -455,7 +469,9 @@ Predicativo do Sujeito).
 
 ---
 ---
-<!-- resolva a questão contexto do concurso transpetro com banca cesgranrio: -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  8
 
 O pronome oblíquo átono está empregado de acordo com o que prevê a variedade formal da norma-padrão da língua em:
@@ -497,7 +513,7 @@ A questão exige o conhecimento das regras de **colocação pronominal** (prócl
 
 ---
 --- 
-<!-- resolva a questão contexto do concurso transpetro com banca cesgranrio: -->
+<!-- resolva a questão no contexto do concurso transpetro com banca cesgranrio: identifique a área de conhecimento da questão (classifique a área de conhecimento e as sub-áreas de conhecimento) e apresente justificativa com a análise das alternativas -->
 ###  9
 
 Em português, o acento grave indica a contração de dois &quot;a&quot; em um só, em um processo chamado crase, e está corretamente empregado em:
@@ -541,7 +557,9 @@ Por haver essa junção dos dois "a", o uso do acento grave indicador de crase �
 
 --- 
 ---
-<!-- resolva a questão contexto do concurso transpetro com banca cesgranrio: -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  10
 
 O período que atende plenamente às exigências da concordância verbal na norma-padrão da língua portuguesa é:
@@ -974,7 +992,9 @@ Available at: <https://www.ft.com/content/c9bdc750-ec85-11e7-8713-513b1d7ca85a>.
 ---
 ---
 
-<!-- responder a questão com gabarito e justificativa detalhada -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  11
 
 The main purpose of the text is to
@@ -987,47 +1007,57 @@ The main purpose of the text is to
 
 ---
 
-A alternativa correta é a **(B) speculate on matters that may affect the global energy market in 2018.**
+A alternativa correta é a **(B) speculate on matters that may affect the global energy market in 2018**.
 
 ---
 
-#### Justificativa e Análise do Texto:
+#### Classificação da Área de Conhecimento
 
-O objetivo principal (*main purpose*) do texto é **especular sobre questões/fatores incertos que podem impactar o mercado global de energia no ano de 2018**.
-
-Essa intenção fica explícita logo nas primeiras linhas do artigo:
-
-1. **Linhas 1-7:**
-> *"What are the issues that will shape the global energy market in 2018? [...] But at the global level there are four key questions, and **each of which answers is highly uncertain**."*
-> (*"Quais são as questões que moldarão o mercado global de energia em 2018? [...] Mas, em nível global, há quatro questões fundamentais, e **a resposta para cada uma delas é altamente incerta**."*)
-
-
-2. **Linguagem especulativa ao longo de todo o texto:**
-O autor estrutura o texto ao redor de 4 perguntas principais e utiliza constantemente verbos e expressões no campo da conjectura, probabilidade e incerteza (ex.: *"would"*, *"likely"*, *"uncertain"*, *"if anything"*, *"prospect"*).
+* **Área Principal:** Língua Inglesa / Leitura e Compreensão de Textos (Compreensão Leitora)
+* **Sub-área:** Objetivos e Intenção Textual do Autor (*Main Purpose / Author's Purpose*), Análise de Tipologia Textual e Interpretação Global.
 
 ---
 
-#### Por que as demais alternativas estão incorretas?
+#### Justificativa Detalhada e Análise das Alternativas
+
+O objetivo central de uma questão de **propósito principal do texto** (*main purpose*) é identificar a intenção abrangente do autor ao escrever o artigo como um todo, sem se ater a detalhes isolados ou secundários.
+
+#### Por que a alternativa (B) é a correta?
+
+A alternativa **(B)** resume perfeitamente o propósito global do artigo. O autor propõe examinar cenários futuros e incertezas que rondam o mercado energético global em 2018.
+
+* Logo no primeiro parágrafo (linhas 5-7), o autor declara:
+> *"But at the global level there are four key questions, and each of which answers is highly uncertain."*
+> (*"Mas em nível global há quatro questões fundamentais, e as respostas para cada uma delas são altamente incertas."*)
+
+
+* Ao longo do texto, o autor elabora hipóteses e reflexões sobre **quatro questões incertas**: a estabilidade na Arábia Saudita/Oriente Médio, o crescimento da produção de *shale oil* nos EUA, a demanda e eficiência energética da China, e a velocidade de expansão das energias renováveis. O uso constante de verbos e expressões condicionais/especulativas (*risk*, *if*, *uncertain*, *would*) confirma essa postura de especulação fundamentada.
+
+---
+
+#### Análise dos erros das demais alternativas:
 
 * **(A) *explain the reasons for the sudden increase in the price of oil in 2018.***
-* **Incorreta:** O aumento do preço do óleo/petróleo é citado apenas pontualmente no final (linhas 87-89) como um fenômeno temporário, e não como o tema principal do texto inteiro.
+* **Incorreta:** A oscilação/aumento recente nos preços do petróleo é mencionada brevemente nas linhas 87-89 apenas como um acontecimento pontual e incerto no final do artigo, e não como o foco principal do texto inteiro.
 
 
 * **(C) *provide precise answers to the most relevant questions on global energy.***
-* **Incorreta:** O próprio texto afirma nas linhas 6-7 que as respostas são **altamente incertas** (*"highly uncertain"*), o que contradiz a ideia de fornecer "respostas precisas" (*precise answers*).
+* **Incorreta:** A ideia de fornecer "respostas precisas" (*precise answers*) entra em contradição direta com o próprio texto, que afirma na linha 7 que todas as respostas para essas questões são **altamente incertas** (*"highly uncertain"*).
 
 
 * **(D) *forecast changes in trade and energy production in Asia and the Middle East.***
-* **Incorreta:** A Ásia e o Oriente Médio são discutidos apenas em dois dos tópicos (Arábia Saudita/Irã e China), enquanto o texto possui uma abrangência global muito mais ampla (incluindo também os EUA, energia eólica no Reino Unido, etc.).
+* **Incorreta:** Embora a Ásia e o Oriente Médio sejam abordados em dois dos tópicos do texto, a intenção do autor é analisar o mercado de energia em âmbito global (envolvendo também EUA, Reino Unido e tendências globais de renováveis), tornando essa opção restritiva e parcial.
 
 
 * **(E) *measure the devastating impact of renewable industry on coal and natural gas.***
-* **Incorreta:** O texto menciona o potencial das renováveis de substituir/deslocar (*displace*) o carvão e o gás no futuro (linhas 80-81), mas destaca que a indústria renovável ainda é fragmentada e que o seu impacto real ainda precisa ser demonstrado.
+* **Incorreta:** O texto menciona que as renováveis precisam de uma grande expansão para conseguir substituir (*displace*) o carvão e o gás natural (linhas 80-81), mas ressalta que o setor ainda é fragmentado e incerto, não havendo medição de um "impacto devastador" já consolidado.
 
 --- 
 ---
 
-<!-- responder a questão com gabarito e justificativa detalhada -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  12
 
 Saudi Arabia and Iran are mentioned in paragraphs 2 and 3 (lines 8-20) because they
@@ -1038,10 +1068,61 @@ Saudi Arabia and Iran are mentioned in paragraphs 2 and 3 (lines 8-20) because t
 (D)  &nbsp; can be considered the most stable countries in the Middle East.  
 (E)  &nbsp; might affect oil production and trade if they engage in an open conflict.
 
+---
+
+A alternativa correta é a **(E) might affect oil production and trade if they engage in an open conflict.**
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Língua Inglesa / Leitura e Compreensão de Textos
+* **Sub-área:** Identificação de Relações de Causa e Efeito, Compreensão de Detalhes Específicos e Leitura Localizada (*Scanning*).
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+A questão exige a compreensão do motivo pelo qual o autor menciona a Arábia Saudita e o Irã especificamente nos parágrafos 2 e 3 (linhas 8 a 20).
+
+#### Por que a alternativa (E) é a correta?
+
+A justificativa para a menção de ambos os países é apresentada explicitamente nos parágrafos indicados:
+
+1. **Linhas 12–15:**
+> *"The risk is that an open conflict, which Iran and Saudi have traditionally avoided despite all their differences, **would spread and hit oil production and trade**."*
+> (*"O risco é que um conflito aberto, que o Irã e a Arábia tradicionalmente evitaram apesar de todas as suas diferenças, **se espalhasse e atingisse a produção e o comércio de petróleo**."*)
+
+
+2. **Linhas 15–17:** O texto complementa explicando que os países do Golfo respondem por um quarto da produção global e por **mais de 40% de todo o petróleo comercializado mundialmente**, destacando o enorme impacto de um eventual conflito direto.
+
+Portanto, a alternativa **(E)** traduz perfeitamente esse trecho ao afirmar que eles são mencionados porque **poderiam afetar a produção e o comércio de petróleo caso se envolvessem em um conflito aberto** (*"might affect oil production and trade if they engage in an open conflict"*).
+
+---
+
+#### Análise dos erros das demais alternativas:
+
+* **(A) *are latent enemies about to engage in violent strife.***
+* **Incorreta:** O texto afirma expressamente na linha 13 que ambos os países **tradicionalmente evitaram um conflito aberto** (*"traditionally avoided"*), tratando a guerra apenas como um risco hipotético (*"The risk is..."*), e não como algo inevitável ou prestes a acontecer.
+
+
+* **(B) *produce more than 40 per cent of the world's crude oil.***
+* **Incorreta:** Trata-se de uma interpretação equivocada dos dados numéricos. Os parágrafos afirmam que os estados do Golfo (*Gulf states*) como um todo representam 25% da produção global (*"a quarter of global production"*) e mais de 40% do petróleo **comercializado globalmente** (*"traded globally"*), e não que apenas Arábia Saudita e Irã sozinhos *produzem* mais de 40% de todo o petróleo bruto do mundo.
+
+
+* **(C) *should spread their influence over the other Gulf States.***
+* **Incorreta:** O texto menciona na linha 20 que o Irã poderia tentar reafirmar sua influência na região (*"reassert its influence in the region"*), mas em momento algum defende ou afirma que eles "deveriam espalhar" (*should spread*) sua influência sobre os demais estados do Golfo.
+
+
+* **(D) *can be considered the most stable countries in the Middle East.***
+* **Incorreta:** Contraria frontalmente a premissa do parágrafo 2, que começa questionando justamente se a Arábia Saudita é estável (*"whether Saudi Arabia is stable"*) e aponta os riscos de desestabilização do mercado por volatilidade e conflitos na região.
+
 --- 
 ---
 
-<!-- responder a questão com gabarito e justificativa detalhada -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  13
 
 In the fragment &quot;The threat to stability is all the greater given that Iran is likely to win any such clash and to treat the result as a licence to reassert its influence in the region&quot; (lines 17-20), given that can be replaced, without change in meaning, by
@@ -1052,10 +1133,56 @@ In the fragment &quot;The threat to stability is all the greater given that Iran
 (D)  &nbsp; because of the fact that  
 (E)  &nbsp; taking into account that
 
+---
+
+A alternativa correta é a **(E) taking into account that**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Língua Inglesa / Gramática e Vocabulário
+* **Sub-área:** Conectivos e Expressões de Coesão (*Cohesive Devices / Prepositional & Conjunctional Phrases*), Substituição Sinonímica e Equivalência Semântica.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+A questão exige a identificação do sinônimo exato para a locução **"given that"** no contexto apresentado.
+
+#### Análise do Trecho:
+
+> *"The threat to stability is all the greater **given that** Iran is likely to win any such clash..."*
+> (*"A ameaça à estabilidade é ainda maior **dado que / considerando que / levando em conta que** o Irã provavelmente vencerá qualquer confronto desse tipo..."*)
+
+* A expressão **"given that"** é usada para introduzir um fato conhecido que serve de premissa ou consideração para a afirmação principal (significa *"considerando que"*, *"dado que"*, *"tendo em vista que"* ou *"levando em conta que"*).
+* A expressão **"taking into account that"** (*levando em consideração/conta que*) possui a **mesma equivalência semântica e funcional**, funcionando como substituto direto e perfeito sem qualquer alteração do sentido original.
+
+---
+
+#### Análise dos erros das demais alternativas:
+
+* **(A) *even so***
+* **Incorreta:** Significa *"mesmo assim"* ou *"ainda assim"*. Trata-se de um conectivo adversativo/concessivo de transição (indica oposição ou ressalva, não consideração/causa).
+
+
+* **(B) *even though***
+* **Incorreta:** Significa *"embora"* ou *"ainda que"*. É uma conjunção subordinativa concessiva utilizada para introduzir uma ideia de contraste/quebra de expectativa.
+
+
+* **(C) *despite the fact that***
+* **Incorreta:** Significa *"apesar do fato de que"*. É uma locução concessiva (sinônimo de *even though* / *although*).
+
+
+* **(D) *because of the fact that***
+* **Incorreta:** Embora *because of the fact that* indique uma causa estrita ("pelo fato de que"), a expressão *given that* em inglês formal refere-se mais precisamente a um contexto/premissa levada em consideração (*taking into account / considering*), tornando a alternativa **(E)** a opção mais precisa do ponto de vista lexicográfico e o gabarito oficial adotado pela Cesgranrio.
+
 --- 
 ---
 
-<!-- responder a questão com gabarito e justificativa detalhada -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  14
 
 The production of oil from shale rock in the US is mentioned in paragraph 4 (lines 21-29) because in 2018 it
@@ -1066,10 +1193,59 @@ The production of oil from shale rock in the US is mentioned in paragraph 4 (lin
 (D)  &nbsp; might compensate for present OPEC production cuts and cause a decrease in oil prices.  
 (E)  &nbsp; is going to have devastating effects on the drilling activity in the country in the near future.
 
+---
+
+A alternativa correta é a **(D) might compensate for present OPEC production cuts and cause a decrease in oil prices.**
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Língua Inglesa / Leitura e Compreensão de Textos
+* **Sub-área:** Compreensão de Detalhes e Relações Causa-Efeito / Sinonímia Contextual (*Paraphrasing & Detail Comprehension*).
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+A questão avalia a capacidade de localizar e interpretar o quarto parágrafo do texto (linhas 21-29) sobre a produção de petróleo de xisto (*shale rock*) nos EUA.
+
+#### Análise do Trecho:
+
+> *"A comparable increase in 2018 would **offset most of the current OPEC production cuts** and either force another quota reduction or **push prices down**."* (linhas 27–29)
+> (*"Um aumento comparável em 2018 **compensaria [anularia] a maior parte dos cortes atuais de produção da OPEP** e forçaria outra redução de cota ou **empirraria os preços para baixo**."*)
+
+* **"offset"** = *compensar / anular / neutralizar* (sinônimo de **"compensate for"**).
+* **"push prices down"** = *reduzir/diminuir os preços* (sinônimo de **"cause a decrease in oil prices"**).
+* **"would"** indica uma possibilidade/hipótese (traduzida por **"might"** na alternativa).
+
+Portanto, a alternativa **(D)** expressa com exatidão a paráfrase do texto ao afirmar que essa produção *pode compensar os cortes atuais da OPEP e causar uma queda nos preços do petróleo*.
+
+---
+
+#### Análise dos erros das demais alternativas:
+
+* **(A) *can rapidly achieve the record level of 6 million barrels a day.***
+* **Incorreta:** O texto afirma no passado (linha 23) que em **2017** a produção já havia atingido mais de 6 milhões de barris por dia (*"2017 has seen an increase [...] to over 6m"*), e não que alcançaria esse nível em 2018.
+
+
+* **(B) *will certainly reach higher levels than those announced in 2017.***
+* **Incorreta:** O uso do advérbio de certeza *"certainly"* está errado. O texto coloca o crescimento como algo hipotético (*"A comparable increase in 2018 would..."* / *"how rapidly [...] will grow"*), sem garantias absolutas.
+
+
+* **(C) *will make output from America's producing areas commercially viable in 2018.***
+* **Incorreta:** A viabilidade comercial ocorreu devido ao aumento de preços do petróleo ocorrido **nos 6 meses anteriores** (no segundo semestre de 2017, linhas 23-26: *"The increase in global prices over the past six months has made output [...] commercially viable"*), não sendo uma promessa para 2018.
+
+
+* **(E) *is going to have devastating effects on the drilling activity in the country in the near future.***
+* **Incorreta:** O texto diz o oposto: a atividade de perfuração está **crescendo/aumentando** (*"drilling activity is rising"*, linha 26), sem qualquer menção a "efeitos devastadores".
+
 --- 
 ---
 
-<!-- responder a questão com gabarito e justificativa detalhada -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  15
 
 The phrase that shift (line 46) refers to the change in China from a
@@ -1080,10 +1256,58 @@ The phrase that shift (line 46) refers to the change in China from a
 (D)  &nbsp; low-fossil-fuel economy to a pollution-based economy.  
 (E)  &nbsp; fast-growing economy to a receding one.
 
+---
+
+A alternativa correta é a **(A) heavy industry fuelled by coal to a service-based industry using a more varied mix.**
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Língua Inglesa / Leitura e Compreensão de Textos
+* **Sub-área:** Coesão Referencial e Discursiva (*Referential Cohesion / Discourse Referencing*), Retomada Contextual e Compreensão Localizada.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+A questão exige a identificação do referente de um termo coesivo (*"that shift"* na linha 46) dentro do contexto do texto.
+
+#### Análise do Trecho:
+
+Buscando a ocorrência da expressão no terceiro parágrafo (focado na China), encontramos:
+
+> *"The country's economy is changing and **moving away from heavy industry fuelled largely by coal to a more service-based one, with a more varied fuel mix**. But the pace of **that shift** is uncertain..."* (linhas 43–46)
+> (*"A economia do país está mudando e **afastando-se da indústria pesada alimentada em grande parte pelo carvão para uma economia mais baseada em serviços, com uma matriz energética mais variada**. Mas o ritmo **dessas mudanças / dessa transição** é incerto..."*)
+
+* A expressão **"that shift"** (*essa mudança/transição*) funciona como um elemento de coesão referencial por substituição que retoma diretamente a mudança estrutural descrita na frase anterior.
+* A alternativa **(A)** parafraseia exatamente essa transformação descrita no texto (da indústria pesada movida a carvão para um modelo focado em serviços com matriz variada).
+
+---
+
+#### Análise dos erros das demais alternativas:
+
+* **(B) *large consumption of the world's fossil fuels to lower consumption levels.***
+* **Incorreta:** O texto discute a eficiência energética e a possibilidade de limitação no crescimento da demanda, mas a transição exata (*shift*) nomeada pelo autor refere-se especificamente à mudança estrutural da base econômica (da indústria pesada para serviços).
+
+
+* **(C) *limited demand for oil, gas and coal to an increasing demand.***
+* **Incorreta:** Contraria a lógica do texto, que aponta o esforço de conter o consumo e buscar energias mais limpas.
+
+
+* **(D) *low-fossil-fuel economy to a pollution-based economy.***
+* **Incorreta:** Inverte a lógica e a realidade descrita, visto que a China tenta justamente afastar-se da poluição gerada pelo carvão e buscar uma economia mais limpa.
+
+
+* **(E) *fast-growing economy to a receding one.***
+* **Incorreta:** O texto aborda ciclos econômicos, mas não define essa transição estrutural como uma mudança de economia de crescimento rápido para recessão.
+
 --- 
 ---
 
-<!-- responder a questão com gabarito e justificativa detalhada -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  16
 
 In the fragments &quot;some recent data suggests that as economic growth has picked up&quot; (lines 47-48) and &quot;Beijing has high ambitions for a much cleaner energy economy, driven not least by the levels of air pollution in many of the major cities&quot; (lines 49-51), picked up and driven by mean, respectively,
@@ -1094,10 +1318,64 @@ In the fragments &quot;some recent data suggests that as economic growth has pic
 (D)  &nbsp; improved - motivated by  
 (E)  &nbsp; stabilized - hindered by
 
+---
+
+A alternativa correta é a **(D) improved - motivated by**.
+
+---
+
+### Classificação da Área de Conhecimento
+
+* **Área Principal:** Língua Inglesa / Vocabulário e Semântica
+* **Sub-área:** Frasais Verbais (*Phrasal Verbs*), Expressões Idiomáticas, Sinonímia Contextual e Polissemia Lexical.
+
+---
+
+### Justificativa Detalhada e Análise das Alternativas
+
+A questão exige o conhecimento do significado de dois termos no contexto em que foram empregados no texto: o *phrasal verb* **"picked up"** e a locução participial **"driven by"**.
+
+#### 1. Análise de "picked up":
+
+> *"some recent data suggests that as economic growth has **picked up**, so has consumption of oil and coal."* (linhas 47–48)
+> (*"alguns dados recentes sugerem que à medida que o crescimento econômico **se acelerou / melhorou / aumentou**, o mesmo aconteceu com o consumo de petróleo e carvão."*)
+
+* No contexto econômico, o verbo **"pick up"** significa recuperar-se, melhorar, crescer ou acelerar o ritmo (sinônimo de **"increased"** ou **"improved"**).
+
+#### 2. Análise de "driven by":
+
+> *"Beijing has high ambitions for a much cleaner energy economy, **driven not least by** the levels of air pollution..."* (linhas 49–51)
+> (*"Pequim tem grandes ambições para uma economia de energia muito mais limpa, **impulsionada / motivada** em grande parte pelos níveis de poluição do ar..."*)
+
+* A expressão **"driven by"** significa impulsionado por, motivado por ou guiado por forças motrizes (sinônimo de **"motivated by"** ou *caused/prompted by*).
+
+Unindo os dois significados contextuais na ordem pedida, temos **improved** (ou *increased*) e **motivated by**, o que valida perfeitamente a alternativa **(D)**.
+
+---
+
+#### Análise dos erros das demais alternativas:
+
+* **(A) *declined - guided by***
+* **Incorreta:** *"Declined"* significa declinou/caiu, o que contradiz o fato de que dados recentes mostram que o crescimento econômico e o consumo subiram.
+
+
+* **(B) *increased - delayed by***
+* **Incorreta:** Embora *"increased"* esteja correto para o primeiro termo, *"delayed by"* significa atrasado por, o que distorce totalmente o sentido de que a poluição *impulsionou* as ambições por energias limpas.
+
+
+* **(C) *deteriorated - caused by***
+* **Incorreta:** *"Deteriorated"* significa deteriorou, sentido oposto à recuperação econômica descrita.
+
+
+* **(E) *stabilized - hindered by***
+* **Incorreta:** *"Stabilized"* significa estabilizou (e não acelerou/melhorou) e *"hindered by"* significa atrapalhado/dificultado por, o que contraria o texto.
+
 --- 
 ---
 
-<!-- responder a questão com gabarito e justificativa detalhada -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  17
 
 In terms of numerical reference, one concludes that
@@ -1108,10 +1386,57 @@ In terms of numerical reference, one concludes that
 (D)  &nbsp; &quot;5 per cent&quot; (line 68) refers to the percentage of global energy generated by hydroelectric plants.  
 (E)  &nbsp; &quot;50 per cent&quot; (line 70) refers to the percentage decrease in solar photovoltaic capacity in 2016.
 
+---
+
+A alternativa correta é a **(B) "70 per cent" (line 62) refers to the percentage decrease in solar energy costs since 2010.**
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Língua Inglesa / Leitura e Compreensão de Textos
+* **Sub-área:** Compreensão de Dados Numéricos e Informações Específicas (*Numerical Reference & Scanning*).
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+A questão exige a verificação da exatidão da referência de dados numéricos apresentados ao longo do texto.
+
+#### Por que a alternativa (B) está correta?
+
+O texto afirma textualmente nas linhas 60 a 62:
+
+> *"Solar is also thriving: according to the International Energy Agency, **costs have fallen by 70 per cent since 2010**..."*
+> (*"A energia solar também está prosperando: de acordo com a Agência Internacional de Energia, **os custos caíram 70 por cento desde 2010**..."*)
+
+A alternativa **(B)** descreve exatamente esse dado, confirmando que os 70% referem-se à **queda/redução nos custos da energia solar desde 2010**.
+
+---
+
+#### Análise dos erros das demais alternativas:
+
+* **(A) *"over 40 per cent" (lines 16-17) refers to the percentage of global oil produced by Iran and Saudi.***
+* **Incorreta:** As linhas 15–17 dizem que os estados do Golfo respondem por 25% da produção global (*"a quarter of global production"*) e por mais de 40% de todo o petróleo **comercializado globalmente** (*"traded globally"*), e não especificamente produzido apenas por Irã e Arábia Saudita.
+
+
+* **(C) *"60 per cent" (line 64) refers to the total percentage of solar cells commercialized in China.***
+* **Incorreta:** A linha 64 indica que a China responde por 60% da **capacidade de fabricação** de células solares (*"manufacturing capacity"*), e não de células comercializadas.
+
+
+* **(D) *"5 per cent" (line 68) refers to the percentage of global energy generated by hydroelectric plants.***
+* **Incorreta:** A linha 68 diz que as energias **renováveis, incluindo a hidrelétrica** (*"Renewables, including hydro"*), responderam por 5%, e não apenas as hidrelétricas isoladamente.
+
+
+* **(E) *"50 per cent" (line 70) refers to the percentage decrease in solar photovoltaic capacity in 2016.***
+* **Incorreta:** A linha 70 afirma que a capacidade fotovoltaica solar **cresceu (*grew*) 50% em 2016**, tratando-se de um aumento, e não de uma queda (*decrease*).
+
 --- 
 ---
 
-<!-- responder a questão com gabarito e justificativa detalhada -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  18
 
 Based on the meanings of the words in the text, it can be said that
@@ -1122,10 +1447,53 @@ Based on the meanings of the words in the text, it can be said that
 (D)  &nbsp; &quot;thriving&quot; (line 61) and developing are synonyms.  
 (E)  &nbsp; &quot;surge&quot; (line 87) and increase are antonyms.
 
+---
+
+A alternativa correta é a **(D) "thriving" (line 61) and developing are synonyms.**
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Língua Inglesa / Vocabulário e Semântica
+* **Sub-área:** Sinonímia e Antonímia Contextual, Vocabulário Avançado e Lexicologia.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+A questão exige a verificação das relações de sentido (sinonímia e antonímia) entre palavras retiradas do texto e seus significados ou equivalentes.
+
+#### Por que a alternativa (D) está correta?
+
+* **"Thriving"** (linha 61) refere-se ao setor solar (*"Solar is also thriving"*), significando próspero, em pleno desenvolvimento, crescendo com sucesso.
+* **"Developing"** (em desenvolvimento/crescendo) funciona perfeitamente como **sinônimo** no contexto, pois descreve uma indústria que está avançando e prosperando.
+
+---
+
+#### Análise dos erros das demais alternativas:
+
+* **(A) *"rife" (line 11) and scarce express similar ideas.***
+* **Incorreta:** No texto, *"speculation is rife"* (linha 11) significa que a especulação é **abundante, generalizada ou disseminada**. Já *scarce* significa escasso ou raro. Portanto, são ideias opostas (antônimas), e não similares.
+
+
+* **(B) *"claimed" (line 34) can be replaced by hidden.***
+* **Incorreta:** *"Claimed numbers"* (linha 34) refere-se aos números **alegados, declarados ou divulgados** oficialmente pela China. Substituir por *hidden* (escondidos) inverteria completamente o sentido.
+
+
+* **(C) *"flat" (line 43) and high express similar ideas.***
+* **Incorreta:** *"CO2 emissions will remain flat"* (linha 43) significa que as emissões permanecerão **estáveis, niveladas ou sem variação**. Isso é o oposto de *high* (altas).
+
+
+* **(E) *"surge" (line 87) and increase are antonyms.***
+* **Incorreta:** *"The surge in oil prices"* (linha 87) indica um **aumento repentino, disparo ou forte elevação** nos preços do petróleo. Logo, *surge* e *increase* (aumento) são **sinônimos**, e não antônimos.
+
 --- 
 ---
 
-<!-- responder a questão com gabarito e justificativa detalhada -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  19
 
 Concerning the renewable energy industry, the author affirms that it
@@ -1136,10 +1504,57 @@ Concerning the renewable energy industry, the author affirms that it
 (D)  &nbsp; is already large enough to completely displace coal and natural gas.  
 (E)  &nbsp; will face severe financial losses due to the lack of local investments.
 
+---
+
+A alternativa correta é a **(C) needs to go through a profound change to become global and more competitive.**
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Língua Inglesa / Leitura e Compreensão de Textos
+* **Sub-área:** Compreensão Global e Detalhada, Síntese de Informações e Verificação de Afirmativas sobre o Texto (*Textual Comprehension & Summary Analysis*).
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+A questão exige que o candidato identifique qual afirmação sobre a indústria de energia renovável está correta de acordo com as conclusões e fatos apresentados pelo autor no texto.
+
+#### Por que a alternativa (C) está correta?
+
+O parágrafo final sobre as energias renováveis (linhas 75 a 81) aponta os desafios do setor:
+
+> *"The problem is that the industry remains fragmented. Most renewable companies are small and local, and in many cases undercapitalised; some are built to collect subsidies. **A radical change will be necessary to make the industry global and capable of competing on the scale necessary to displace coal and natural gas.**"*
+> (*"O problema é que a indústria permanece fragmentada. A maioria das empresas de energias renováveis é pequena e local, e em muitos casos subcapitalizada... **Uma mudança radical será necessária para tornar a indústria global e capaz de competir na escala necessária para deslocar o carvão e o gás natural.**"*)
+
+A alternativa **(C)** parafraseia perfeitamente esse trecho ao afirmar que a indústria **precisa passar por uma mudança profunda (*profound change* / *radical change*) para se tornar global e mais competitiva**.
+
+---
+
+#### Análise dos erros das demais alternativas:
+
+* **(A) *has become highly competitive without subsidies or government support.***
+* **Incorreta:** O texto afirma que a energia eólica está *se aproximando* da paridade de rede (*"approaching grid parity"*), ou seja, o momento em que poderá competir sem subsídios (linhas 59-60), o que indica que isso ainda não é uma realidade consolidada para toda a indústria.
+
+
+* **(B) *has been growing dramatically because of the threat posed by climate change.***
+* **Incorreta:** Embora o crescimento das renováveis seja impulsionado pela redução de custos e aumento da oferta (linhas 55-56), o texto **não menciona** a ameaça das mudanças climáticas (*climate change*) como o fator impulsionador da indústria. Trata-se de uma extrapolação (informação não contida no texto).
+
+
+* **(D) *is already large enough to completely displace coal and natural gas.***
+* **Incorreta:** O texto diz o oposto: as renováveis representam apenas 5% da oferta diária (linha 68) e ainda precisam passar por uma grande expansão e mudança estrutural justamente para serem capazes de competir e deslocar o carvão e o gás natural (linhas 79-81).
+
+
+* **(E) *will face severe financial losses due to the lack of local investments.***
+* **Incorreta:** O texto menciona que as empresas são pequenas, locais e subcapitalizadas (*"undercapitalised"*), mas em nenhum momento afirma que elas enfrentarão severas perdas financeiras por falta de investimentos locais.
+
 --- 
 ---
 
-<!-- responder a questão com gabarito e justificativa detalhada -->
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  20
 
 According to the last paragraph, the author believes that the
@@ -1149,6 +1564,46 @@ According to the last paragraph, the author believes that the
 (C)  &nbsp; four questions presented in the article will be answered sooner than we imagine.  
 (D)  &nbsp; energy business is definitely facing a moment of stability, growth and prosperity.  
 (E)  &nbsp; inevitable conflict in the Middle East will solve the imbalance between energy supply and demand.
+
+---
+
+A alternativa correta é a **(A) future of the energy business is uncertain and difficult to anticipate.**
+
+---
+
+### Classificação da Área de Conhecimento
+
+* **Área Principal:** Língua Inglesa / Leitura e Compreensão de Textos
+* **Sub-área:** Compreensão Global e Conclusão Textual (*Global Comprehension & Textual Inference*), Análise de Conclusões do Autor.
+
+---
+
+### Justificativa Detalhada e Análise das Alternativas
+
+A questão exige que o candidato identifique a conclusão ou a crença do autor com base nas reflexões apresentadas no último parágrafo do texto (linhas 83 a 91).
+
+#### Por que a alternativa (A) está correta?
+
+No último parágrafo, o autor destaca que o setor energético está em um momento de **mudança e transição** (*"change and transition"*), que cada leitor terá sua própria visão sobre as questões complexas abordadas, e que a perspectiva é de que a oferta continue superando a demanda, sendo a alta recente dos preços um fenômeno temporário, a menos que ocorra uma guerra imprevisível no Oriente Médio. Tudo isso aponta para um cenário em que o futuro do mercado energético é **incerto e difícil de antecipar** (*"uncertain and difficult to anticipate"*).
+
+---
+
+#### Análise dos erros das demais alternativas:
+
+* **(B) *recent increase in oil prices is definitely a long-lasting phenomenon.***
+* **Incorreta:** O texto afirma o oposto, classificando o recente aumento dos preços do petróleo como um fenômeno **temporário e insustentável** (*"temporary and unsustainable phenomenon"*, linhas 88–89), e não duradouro.
+
+
+* **(C) *four questions presented in the article will be answered sooner than we imagine.***
+* **Incorreta:** O texto não faz nenhuma menção ou previsão temporal sobre o momento em que essas quatro grandes perguntas serão respondidas; pelo contrário, enfatiza a incerteza que as cerca.
+
+
+* **(D) *energy business is definitely facing a moment of stability, growth and prosperity.***
+* **Incorreta:** O texto caracteriza o momento como sendo de **mudança e transição** (*"change and transition"*, linha 84) e marcado por forte volatilidade e incertezas estruturais, e não de estabilidade ou pura prosperidade.
+
+
+* **(E) *inevitable conflict in the Middle East will solve the imbalance between energy supply and demand.***
+* **Incorreta:** O texto qualifica uma possível guerra no Oriente Médio como *"all too possible"* (muito possível), mas não como um evento *inevitável* (*inevitable*), além de afirmar que ela apenas *"change the equation"* (mudaria a equação da oferta/demanda), e não que "resolveria o desequilíbrio" de forma positiva ou definitiva.
 
 ---
 ---
