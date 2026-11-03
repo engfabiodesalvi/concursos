@@ -1612,11 +1612,17 @@ No último parágrafo, o autor destaca que o setor energético está em um momen
 
 **Utlize as informações a seguir para responder às questões de n<sup><u>os</u></sup> 21 e 22.**
  
+Considere o Lugar Geométrico das Raízes da Figura apresentada abaixo.
 
- (Imagem aqui)
+
+<img src="./img/Questoes-21-22.png" alt="" width="300">
 
 ---
+---
 
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  21
 
 O sistema de malha fechada associado a esse LGR será
@@ -1627,8 +1633,39 @@ O sistema de malha fechada associado a esse LGR será
 (D)  &nbsp; instável para elevados ganhos e estável para pequenos ganhos.  
 (E)  &nbsp; estável para elevados ganhos e instável para pequenos ganhos.
 
+---
+
+As questões apresentadas pertencem ao concurso da Transpetro (2018) para o cargo de Engenheiro Júnior (Área: Automação), organizado pela banca Cesgranrio.
+
+---
+
+**Gabarito: (E) estável para elevados ganhos e instável para pequenos ganhos.**
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia Elétrica / Sistemas de Controle
+* **Sub-área:** Teoria de Controle Clássico, Lugar Geométrico das Raízes (LGR / *Root Locus*) e Análise de Estabilidade de Sistemas em Malha Fechada.
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+O Lugar Geométrico das Raízes (LGR) é uma ferramenta gráfica que mostra a trajetória dos polos de malha fechada no plano complexo ($s = \sigma + j\omega$) à medida que o ganho $K$ varia de zero a infinito.
+
+1. **Análise para pequenos ganhos ($K \approx 0$):** Quando o ganho tende a zero, os polos de malha fechada situam-se exatamente nas posições dos polos de malha aberta (indicados pelas cruzes $\mathbf{x}$ no gráfico). Pela inspeção da figura, observa-se que há um polo localizado no semiplano direito ($\sigma > 0$). Consequentemente, para ganhos pequenos, o sistema possui pelo menos um polo com parte real positiva, o que o torna **instável**.
+
+    <img src="./img/Questao-21-pequeno-K.png" alt="" width="450">
+
+
+2. **Análise para elevados ganhos ($K \to \infty$):** À medida que o ganho aumenta, as trajetórias (ramos do LGR) se deslocam para o semiplano esquerdo da figura (formando o círculo e convergindo para o zero representado pelo círculo $o$ ou para o infinito). Com os polos posicionados no semiplano esquerdo ($\sigma < 0$), o sistema torna-se **estável**.
+
+    <img src="./img/Questao-21-grande-K.png" alt="" width="450">
+
+Portanto, o sistema passa de instável para pequenos ganhos a estável para elevados ganhos, validando a alternativa **(E)**. As demais alternativas incorrem em erros de leitura da posição inicial dos polos ou do comportamento da estabilidade em função do ganho.
+
+---
 --- 
-  
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->  
 ###  22
 
 A malha fechada associada a esse LGR será criticamente amortecida para:
@@ -1639,8 +1676,269 @@ A malha fechada associada a esse LGR será criticamente amortecida para:
 (D)  &nbsp; ganho tendendo ao infinito  
 (E)  &nbsp; dois valores de ganhos distintos
 
---- 
+---
+
+**Gabarito: (E) dois valores de ganhos distintos.**
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia Elétrica / Sistemas de Controle
+* **Sub-área:** Lugar Geométrico das Raízes (LGR), Dinâmica de Sistemas e Amortecimento (Polos Reais Iguais / Pontos de Separação e Chegada).
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+O amortecimento crítico de um sistema de segunda ordem (ou de polos dominantes) ocorre quando os polos de malha fechada são **reais e iguais** ($\zeta = 1$). No traçado do LGR, pontos onde os ramos se encontram ou se separam no eixo real (pontos de fuga ou de entrada/separação – *breakaway/break-in points*) correspondem exatamente a raízes múltiplas reais.
+
+Observando o traçado geométrico da figura fornecida (que apresenta ramos sobre o eixo real e um círculo no semiplano esquerdo):
+
+* Existem pontos no eixo real onde os ramos convergem e divergem para formar o comportamento complexo conjugado (o círculo).
+
+  - Separação:
   
+    <img src="./img/Questao-22-K-separacao.png" alt="LGR com destaque no polo de separação com o eixo real." width="450">
+
+  - Retorno:
+
+    <img src="./img/Questao-22-K-retorno.png" alt="LGR com destaque no polo de retorno ao eixo real." width="450">
+
+* Nesses pontos de transição (encontro dos ramos no eixo real), as raízes são reais e repetidas, caracterizando o comportamento **criticamente amortecido**.
+* Como o LGR possui seções no eixo real que permitem essa condição em pontos distintos de ganho ao longo da variação de $K$, isso ocorre para **dois valores de ganhos distintos**.
+
+
+Logo, a alternativa correta é a **(E)**.
+
+---
+---
+
+### Aprofundando nas Questões 21 e 22
+
+Para responder rigorosamente às **Questões 21 e 22** através da análise no domínio de Laplace ($s$), precisamos construir a Função de Transferência em Malha Aberta $G(s)$ representada no diagrama da questão e resolver analiticamente a Equação Característica do sistema em malha fechada:
+
+$$1 + K \cdot G(s) = 0$$
+
+---
+
+## 1. Dedução da Função de Transferência $G(s)$
+
+Analisando a geometria das singularidades no plano $s = \sigma + j\omega$ da imagem:
+
+* **Polos de Malha Aberta ($\times$):**
+* Um polo instável no eixo real positivo: $s = +a$ (onde $a > 0$).
+* Um polo estável no eixo real negativo: $s = -b$ (onde $b > 0$).
+
+
+* **Zeros de Malha Aberta ($\circ$):**
+* Um zero real negativo posicionado mais à esquerda que o polo estável: $s = -c$ (onde $c > b > 0$).
+
+
+
+A função de transferência em malha aberta $G(s)$ é dada por:
+
+$$G(s) = \frac{s + c}{(s - a)(s + b)}$$
+
+Expanding o denominador:
+
+$$G(s) = \frac{s + c}{s^2 + (b - a)s - ab}$$
+
+---
+
+## 2. Equação Característica em Malha Fechada
+
+A equação característica que define os polos de malha fechada $s$ para um ganho $K > 0$ é:
+
+$$1 + K \cdot \frac{s + c}{s^2 + (b - a)s - ab} = 0$$
+
+Multiplicando pelo denominador, obtemos a equação do segundo grau em $s$:
+
+$$s^2 + (b - a + K)s + (K c - a b) = 0$$
+
+Reorganizando nos termos padrão $s^2 + 2\zeta\omega_n s + \omega_n^2 = 0$:
+
+* **Coeficiente linear de $s$:** $a_1 = b - a + K$
+* **Termo independente (constante):** $a_0 = K c - a b$
+
+---
+
+## 3. Demonstração da Questão 21 (Estabilidade)
+
+Pelo **Critério de Estabilidade de Routh-Hurwitz** para um sistema de 2ª ordem, o sistema é estritamente **estável** se, e somente se, todos os coeficientes da equação característica forem estritamente positivos ($a_1 > 0$ e $a_0 > 0$).
+
+1. **Condição 1 ($a_0 > 0$):**
+
+$$K c - a b > 0 \implies K > \frac{ab}{c}$$
+
+
+2. **Condição 2 ($a_1 > 0$):**
+
+$$b - a + K > 0 \implies K > a - b$$
+
+
+
+Como $a, b, c > 0$, existe um valor limite de ganho crítico $K_{crit} = \frac{ab}{c} > 0$:
+
+* **Para pequenos ganhos ($0 < K < K_{crit}$):** O termo constante $a_0$ é negativo ($Kc - ab < 0$), o que garante a presença de pelo menos um polo com parte real positiva (semiplano direito). Logo, o sistema é **instável**.
+* **Para elevados ganhos ($K > K_{crit}$):** Ambos os coeficientes tornam-se estritamente positivos. Todos os polos passam para o semiplano esquerdo ($\sigma < 0$). Logo, o sistema torna-se **estável**.
+
+> **Conclusão (Questão 21):** O sistema é **instável para pequenos ganhos e estável para elevados ganhos** $\rightarrow$ **Alternativa (E)**.
+
+---
+
+## 4. Demonstração da Questão 22 (Amortecimento Crítico)
+
+Um sistema de 2ª ordem é **criticamente amortecido** quando seu fator de amortecimento é $\zeta = 1$, o que ocorre quando a equação característica possui **raízes reais e iguais** (discriminante $\Delta = 0$).
+
+Calculando o discriminante ($\Delta = a_1^2 - 4 a_0$):
+
+$$\Delta(K) = (b - a + K)^2 - 4(Kc - ab) = 0$$
+
+Expandindo a expressão em relação a $K$:
+
+$$K^2 + 2(b - a)K + (b - a)^2 - 4c K + 4ab = 0$$
+
+Agrupando os termos em ordem decrescente de $K$:
+
+$$K^2 + 2(b - a - 2c)K + (b + a)^2 = 0$$
+
+Esta é uma equação do **segundo grau em $K$** da forma $A K^2 + B K + C = 0$, onde:
+
+* $A = 1$
+* $B = 2(b - a - 2c)$
+* $C = (b + a)^2 > 0$
+
+Como o termo constante $C = (b+a)^2$ é estritamente positivo e o produto das raízes $K_1 \cdot K_2 = \frac{C}{A} = (b+a)^2 > 0$, a equação admite **duas raízes reais e distintas para $K$** no domínio do LGR correspondentes aos pontos de encontro/separação dos ramos no eixo real (onde o círculo corta o eixo real).
+
+> **Conclusão (Questão 22):** O sistema é criticamente amortecido para **dois valores de ganhos distintos** $\rightarrow$ **Alternativa (E)**.
+
+---
+--- 
+
+### Aprofundando na Questão 22
+
+Para demonstrar com rigor matemático por que o amortecimento crítico ocorre para **dois valores de ganhos distintos** (Questão 22), vamos aprofundar a análise da equação característica e calcular o discriminante da equação em função do ganho $K$.
+
+---
+
+### 1. Resgate da Equação Característica
+
+A partir da função de transferência em malha aberta $G(s) = \frac{s + c}{(s - a)(s + b)}$, a equação característica do sistema em malha fechada é:
+
+$$1 + K \cdot \frac{s + c}{(s - a)(s + b)} = 0$$
+
+Multiplicando cruzado e desenvolvendo, chegamos à equação característica de 2ª ordem:
+
+$$s^2 + (b - a + K)s + (K c - a b) = 0$$
+
+---
+
+### 2. Condição para Amortecimento Crítico ($\zeta = 1$)
+
+O amortecimento crítico ocorre quando as raízes da equação característica são **reais e iguais**. Para uma equação do segundo grau, isso exige que o seu discriminante ($\Delta$) seja igual a zero:
+
+$$\Delta = [ coeficiente\ de\ s ]^2 - 4 \cdot (termo\ independente) = 0$$
+
+Substituindo os termos da nossa equação:
+
+$$\Delta = (b - a + K)^2 - 4(Kc - ab) = 0$$
+
+---
+
+### 3. A Equação em Função do Ganho $K$
+
+Expandindo e agrupando os termos em ordem decrescente de potências de $K$, obtemos uma nova equação do segundo grau, agora **em função de $K$**:
+
+$$K^2 + 2(b - a - 2c)K + (a + b)^2 = 0$$
+
+Esta é uma equação quadrática na forma padrão:
+
+
+$$A K^2 + B K + C = 0$$
+
+
+onde:
+
+* $A = 1$
+* $B = 2(b - a - 2c)$
+* $C = (a + b)^2$
+
+---
+
+### 4. Análise do Discriminante da Equação em $K$ ($\Delta_K$)
+
+Para sabermos quantas soluções reais (valores de ganho $K$) existem para essa condição de amortecimento crítico, calculamos o discriminante de $K$ (que chamaremos de $\Delta_K$):
+
+$$\Delta_K = B^2 - 4AC$$
+
+$$\Delta_K = [2(b - a - 2c)]^2 - 4(1)(a + b)^2$$
+
+$$\Delta_K = 4 \left[ (b - a - 2c)^2 - (a + b)^2 \right]$$
+
+Utilizando a propriedade de diferença de quadrados $X^2 - Y^2 = (X - Y)(X + Y)$, onde:
+
+* $X = b - a - 2c$
+* $Y = a + b$
+
+Calculamos os fatores:
+
+1. $(X - Y) = (b - a - 2c) - (a + b) = -2a - 2c = -2(a + c)$
+2. $(X + Y) = (b - a - 2c) + (a + b) = 2b - 2c = 2(b - c)$
+
+Substituindo de volta em $\Delta_K$:
+
+$$\Delta_K = 4 \left[ -2(a + c) \cdot 2(b - c) \right] = -16(a + c)(b - c)$$
+
+#### Interpretando o sinal de $\Delta_K$:
+
+* Pela posição dos polos e zeros no gráfico da questão:
+* O polo estável está em $-b$ e o zero está em $-c$, sendo o zero mais à esquerda que o polo ($c > b$). Portanto, o termo $(b - c)$ é **negativo** ($< 0$).
+* Os parâmetros $a$ e $c$ são positivos, logo $(a + c)$ é **positivo** ($> 0$).
+
+
+
+Fazendo o jogo de sinal:
+
+
+$$\Delta_K = -16 \cdot (+) \cdot (-) = +16(a + c)(c - b) > 0$$
+
+Como **$\Delta_K > 0$**, a equação quadrática em $K$ possui **duas raízes reais e distintas** ($K_1$ e $K_2$).
+
+---
+
+### 5. Verificação da Validade Física dos Ganhos ($K_1$ e $K_2$)
+
+Para garantir que esses dois valores de ganho ocorrem na faixa de operação física do sistema ($K > 0$), analisamos a soma e o produto das raízes ($K_1$ e $K_2$):
+
+1. **Produto das Raízes ($P$):**
+
+$$P = \frac{C}{A} = \frac{(a + b)^2}{1} = (a + b)^2 > 0$$
+
+
+
+*(Como o produto é positivo, os dois ganhos possuem o mesmo sinal).*
+2. **Soma das Raízes ($S$):**
+
+$$S = -\frac{B}{A} = -2(b - a - 2c) = 2(a + 2c - b)$$
+
+
+
+Como $c > b$, temos que $(2c - b) > 0$, logo a soma $S > 0$.
+*(Como a soma e o produto são estritamente positivos, ambos os valores de ganho $K_1$ e $K_2$ são **estritamente positivos**).*
+
+---
+
+### Conclusão Geométrica e Analítica
+
+Algebricamente, provamos que existem **duas raízes reais e distintas para o ganho $K$** ($K_1$ e $K_2$) que anulam o discriminante da equação característica.
+
+Geometricamente no LGR, isso corresponde exatamente aos **dois pontos de interseção do círculo com o eixo real** (o ponto de fuga *breakaway* onde os ramos saem do eixo real para formar o círculo, e o ponto de entrada *break-in* onde os ramos retornam e entram no eixo real). Nesses exatos dois pontos, as raízes são reais e iguais, caracterizando o sistema como **criticamente amortecido ($\zeta = 1$)**.
+
+Portanto, confirma-se perfeitamente a **Alternativa (E)**: **dois valores de ganhos distintos**.
+
+---
+---
+
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  23
 
 Em um sistema de controle, a condição de controlabilidade é determinada pelo(s)
@@ -1652,7 +1950,65 @@ Em um sistema de controle, a condição de controlabilidade é determinada pelo(
 (E)  &nbsp; autovalores da matriz de controlabilidade
 
 --- 
-  
+
+A alternativa correta é a **(B) posto da matriz de controlabilidade**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia Elétrica / Sistemas de Controle
+* **Sub-área:** Teoria de Controle Moderno, Representação em Espaço de Estados (*State-Space Representation*), Controlabilidade e Observabilidade.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+Em sistemas de controle representados em **espaço de estados** da forma:
+
+$$\dot{x}(t) = \mathbf{A} x(t) + \mathbf{B} u(t)$$
+
+$$y(t) = \mathbf{C} x(t) + \mathbf{D} u(t)$$
+
+onde $x(t) \in \mathbb{R}^n$ é o vetor de estados de dimensão $n$, $\mathbf{A}$ é a matriz de estados de ordem $n \times n$ e $\mathbf{B}$ é a matriz de entrada de ordem $n \times m$, a **controlabilidade** refere-se à capacidade de transferir qualquer estado inicial $x(0)$ para qualquer outro estado final desejado $x(t_f)$ em um tempo finito $t_f$ por meio de um vetor de controle não restringido $u(t)$.
+
+#### Critério de Controlabilidade de Kalman:
+
+Para verificar se um sistema LTI (Linear e Invariante no Tempo) de ordem $n$ é completamente controlável por estado, constrói-se a **matriz de controlabilidade** $\mathbf{\mathcal{C}}$ definida por:
+
+$$\mathbf{\mathcal{C}} = \begin{bmatrix} \mathbf{B} & \mathbf{A}\mathbf{B} & \mathbf{A}^2\mathbf{B} & \cdots & \mathbf{A}^{n-1}\mathbf{B} \end{bmatrix}$$
+
+O **Critério de Kalman** estabelece que o sistema é totalmente controlável se, e somente se, a matriz de controlabilidade $\mathbf{\mathcal{C}}$ tiver **posto completo** (*full rank*), ou seja:
+
+$$\text{posto}(\mathbf{\mathcal{C}}) = \text{rank}(\mathbf{\mathcal{C}}) = n$$
+
+onde $n$ é o número de variáveis de estado do sistema. Portanto, é o **posto da matriz de controlabilidade** que determina a condição de controlabilidade.
+
+---
+
+#### Análise dos erros das demais alternativas:
+
+* **(A) *posto da matriz de estado***
+* **Incorreta:** A matriz de estado $\mathbf{A}$ fornece informações sobre a dinâmica natural do sistema e sua estabilidade em malha aberta (através de seus autovalores), mas o seu posto isolado não define se o sistema pode ou não ser controlado a partir das entradas de controle $\mathbf{B}$.
+
+
+* **(C) *inverso da matriz de controlabilidade***
+* **Incorreta:** Nem toda matriz de controlabilidade é quadrada (para sistemas MIMO com múltiplas entradas, $\mathbf{\mathcal{C}}$ é uma matriz de dimensão $n \times nm$), não fazendo sentido falar em "inverso" como regra geral. Além disso, mesmo para sistemas SISO onde $\mathbf{\mathcal{C}}$ é quadrada ($n \times n$), a existência da inversa é uma consequência de a matriz ter posto completo ($\det(\mathbf{\mathcal{C}}) \neq 0$), mas a condição teórica formal é definida pelo seu posto.
+
+
+* **(D) *autovalores da matriz de estado***
+* **Incorreta:** Os autovalores da matriz $\mathbf{A}$ determinam os polos do sistema em malha aberta e, consequentemente, a **estabilidade** do sistema, mas não a sua controlabilidade. Um sistema pode ter autovalores estáveis ou instáveis e ser perfeitamente controlável (ou não).
+
+
+* **(E) *autovalores da matriz de controlabilidade***
+* **Incorreta:** A verificação da controlabilidade não se faz pelo cálculo dos autovalores da matriz $\mathbf{\mathcal{C}}$ (que pode inclusive não ser uma matriz quadrada), mas sim pela determinação da quantidade de linhas/colunas linearmente independentes, ou seja, pelo seu **posto**.
+
+---
+---
+
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->  
 ###  24
 
 A estratégia de realimentação de estado, em um sistema de controle, é completamente garantida se
@@ -1663,11 +2019,59 @@ A estratégia de realimentação de estado, em um sistema de controle, é comple
 (D)  &nbsp; os autovalores da matriz de estado forem estáveis  
 (E)  &nbsp; os autovalores da matriz de controlabilidade forem estáveis
 
+---
+
+A alternativa correta é a **(C) o posto da matriz de controlabilidade for igual ao número de estados.**
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia Elétrica / Sistemas de Controle
+* **Sub-área:** Teoria de Controle Moderno, Representação em Espaço de Estados, Realimentação de Estados (*State Feedback*) e Alocação de Polos.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+A técnica de **realimentação de estados** (frequentemente utilizada na forma $u = -Kx + r$) baseia-se na premissa de que podemos alterar a dinâmica e a estabilidade de um sistema alocando os seus polos de malha fechada em posições desejadas no plano complexo.
+
+#### Condição para a Realimentação de Estados:
+
+O teorema da alocação de polos por realimentação de estados estabelece que os autovalores da matriz de malha fechada $(\mathbf{A} - \mathbf{B}\mathbf{K})$ podem ser arbitrariamente posicionados se, e somente se, o sistema for **completamente controlável**.
+
+Pelo **Critério de Kalman**, um sistema de ordem $n$ (com $n$ variáveis de estado) é completamente controlável se a matriz de controlabilidade $\mathbf{\mathcal{C}} = \begin{bmatrix} \mathbf{B} & \mathbf{A}\mathbf{B} & \cdots & \mathbf{A}^{n-1}\mathbf{B} \end{bmatrix}$ possuir posto completo. Isso significa que **o posto (ou rank) da matriz de controlabilidade deve ser igual ao número de estados $n$** do sistema, validando diretamente a alternativa **(C)**.
+
+---
+
+#### Análise dos erros das demais alternativas:
+
+* **(A) *a inversa da matriz de estado existir***
+* **Incorreta:** A invertibilidade da matriz de estado $\mathbf{A}$ está associada à não-singularidade da matriz (ou seja, se o sistema possui polos na origem, como integradores puros). Ela não é condição necessária nem suficiente para garantir a realimentação de estados.
+
+
+* **(B) *o posto da matriz de estado for cheio***
+* **Incorreta:** Uma matriz de estado $\mathbf{A}$ de ordem $n \times n$ com posto cheio ($\text{rank}(\mathbf{A}) = n$) significa apenas que ela possui posto máximo (não é singular), o que não garante que as entradas de controle $\mathbf{B}$ consigam abranger todo o espaço de estados (controlabilidade).
+
+
+* **(D) *os autovalores da matriz de estado forem estáveis***
+* **Incorreta:** Os autovalores de $\mathbf{A}$ determinam a estabilidade do sistema em **malha aberta**. Se um sistema for instável em malha aberta (autovalores no semiplano direito), a real justamente serve para estabilizá-lo, desde que ele seja controlável. Portanto, estabilidade em malha aberta não é requisito para aplicar a estratégia de realimentação de estado.
+
+
+* **(E) *os autovalores da matriz de controlabilidade forem estáveis***
+* **Incorreta:** A matriz de controlabilidade $\mathbf{\mathcal{C}}$ é uma matriz de dimensionamento $n \times nm$ construída com as colunas de $\mathbf{B}, \mathbf{A}\mathbf{B}, \dots$. Na esmagadora maioria dos casos práticos ela nem é quadrada, tornando o conceito de "autovalores da matriz de controlabilidade" conceitualmente inadequado para testar essa propriedade. O critério padrão e absoluto é a análise do seu **posto**.
+
 --- 
-  
+---
+
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->  
 ###  25
 
 A Figura 1 abaixo mostra a conexão de 3 Leds em 3 saídas distintas da porta de 8 bits (PORTA B) de um microcontrolador. O registro interno de E/S (Entrada/Saída) do microcontrolador referente a essa porta tem configuração mostrada na Figura 2, em que cada bit &quot;PORTA Bx&quot; está associado à saída física &quot;Bx&quot;, onde x varia de 0 (bit menos significativo - LSB) a 7 (bit mais significativo - MSB).
+
+<img src="./img/Questao-25-fig1-fig-2.png" alt="Registro Interno de Entrada e Saída do Microcontrolador." width="600"/>
 
 Escrevendo-se um &quot;1&quot; no bit &quot;PORTA Bx&quot; implica sair &quot;1&quot; lógico na saída Bx. Analogamente, escrevendo-se um &quot;0&quot; no bit &quot;PORTA Bx&quot; implica sair &quot;0&quot; lógico na saída Bx. A voltagem de saída do &quot;1&quot; lógico é +5 V, e a do &quot;0&quot; lógico é 0 V, e todas as 8 portas da PORTA B estão programadas como saída.
 
@@ -1679,8 +2083,90 @@ Um valor em binário que acende todos os Leds da Figura 1, se escrito no registr
 (D)  &nbsp; 01000000  
 (E)  &nbsp; 01100100
 
+---
+
+A alternativa correta é a **(E) 01100100**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia de Automação / Sistemas Digitais e Microcontroladores
+* **Sub-área:** Programação de Portas de Entrada e Saída (E/S - *GPIO*), Eletrônica Digital e Acionamento de Cargas (LEDs).
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+A questão exige a determinação da palavra binária de 8 bits a ser gravada no registro da **PORTA B** para garantir o acionamento simultâneo de três LEDs.
+
+#### 1. Análise da Conexão dos LEDs (Figura 1)
+
+* Observando a Figura 1, os catodos (lado indicado pela seta dos diodos) de todos os LEDs estão conectados ao **Terra (0 V / GND)**.
+
+
+* Para que um LED conduza e acenda, seu anodo (ligado ao resistor de $330\Omega$) deve receber um **nível lógico "1" (+5 V)** vindo da respectiva saída do microcontrolador.
+
+
+* As conexões físicas dos LEDs indicadas na Figura 1 são:
+
+
+* **Led1** $\rightarrow$ conectado à saída **Porta B2**;
+
+
+* **Led2** $\rightarrow$ conectado à saída **Porta B5**;
+
+
+* **Led3** $\rightarrow$ conectado à saída **Porta B6**.
+
+
+Para acender os três LEDs ao mesmo tempo, as saídas **B2, B5 e B6** devem estar em **1**, enquanto todas as outras saídas (B0, B1, B3, B4 e B7) devem estar em **0**.
+
+---
+
+#### 2. Mapeamento dos Bits no Registro de E/S (Figura 2)
+
+A Figura 2 apresenta a estrutura do registro de 8 bits, do bit mais significativo (**MSB - PORTA B7**) ao bit menos significativo (**LSB - PORTA B0**):
+
+| Bit | Posição no Registro | Estado Necessário | Função |
+| --- | --- | --- | --- |
+| **B7 (MSB)** | Bit 7 | **0** | Desativado |
+| **B6** | Bit 6 | **1** | **Acende o Led3** |
+| **B5** | Bit 5 | **1** | **Acende o Led2** |
+| **B4** | Bit 4 | **0** | Desativado |
+| **B3** | Bit 3 | **0** | Desativado |
+| **B2** | Bit 2 | **1** | **Acende o Led1** |
+| **B1** | Bit 1 | **0** | Desativado |
+| **B0 (LSB)** | Bit 0 | **0** | Desativado |
+
+Montando o vetor binário na ordem do **MSB ao LSB (B7 a B0)**:
+
+$$\text{Valor Binário} = \mathbf{01100100}_2$$
+
+---
+
+#### Análise das Alternativas
+
+* **(A) 00000111:** Ativa os bits B2, B1 e B0. Acenderia apenas o Led1, mantendo o Led2 e o Led3 apagados e energizando indevidamente as portas B1 e B0.
+
+
+* **(B) 00100000:** Ativa apenas o bit B5. Acenderia apenas o Led2.
+
+
+* **(C) 00100100:** Ativa apenas os bits B5 e B2. Acenderia o Led1 e o Led2, mas manteria o Led3 (B6) apagado.
+
+
+* **(D) 01000000:** Ativa apenas o bit B6. Acenderia apenas o Led3.
+
+
+* **(E) 01100100:** **Correta.** Ativa exatamente os bits **B6, B5 e B2**, acendendo simultaneamente o Led3, o Led2 e o Led1.
+
+---
 --- 
-  
+
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  26
 
 Em 1965, o Dr. Gordon Moore sugeriu que as empresas de semicondutores dobrariam o número de transistores em um circuito integrado a cada dois anos. A observação dessa taxa de crescimento é conhecida como a famosa &quot;Lei de Moore&quot;. Essa lei está geralmente associada a temas como o crescimento acelerado do número de componentes num chip, da potência computacional, da capacidade de memória, entre outros.
@@ -1696,7 +2182,173 @@ Assumindo-se que a capacidade de executar medições segue a taxa da &quot;Lei d
 (E)  &nbsp; 8 anos
 
 --- 
-  
+
+A alternativa correta é a **(D) 6 anos**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia de Automação / Sistemas Digitais e Computação
+* **Sub-área:** Arquitetura de Computadores, Microprocessadores e Evolução Tecnológica (Lei de Moore).
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+A Lei de Moore postula que o desempenho ou o número de transistores em um circuito integrado dobra a cada período fixo de **dois anos**. O enunciado estipula que a capacidade de processamento de medições segue diretamente essa taxa de crescimento exponencial.
+
+#### 1. Formulação Matemática
+
+O modelo matemático para o crescimento exponencial segundo a Lei de Moore é expresso por:
+
+$$N(t) = N_0 \cdot 2^{\frac{t}{T}}$$
+
+Onde:
+
+* $N_0 = 100.000$ (capacidade inicial de medições por segundo).
+* $N(t) = 800.000$ (capacidade final desejada).
+* $T = 2$ anos (período de duplicação definido pela Lei de Moore).
+* $t$ é o tempo total em anos.
+
+#### 2. Resolução do Cálculo
+
+Substituindo os valores na equação:
+
+$$800.000 = 100.000 \cdot 2^{\frac{t}{2}}$$
+
+Dividindo ambos os lados por $100.000$:
+
+$$8 = 2^{\frac{t}{2}}$$
+
+Reescrevendo o número $8$ como uma potência de base $2$ ($8 = 2^3$):
+
+$$2^3 = 2^{\frac{t}{2}}$$
+
+Igualando os expoentes:
+
+$$\frac{t}{2} = 3$$
+
+$$t = 3 \cdot 2 = 6 \text{ anos}$$
+
+Portanto, serão necessários **6 anos** para que o sistema atinja a marca de $800.000$ medições por segundo.
+
+---
+
+#### Análise das Alternativas:
+
+* **(A) 1 ano:** Incorreta. Um período de 1 ano resultaria em um aumento de $2^{1/2} \approx 1,41$ vezes, alcançando cerca de $141.421$ medições.
+* **(B) 3 anos:** Incorreta. Corresponde a um fator de $2^{3/2} \approx 2,83$ vezes, chegando a aproximadamente $282.842$ medições.
+* **(C) 4 anos:** Incorreta. Representa 2 ciclos de duplicação ($2^2 = 4$ vezes), o que elevaria a capacidade para $400.000$ medições por segundo.
+* **(D) 6 anos:** **Correta.** Representa exatamente 3 ciclos de duplicação ($2^3 = 8$ vezes), multiplicando a capacidade inicial de $100.000$ por $8$ para atingir $800.000$.
+* **(E) 8 anos:** Incorreta. Representa 4 ciclos de duplicação ($2^4 = 16$ vezes), resultando em $1.600.000$ medições por segundo.
+
+---
+
+#### Aprofundamento: Obtenção da expressão de crescimento
+
+Para chegar à expressão $N(t) = N_0 \cdot 2^{\frac{t}{T}}$, partimos da definição lógica de um processo que dobra a cada intervalo fixo de tempo.
+
+Esta é uma modelagem direta em base 2, muito utilizada na Lei de Moore (onde o tempo de duplicação T é de aproximadamente 2 anos) e na microbiologia.
+
+#### Dedução Passo a Passo
+
+Imagine uma quantidade inicial N₀ que dobra a cada intervalo de tempo constante **T** (o tempo de duplicação):
+
+• **No início (t = 0):**  
+$N(0) = N_0$
+
+• **Após 1 período (t = T):** A população dobrou 1 vez.  
+$N(T) = N_0 \cdot 2 = N_0 \cdot 2^1$
+
+• **Após 2 períodos (t = 2T):** A população dobrou 2 vezes.  
+$N(2T) = N_0 \cdot 2 \cdot 2 = N_0 \cdot 2^2$  
+
+• **Após 3 períodos (t = 3T):** A população dobrou 3 vezes.  
+$N(3T) = N_0 \cdot 2 \cdot 2 \cdot 2 = N_0 \cdot 2^3$  
+
+Repare no padrão do expoente: o número de vezes que a população dobra é igual ao **tempo total decorrido (t) dividido pelo tempo que leva para uma duplicação acontecer (T)**.  
+
+• **Após n períodos $(t = n \cdot T \implies n = \frac{t}{T})$:** 
+
+$N(t) = N_0 \cdot 2^n = N_0 \cdot 2^{\frac{t}{T}})$  
+
+---
+
+#### Modelo exponencial de crescimento populacional e a Lei de Moore
+
+A relação entre o **modelo exponencial de crescimento populacional** e a **Lei de Moore** está no padrão matemático: ambos são processos de **crescimento exponencial**, onde a taxa de crescimento de uma variável é proporcional ao seu valor atual.  
+
+Enquanto o modelo biológico descreve o crescimento de organismos sob recursos ilimitados, a Lei de Moore descreve o avanço tecnológico, observando que o número de transistores em um chip de circuito integrado dobra aproximadamente a cada dois anos.
+
+---
+
+#### Definição dos Termos da Expressão
+
+Na fórmula do crescimento contínuo aplicada a ambos os contextos $(N_t = N_0 \cdot e^{rt})$, cada termo é definido da seguinte forma:  
+
+• **$N_{t}$ (População/Quantidade Final):** É o tamanho total da população (ou o número de transistores em um chip) após um determinado período de tempo $t$.  
+
+• **$N_{0}$ (População/Quantidade Inicial):** É o número inicial de indivíduos (ou de transistores) no momento em que a contagem ou observação começou $(t = 0)$.  
+
+• **$e$ (Constante de Euler):** É a base do logaritmo natural, uma constante matemática irracional aproximadamente igual a $2,71828$. Ela surge naturalmente em processos de crescimento contínuo.  
+
+• **$r$ (Taxa de Crescimento):** É a taxa intrínseca de variação. Na biologia, representa a diferença entre a taxa de natalidade e a de mortalidade. Na tecnologia, representa a velocidade de aceleração do desenvolvimento.  
+
+• **$t$ (Tempo):** É o intervalo de tempo decorrido (em horas, dias, anos, etc.) durante o qual o crescimento é medido.
+
+---
+
+#### Tempo de duplicação
+
+Para calcular o **tempo de duplicação** $(t_{d})$, determinamos o tempo necessário para que a quantidade final $(N_{t})$ seja exatamente o dobro da quantidade inicial $(N_{0})$, ou seja, $N_t = 2N_0$.
+
+#### Dedução Matemática
+
+Partindo da equação de crescimento exponencial:
+
+$2N_{0}=N_{0}\cdot e^{r\cdot t_{d}}$  
+
+Dividindo ambos os lados por $N_{0}$:
+
+$2=e^{r\cdot t_{d}}$
+
+Aplicando o logaritmo natural $(\ln )$ em ambos os lados para isolar o tempo:
+
+$\ln (2)=r\cdot t_{d}$
+
+Como $\ln(2) \approx 0,693$, chegamos à fórmula final do tempo de duplicação:
+
+$t_{d}=\frac{\ln (2)}{r}\approx \frac{0,693}{r}$
+
+
+---
+
+#### Relação com a Base do Logaritmo Natural (e)
+
+Também podemos chegar a essa mesma fórmula partindo do modelo contínuo original $N(t) = N_0 \cdot e^{rt}$ usando propriedades de potenciação:
+
+1. Sabemos da dedução anterior que a taxa de crescimento r se relaciona com o tempo de duplicação T pela equação:  
+$r=\frac{\ln (2)}{T}$  
+
+2. Substituímos esse valor de r na fórmula original:  
+$N(t)=N_{0}\cdot e^{\left(\frac{\ln (2)}{T}\right)\cdot t}$  
+
+3. Reorganizamos o expoente:  
+$N(t)=N_{0}\cdot e^{\ln (2)\cdot \left(\frac{t}{T}\right)}$  
+
+4. Usando a propriedade matemática onde $e^{\ln(x)} = x$, isolamos a base 2:  
+$N(t)=N_{0}\cdot \left(e^{\ln (2)}\right)^{\frac{t}{T}}$  
+$N(t)=N_{0}\cdot 2^{\frac{t}{T}}$  
+
+As duas expressões são matematicamente idênticas, mas a base 2 facilita muito a visualização em problemas de duplicação (como a Lei de Moore), pois o expoente $\frac{t}{T}$ representa diretamente **o número de ciclos de duplicação ocorridos.**  
+
+---
+---
+
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  27
 
 Um sistema embarcado precisa funcionar durante vários dias, sem a troca da bateria. Seu microcontrolador tem consumo de corrente em modo ativo de 2 mA e, em modo de economia de energia, de 0,00075 mA, considerando a tensão de alimentação de 3 V e temperatura ambiente de 25 °C. Uma bateria recarregável de 3 V e capacidade de 1.200 mAh irá alimentar esse sistema. Ela será considerada ideal, fornecendo 3 V constantes após sua carga completa, sempre que demandada.
@@ -1709,13 +2361,78 @@ Desprezando o consumo dos outros componentes diferentes do microcontrolador, con
 (D)  &nbsp; 600  
 (E)  &nbsp; 1200
 
+---
+
+A alternativa correta é a **(B) 50**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia de Automação / Sistemas Embarcados e Eletrônica
+* **Sub-área:** Gerenciamento de Energia em Sistemas Embarcados, Autonomia de Baterias, Consumo de Corrente e Ciclo de Trabalho (*Duty Cycle*).
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+Para calcular a autonomia do sistema embarcado, precisamos determinar a corrente média consumida pelo microcontrolador ao longo do seu ciclo de funcionamento e, em seguida, relacioná-la com a capacidade total da bateria.
+
+#### 1. Cálculo da Corrente Média ($I_{\text{médio}}$)
+
+O enunciado fornece os seguintes dados:
+
+* Corrente em modo ativo ($I_{\text{ativo}}$) = $2\text{ mA}$
+* Tempo em modo ativo = $50\%$ do tempo ($0,5$)
+* Corrente em modo de economia de energia ($I_{\text{sleep}}$) = desprezível ($0\text{ mA}$)
+
+A corrente média consumida pelo dispositivo é a média ponderada pelo tempo em cada estado:
+
+
+$$I_{\text{médio}} = (I_{\text{ativo}} \times \text{Fração Ativa}) + (I_{\text{sleep}} \times \text{Fração Sleep})$$
+
+$$I_{\text{médio}} = (2\text{ mA} \times 0,5) + (0\text{ mA} \times 0,5) = 1\text{ mA}$$
+
+#### 2. Cálculo da Autonomia em Horas
+
+A capacidade da bateria é dada em miliampères-hora ($\text{mAh}$). A autonomia total em horas ($T_{\text{horas}}$) é calculada dividindo a capacidade total pela corrente média de consumo:
+
+
+$$T_{\text{horas}} = \frac{\text{Capacidade}}{\text{Corrente Média}} = \frac{1200\text{ mAh}}{1\text{ mA}} = 1200\text{ horas}$$
+
+#### 3. Conversão para Dias
+
+Como o enunciado pede a resposta em dias, basta dividir o total de horas pelo número de horas em um dia ($24\text{ horas}$):
+
+
+$$T_{\text{dias}} = \frac{1200\text{ horas}}{24\text{ horas/dia}} = 50\text{ dias}$$
+
+Portanto, o sistema poderá funcionar por **50 dias**, validando a alternativa **(B)**.
+
+---
+
+#### Análise das Alternativas:
+
+* **(A) 25:** Incorreta. Representa metade do valor real de dias, decorrente de algum erro de proporção no cálculo da corrente ou do tempo.
+* **(B) 50:** **Correta.** O cálculo rigoroso da corrente média ponderada pelo ciclo de trabalho resulta em 50 dias exatos de operação.
+* **(C) 100:** Incorreta. Não corresponde ao dimensionamento correto do consumo médio.
+* **(D) 600:** Incorreta. Corresponde à metade das horas totais (1200 / 2), mas sem a conversão adequada para dias.
+* **(E) 1200:** Incorreta. Representa o valor numérico total em *horas* (1200 horas), induzindo o candidato ao erro de unidade ao confundir horas com dias.
+
+---
 --- 
-  
+
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  28
 
 No circuito trifásico mostrado na Figura 1, A, B e C representam os condutores das fases, e N, o condutor do neutro.
 Foi usado um alicate amperímetro que envolveu os condutores A, B e C simultaneamente, conforme a Figura 2.
-Considerando I\_A = I\_B = I\_C = 15 A, e que não há nenhuma fuga de corrente no circuito, qual o valor que aparecerá no amperímetro?
+
+<img src="./img/Questao-28-fig-1-fig-2.png" alt="Figura 1: Circuito Trifásico. Figura 2: Alicate Amperímetro" width="500" />
+
+Considerando $I_A = I_B = I_C = 15 A$, e que não há nenhuma fuga de corrente no circuito, qual o valor que aparecerá no amperímetro?
 
 (A)  &nbsp; 0 A  
 (B)  &nbsp; 15 A  
@@ -1723,11 +2440,77 @@ Considerando I\_A = I\_B = I\_C = 15 A, e que não há nenhuma fuga de corrente 
 (D)  &nbsp; 45 A  
 (E)  &nbsp; 60 A
 
+---
+
+A alternativa correta é a **(A) 0 A**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia Elétrica / Eletrotécnica
+* **Sub-área:** Circuitos Elétricos Trifásicos, Princípios de Medição Elétrica e Funcionamento de Alicates Amperímetros (Lei de Ampère / Transformador de Corrente).
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+O funcionamento de um **alicate amperímetro** baseado no princípio de indução eletromagnética (efetuando a leitura por meio de uma garra que envolve os condutores) obedece à **Lei de Ampère** para campos magnéticos gerados por correntes elétricas.
+
+#### 1. Análise da Medição com o Alicate Amperímetro
+
+Quando o alicate envolve simultaneamente todos os condutores de fase de um sistema (neste caso, os condutores **A, B e C** da Figura 2), o campo magnético resultante gerado no núcleo do instrumento é proporcional à **soma vetorial (algébrica)** das correntes que passam por esses cabos no mesmo sentido geométrico do abraçamento:
+
+$$I_{\text{medida}} = \vert{}\bar{I}_A + \bar{I}_B + \bar{I}_C\vert{}$$
+
+Num sistema elétrico trifásico equilibrado (ou mesmo em regime senoidal simétrico em que as correntes possuem a mesma amplitude de $15\text{ A}$ e defasagens de $120^\circ$ entre si), a soma fasorial das correntes de linha é igual a zero:
+
+$$\bar{I}_A + \bar{I}_B + \bar{I}_C = 0$$
+
+Como o campo magnético criado pelas correntes se cancela mutuamente no núcleo do alicate amperímetro, o instrumento indicará o valor de **0 A**.
+
+---
+
+#### Análise das Alternativas:
+
+* **(A) 0 A:** **Correta.** A soma fasorial das correntes das três fases em um sistema trifásico simétrico é nula, fazendo com que o fluxo magnético total medido pela garra do alicate seja zero.
+
+
+* **(B) 15 A:** Incorreta. Este valor corresponderia à leitura de apenas uma das fases isoladamente, caso o alicate envolvesse apenas o condutor A, B ou C de forma individual.
+* **(C) 30 A:** Incorreta. Representa uma soma aritmética incorreta (por exemplo, somando duas fases e ignorando a defasagem ou a terceira fase).
+* **(D) 45 A:** Incorreta. Resulta da soma aritmética direta das três correntes ($15 + 15 + 15$), ignorando o fato de que a medição por alicate em conjunto de fases lê a **soma fasorial**, e não a soma escalar dos módulos.
+* **(E) 60 A:** Incorreta. Valor puramente distorcido sem fundamentação teórica nas leis de circuitos trifásicos.
+
+---
+
+#### Hipóteses que levaram a banca a anular esta questão
+
+A questão **28** do concurso da Transpetro (2018) para Engenharia de Automação — que aborda a medição com alicate amperímetro envolvendo simultaneamente os condutores das fases A, B e C — **não foi oficialmente anulada** pela banca Cesgranrio em seu gabarito definitivo. O gabarito oficial publicado permaneceu inalterado apontando a alternativa **(A) 0 A** como a correta, fundamentada na soma fasorial nula de um sistema trifásico simétrico equilibrado.
+
+No entanto, caso uma questão com essa exata estrutura seja alvo de anulação em recursos de concursos públicos, as **hipóteses técnicas e inconsistências de enunciado** que comumente fundamentam o pleito de anulação (ou que geram debates entre candidatos e bancas) envolvem os seguintes pontos críticos:
+
+---
+
+#### 1. Hipóteses Técnicas para Contestação / Anulação
+
+* **Falta de Hipótese de Equilíbrio ou Simetria Explícita:**
+O enunciado fornece apenas que $I_A = I_B = I_C = 15\text{ A}$, mas **omite** se o sistema é simétrico e equilibrado (ou seja, se há defasagem exata de $120^\circ$ entre as correntes). Numericamente, três correntes de $15\text{ A}$ poderiam resultar em qualquer valor entre $0\text{ A}$ (se estiverem defasadas de $120^\circ$) e $45\text{ A}$ (se estiverem perfeitamente em fase, somando-se algebricamente). Como a banca pressupõe implicitamente o cenário industrial padrão de cargas equilibradas sem declarar isso textualmente, margens de ambiguidade interpretativa são abertas.
+* **Presença do Condutor Neutro e Fugas Desconsideradas de forma Ampla:**
+Embora o enunciado cite que "não há nenhuma fuga de corrente no circuito", a representação visual da Figura 2 mostra apenas os três cabos de fase dentro da garra do alicate amperímetro. Se houvesse desequilíbrio de fases com retorno de corrente pelo neutro (não abraçado pelo instrumento), a soma das correntes nas fases deixaria de ser estritamente zero, invalidando a resposta de $0\text{ A}$ em cenários reais desequilibrados.
+* **Efeitos de Indução Mútua e Proximidade Geométrica dos Cabos:**
+Em termos práticos de instrumentação, juntar e apertar fisicamente três cabos condutores de alta corrente de forma cruzada e comprimida dentro da garra de um alicate amperímetro (conforme ilustra a caricatura da Figura 2) pode gerar erros de leitura por acoplamento magnético cruzado ou saturação parcial do núcleo ferromagnético devido ao cancelamento total do fluxo mútuo em campo aberto, distorcendo o princípio idealizado de medição teórica.
+
 --- 
-  
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  29
 
 A Figura a seguir ilustra um sinal periódico em que o eixo-Y corresponde à corrente (em amperes), e o eixo-X corresponde ao tempo (em segundos). Esse sinal tem período de 3 s, a corrente máxima é de 9 A, e segue a equação A(t) = 6t - t² no período de 0 s a 3 s, repetindo-se indefinidamente.
+
+<img src="./img/Questao-29.png" alt="Sinal periódico" width="500"/>
+
 O valor da corrente média, em amperes, desse sinal é
 
 (A)  &nbsp; 3  
@@ -1736,13 +2519,83 @@ O valor da corrente média, em amperes, desse sinal é
 (D)  &nbsp; 9  
 (E)  &nbsp; 27
 
+---
+
+A alternativa correta é a **(C) 6**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia Elétrica / Circuitos Elétricos
+* **Sub-área:** Análise de Sinais e Sistemas, Sinais Periódicos, e Cálculo Integral Aplicado (Cálculo do Valor Médio de Sinais no Domínio do Tempo).
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+O **valor médio** de um sinal periódico $A(t)$ com período $T$ é definido matematicamente pela média integral da função ao longo de um período completo:
+
+$$I_{\text{médio}} = \frac{1}{T} \int_{0}^{T} A(t) \, dt$$
+
+#### 1. Extração dos Dados do Enunciado
+
+* **Período ($T$):** $3\text{ s}$
+
+
+* **Expressão do sinal em um período ($0 \le t \le 3$):** $A(t) = 6t - t^2$
+
+
+
+#### 2. Resolução da Integral
+
+Substituindo os valores na fórmula do valor médio:
+
+$$I_{\text{médio}} = \frac{1}{3} \int_{0}^{3} (6t - t^2) \, dt$$
+
+Calculando a antiderivada (integral indefinida):
+
+
+$$\int (6t - t^2) \, dt = \frac{6t^2}{2} - \frac{t^3}{3} = 3t^2 - \frac{t^3}{3}$$
+
+Aplicando os limites de integração de $0$ a $3$:
+
+
+$$\int_{0}^{3} (6t - t^2) \, dt = \left( 3(3)^2 - \frac{3^3}{3} \right) - \left( 3(0)^2 - \frac{0^3}{3} \right)$$
+
+$$= \left( 3(9) - \frac{27}{3} \right) - 0 = (27 - 9) = 18$$
+
+#### 3. Cálculo Final do Valor Médio
+
+Multiplicando pelo fator $\frac{1}{T}$ ($\frac{1}{3}$):
+
+$$I_{\text{médio}} = \frac{1}{3} \cdot 18 = 6\text{ A}$$
+
+Portanto, o valor da corrente média do sinal periódico é **6 A**, o que valida a alternativa **(C)**.
+
+---
+
+#### Análise das Alternativas:
+
+* **(A) 3:** Incorreta. Representa um terço do valor correto, possivelmente decorrente de um erro na divisão pelo período ou no cálculo dos limites da integral.
+* **(B) 4,5:** Incorreta. Corresponde exatamente à metade da corrente máxima ($9 / 2$), erro clássico cometido ao confundir a média de uma função quadrática com a média aritmética simples dos extremos.
+* **(C) 6:** **Correta.** Obtida rigorosamente através da integração da função de onda ao longo de um período dividida pelo intervalo de tempo $T = 3\text{ s}$.
+* **(D) 9:** Incorreta. Representa o valor de pico (corrente máxima) do sinal, e não o seu valor médio.
+* **(E) 27:** Incorreta. Corresponde ao resultado da integral pura calculada antes de ser dividida pelo período $T = 3\text{ s}$ (isto é, a área sob a curva em um período).
+
 --- 
-  
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  30
 
 O circuito de um regulador de tensão simples, utilizando transistor e diodo zener, pode ser visto na Figura abaixo.
-A tensão de entrada (V\_I) tem o valor constante de 12 V, a tensão de saída (V\_O) tem o valor constante de 5 V, e a corrente de saída (I\_O) que passa sobre a carga (R\_L) tem o valor de 1 A.
-Considerando desprezível a corrente que passa no resistor R\_S, quantos watts são dissipados no transistor?
+
+<img src="./img/Questao-30.png" alt="O circuito de um regulador de tensão simples, utilizando transistor e diodo zener." width="500">
+
+A tensão de entrada ($V_I$) tem o valor constante de 12 V, a tensão de saída ($V_O$) tem o valor constante de 5 V, e a corrente de saída ($I_O$) que passa sobre a carga ($R_L$) tem o valor de 1 A.
+Considerando desprezível a corrente que passa no resistor $R_S$, quantos watts são dissipados no transistor?
 
 (A)  &nbsp; 1  
 (B)  &nbsp; 5  
@@ -1750,16 +2603,92 @@ Considerando desprezível a corrente que passa no resistor R\_S, quantos watts s
 (D)  &nbsp; 12  
 (E)  &nbsp; 17
 
+---
+
+A alternativa correta é a **(C) 7**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia Elétrica / Eletrônica Analógica
+* **Sub-área:** Circuitos Reguladores de Tensão Lineares (Regulador Série com Transistor BJT e Diodo Zener).
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+O circuito apresentado é um **regulador de tensão série** clássico, no qual o transistor atua como elemento de controle passando a corrente para a carga, mantendo a tensão de saída regulada.
+
+#### 1. Cálculo da Tensão Coletor-Emissor ($V_{CE}$)
+
+Analisando as malhas do circuito com base nos dados fornecidos:
+
+* Tensão de entrada ($V_I$) = $12\text{ V}$
+
+
+* Tensão de saída ($V_O$) = $5\text{ V}$
+
+
+
+A queda de tensão entre o coletor e o emissor do transistor ($V_{CE}$) é a diferença entre a tensão de entrada e a tensão de saída:
+
+
+$$V_{CE} = V_I - V_O = 12\text{ V} - 5\text{ V} = 7\text{ V}$$
+
+#### 2. Corrente no Transistor ($I_C$)
+
+O enunciado informa que a corrente de saída na carga é $I_O = 1\text{ A}$ e que a corrente no resistor de polarização $R_S$ é desprezível. Portanto, a corrente de coletor do transistor ($I_C$) é aproximadamente igual à corrente de saída:
+
+
+$$I_C \approx I_O = 1\text{ A}$$
+
+#### 3. Cálculo da Potência Dissipada no Transistor ($P_D$)
+
+A potência elétrica dissipada por um transistor BJT operando na região linear é dada pelo produto da tensão coletor-emissor pela corrente de coletor:
+
+
+$$P_D = V_{CE} \cdot I_C$$
+
+$$P_D = 7\text{ V} \times 1\text{ A} = 7\text{ W}$$
+
+Portanto, o transistor dissipa **7 watts**, o que valida diretamente a alternativa **(C)**.
+
+---
+
+#### Análise das Alternativas:
+
+* **(A) 1:** Incorreta. Representa um valor subestimado, sem correspondência com as leis de circuitos aplicadas.
+
+
+* **(B) 5:** Incorreta. Corresponde numericamente ao valor da tensão de saída ($V_O$), sendo um erro conceitual de dimensionamento de potência.
+
+
+* **(C) 7:** Correta. Obtida corretamente através do produto da queda de tensão no transistor ($12\text{ V} - 5\text{ V} = 7\text{ V}$) pela corrente de carga ($1\text{ A}$).
+
+
+* **(D) 12:** Incorreta. Corresponde ao valor total da tensão de entrada ($V_I$), ignorando a queda na saída.
+
+
+* **(E) 17:** Incorreta. Resultaria de uma soma indevida entre a tensão de entrada e a de saída ($12 + 5$).
+
 --- 
-  
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  31
 
 Um controlador deve se comunicar com um sensor utilizando o protocolo I²C (&quot;Inter-Integrated Circuit&quot;), com os sinais SDA (&quot;Serial Data&quot;) e SCL (&quot;Serial Clock&quot;) - ver diagrama abaixo.
+
+<img src="./img/Questao-31.png" alt="Controlador e sensor conectados pelos pinos SDA, SCL, GND e VCC. Resistor R1 entre VCC e SDA e resistor R2 entre VCC e SCL." width="500" />
+
 Assume-se que:
 - os sinais SDA e SCL são gerados a partir de saídas do tipo &quot;open-drain&quot;;
 - não existem resistores de &quot;pull-up&quot; internos aos dispositivos (controlador e sensor), existem somente os resistores de &quot;pull-up&quot; externos R1 e R2;
 - no controlador e no sensor, a corrente máxima com a saída ativada (tensão baixa) para SDA e SCL é 5 mA cada;
 - no controlador e no sensor, a corrente de entrada quando a saída não está ativada, (tensão baixa) para SDA e SCL, pode ser considerada desprezível.
+
 Se VCC = +5 V e a tensão máxima para se considerar o zero lógico é +0,4 V, quais são os valores mínimos, em ohm, de R1 e R2, respectivamente?
 
 (A)  &nbsp; 80 e 920  
@@ -1768,12 +2697,73 @@ Se VCC = +5 V e a tensão máxima para se considerar o zero lógico é +0,4 V, q
 (D)  &nbsp; 2.000 e 2.000  
 (E)  &nbsp; 10.000 e 10.000
 
+---
+
+A alternativa correta é a **(B) 920 e 920**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia de Automação / Sistemas Digitais e Comunicação Industrial
+* **Sub-área:** Protocolos de Comunicação Serial (I²C), Eletrônica Digital e Dimensionamento de Resistores de *Pull-up* em Saídas *Open-Drain*.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+O protocolo I²C utiliza barramento com drenagem aberta (*open-drain* ou *open-collector*), o que significa que os dispositivos apenas puxam a linha para o nível baixo ($0\text{ V}$) ou a deixam em alta impedância, dependendo dos resistores de *pull-up* externos ($R_1$ e $R_2$) para elevar a tensão ao nível alto ($V_{CC}$).
+
+#### 1. Análise do Dimensionamento da Corrente e Resistência Mínima
+
+Quando uma das saídas (seja do controlador ou do sensor) é ativada para impor o nível lógico baixo ($0\text{ V}$), o resistor de *pull-up* fica submetido à tensão total da fonte $V_{CC}$ em relação ao terra, circulando corrente por ele em direção ao transistor de chaveamento interno.
+
+O enunciado estabelece os seguintes parâmetros críticos de projeto:
+
+* Tensão de alimentação ($V_{CC}$) = $+5\text{ V}$
+
+
+* Tensão máxima para nível lógico baixo ($V_{OL(\text{max})}$) = $+0,4\text{ V}$ (considerada a tensão máxima admissível sobre o terminal quando o transistor está conduzindo)
+* Corrente máxima suportada pela saída ($I_{OL(\text{max})}$) = $5\text{ mA} = 0,005\text{ A}$ por linha
+
+Para encontrar o **valor mínimo do resistor** ($R_1$ ou $R_2$), devemos garantir que a corrente que atravessa o resistor quando a linha é puxada para o nível baixo não ultrapasse a corrente máxima suportada pelo dispositivo de drenagem ($5\text{ mA}$).
+
+Aplicando a Lei de Ohm na malha do resistor de *pull-up*:
+
+
+$$R_{\min} = \frac{V_{CC} - V_{OL(\text{max})}}{I_{OL(\text{max})}}$$
+
+Substituindo os valores numéricos:
+
+
+$$R_{\min} = \frac{5\text{ V} - 0,4\text{ V}}{0,005\text{ A}} = \frac{4,6\text{ V}}{0,005\text{ A}} = 920\ \Omega$$
+
+Como o circuito possui duas linhas independentes com características elétricas equivalentes (SDA e SCL), os valores mínimos dos resistores $R_1$ e $R_2$ devem ser, individualmente, de **$920\ \Omega$** cada.
+
+Portanto, a alternativa correta é a **(B)**.
+
+---
+
+#### Análise das Alternativas:
+
+* **(A) 80 e 920:** Incorreta. O valor de $80\ \Omega$ para $R_1$ faria com que a corrente no barramento SDA atingisse níveis excessivos e destrutivos para os pinos de saída.
+* **(B) 920 e 920:** **Correta.** Derivado diretamente do cálculo de limite máximo de corrente admissível de $5\text{ mA}$ para uma queda de tensão útil de $4,6\text{ V}$ sobre os resistores.
+* **(C) 1.000 e 1.000:** Incorreta. Embora $1\text{ k}\Omega$ seja um valor comercial comum e seguro (pois gera uma corrente menor que $5\text{ mA}$), o enunciado pede o **valor mínimo absoluto** calculado com base estrita no limite de $5\text{ mA}$.
+* **(D) 2.000 e 2.000:** Incorreta. Valores acima de $920\ \Omega$ restringem mais a corrente, mas não representam o limiar mínimo imposto pela restrição de corrente máxima do problema.
+* **(E) 10.000 e 10.000:** Incorreta. $10\text{ k}\Omega$ é comumente usado em aplicações de baixo consumo, mas distorce o cálculo paramétrico exato exigido pela banca para o limite de $5\text{ mA}$.
+
 --- 
-  
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  32
 
-Na Figura abaixo, é mostrado um transformador ideal em que a relação do número de espiras do enrolamento primário (N1) mantém relação fixa com o número de espiras do enrolamento secundário (N2). O valor N1/N2 = 0,1.
-Uma vez que foi medida uma tensão alternada de 100 V no primário V1 e que a carga Z\_L mostrada na Figura é puramente resistiva e de valor de 1000 Ω, a corrente I2, em ampere, é de
+Na Figura abaixo, é mostrado um transformador ideal em que a relação do número de espiras do enrolamento primário ($N_1$) mantém relação fixa com o número de espiras do enrolamento secundário ($N_2$). O valor $N_1/N_2 = 0,1$.
+
+<img src="./img/Questao-32.png" alt="Transformador ideal." width="400">
+
+Uma vez que foi medida uma tensão alternada de 100 V no primário $V_1$ e que a carga $Z_L$ mostrada na Figura é puramente resistiva e de valor de 1000 Ω, a corrente $I_2$, em ampere, é de
 
 (A)  &nbsp; 0,001  
 (B)  &nbsp; 0,01  
@@ -1781,18 +2771,91 @@ Uma vez que foi medida uma tensão alternada de 100 V no primário V1 e que a ca
 (D)  &nbsp; 10  
 (E)  &nbsp; 1000
 
+---
+
+A alternativa correta é a **(C) 1**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia Elétrica / Eletrotécnica
+* **Sub-área:** Circuitos Magnéticos, Transformadores Ideais e Análise de Circuitos de Corrente Alternada (CA).
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+Em um **transformador ideal**, a relação entre as tensões nos enrolamentos primário ($V_1$) e secundário ($V_2$) é diretamente proporcional à relação entre o número de espiras ($N_1$ e $N_2$):
+
+$$\frac{V_1}{V_2} = \frac{N_1}{N_2}$$
+
+#### 1. Extração dos Dados do Enunciado
+
+* Relação de espiras: $\frac{N_1}{N_2} = 0,1$
+
+
+* Tensão no primário: $V_1 = 100\text{ V}$
+
+
+* Carga resistiva no secundário: $Z_L = 1000\ \Omega$
+
+
+
+#### 2. Cálculo da Tensão no Secundário ($V_2$)
+
+Substituindo os valores na relação de transformação:
+
+$$\frac{100}{V_2} = 0,1$$
+
+$$V_2 = \frac{100}{0,1} = 1000\text{ V}$$
+
+#### 3. Cálculo da Corrente no Secundário ($I_2$)
+
+Como a carga $Z_L$ é puramente resistiva e está conectada diretamente aos terminais do secundário, aplicamos a **Lei de Ohm** para determinar a corrente $I_2$:
+
+$$I_2 = \frac{V_2}{Z_L}$$
+
+$$I_2 = \frac{1000\text{ V}}{1000\ \Omega} = 1\text{ A}$$
+
+Portanto, a corrente $I_2$ que circula pelo circuito secundário é de **1 A**, o que valida de forma precisa o gabarito oficial na alternativa **(C)**.
+
+---
+
+#### Análise das Alternativas:
+
+* **(A) 0,001:** Incorreta. Resultaria de uma inversão ou divisão inadequada dos parâmetros do transformador.
+
+
+* **(B) 0,01:** Incorreta. Representa um erro de ordem de grandeza na aplicação da relação de transformação.
+
+
+* **(C) 1:** Correta. Obtida corretamente calculando a tensão induzida no secundário ($1000\text{ V}$) e dividindo pela impedância de carga ($1000\ \Omega$).
+
+
+* **(D) 10:** Incorreta. Decorre de um erro aritmético na divisão final ($1000 / 1000 = 10$, em vez de $1$).
+
+
+* **(E) 1000:** Incorreta. Corresponde numericamente ao valor da tensão gerada no secundário ($1000\text{ V}$), confundindo unidades de tensão com corrente.
+
 --- 
-  
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  33
 
-O circuito mostrado na Figura abaixo contém dois diodos ideais, sendo um do tipo zener (Z1) e o outro comum (D1).
+O circuito mostrado na Figura abaixo contém dois diodos ideais, sendo um do tipo zener $(Z_1)$ e o outro comum $(D_1)$.
+
+<img src="./img/Questao-33.png" alt="Circuito com resistores e diodo retificador em paralelo com diodo zener, ambos os ramos possuem resistor em série com o diodo" width="300" />
+
 Nesse circuito:
-- os componentes são energizados por uma bateria de tensão constante de 11,7 V;
+- os componentes são energizados por uma bateria de tensão constante $V_c$ de 11,7 V;
 - a tensão nominal do zener é 7,5 V;
-- a queda de tensão direta em D1 é fixa em 0,7 V;
-- os resistores R1, R2 e R3 têm os valores de 10 Ω, 80 Ω e 6 Ω, respectivamente;
-- a corrente que passa em R2 é de 0,1 A.
-Nessa situação, a corrente que passa no resistor R1, em ampere, é
+- a queda de tensão direta em $D_1$ é fixa em 0,7 V;
+- os resistores $R_1$, $R_2$ e $R_3$ têm os valores de 10 Ω, 80 Ω e 6 Ω, respectivamente;
+- a corrente que passa em $R_2$ é de 0,1 A.
+Nessa situação, a corrente que passa no resistor $R_1$, em ampere, é
 
 (A)  &nbsp; 0,0  
 (B)  &nbsp; 0,1  
@@ -1800,12 +2863,104 @@ Nessa situação, a corrente que passa no resistor R1, em ampere, é
 (D)  &nbsp; 0,3  
 (E)  &nbsp; 0,7
 
+---
+
+A alternativa correta é a **(D) 0,3**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia Elétrica / Eletrônica Analógica
+* **Sub-área:** Circuitos com Diodos, Diodo Zener, Retificação e Análise de Malhas/Nós.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+Para determinar a corrente que passa no resistor $R_1$ ($I_{R1}$), precisamos analisar o estado de condução dos diodos e calcular as correntes nos ramos paralelos conectados após o resistor $R_1$.
+
+#### 1. Análise da Tensão no Nó Principal ($V_{\text{no}}$)
+
+O circuito possui dois ramos em paralelo após o resistor $R_1$:
+
+1. **Ramo central ($R_2$ e $D_1$):**
+* Sabemos que a corrente que passa em $R_2$ é $I_{R2} = 0,1\text{ A}$.
+
+
+* A queda de tensão sobre o resistor $R_2$ ($80\ \Omega$) é:
+
+
+
+$$V_{R2} = I_{R2} \times R_2 = 0,1\text{ A} \times 80\ \Omega = 8\text{ V}$$
+
+
+* Como o diodo comum $D_1$ está em série com $R_2$ e apresenta uma queda fixa de tensão direta de $0,7\text{ V}$, a tensão total no nó principal em relação ao terra é fixada por este ramo em:
+
+
+
+$$V_{\text{no}} = V_{R2} + V_{D1} = 8\text{ V} + 0,7\text{ V} = 8,7\text{ V}$$
+
+
+
+
+2. **Ramo da direita ($Z_1$ e $R_3$):**
+* A tensão nominal do diodo Zener $Z_1$ é $7,5\text{ V}$.
+
+
+* Como a tensão disponível no nó é $8,7\text{ V}$, e o Zener precisa de pelo menos $7,5\text{ V}$ para entrar na região de condução reversa (além da queda em $R_3$), o diodo Zener $Z_1$ está **conduzindo**.
+* A queda de tensão total neste ramo é a soma da tensão Zener ($V_Z = 7,5\text{ V}$) com a queda no resistor $R_3$ ($6\ \Omega$).
+
+
+* A corrente que circula pelo ramo do Zener ($I_z$) pode ser calculada subtraindo a tensão Zener da tensão do nó e dividindo por $R_3$:
+
+$$I_z = \frac{V_{\text{no}} - V_Z}{R_3} = \frac{8,7\text{ V} - 7,5\text{ V}}{6\ \Omega} = \frac{1,2\text{ V}}{6\ \Omega} = 0,2\text{ A}$$
+
+
+
+
+
+#### 2. Cálculo da Corrente no Resistor $R_1$
+
+A corrente total que passa por $R_1$ é a soma das correntes dos dois ramos em paralelo (a corrente do ramo de $R_2$ mais a corrente do ramo de $Z_1$):
+
+
+$$I_{R1} = I_{R2} + I_z$$
+
+$$I_{R1} = 0,1\text{ A} + 0,2\text{ A} = 0,3\text{ A}$$
+
+Portanto, a corrente que passa no resistor $R_1$ é de **0,3 A**, o que valida diretamente a alternativa **(D)**.
+
+---
+
+#### Análise das Alternativas:
+
+* **(A) 0,0:** Incorreta. Suporia um circuito aberto ou ausência total de circulação de corrente.
+
+
+* **(B) 0,1:** Incorreta. Considera apenas a corrente do ramo central ($R_2$), ignorando a corrente que drena pelo ramo do diodo Zener.
+
+
+* **(C) 0,2:** Incorreta. Corresponde apenas à corrente que passa pelo ramo do Zener ($I_z$), esquecendo de somar a corrente de $R_2$.
+
+
+* **(D) 0,3:** Correta. Representa a soma correta das correntes dos dois ramos ativos ($0,1\text{ A} + 0,2\text{ A}$).
+
+
+* **(E) 0,7:** Incorreta. Valor derivado de equívocos aritméticos na ponderação das quedas de tensão dos diodos.
+
+---
 --- 
-  
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  34
 
 A Figura abaixo representa um circuito no qual destacam-se os pontos A e B.
-Considerando o Teorema de Thévenin, qual a tensão V\_AB que será medida, entre os pontos A e B, com um voltímetro?
+
+<img src="./img/Questao-34.png" alt="Circuito com três malhas para determinar a tensão elétrica entre os pontos A e B." width="500" />
+
+Considerando o Teorema de Thévenin, qual a tensão $V_{AB}$ que será medida, entre os pontos A e B, com um voltímetro?
 
 (A)  &nbsp; 15 V  
 (B)  &nbsp; 24 V  
@@ -1813,8 +2968,137 @@ Considerando o Teorema de Thévenin, qual a tensão V\_AB que será medida, entr
 (D)  &nbsp; 50 V  
 (E)  &nbsp; 70 V
 
+---
+
+#### Resolução
+
+To find the voltage $V_{AB}$ across terminals A and B, we can split the circuit into two parts (left and right of terminals A and B) and find their respective Thévenin equivalent circuits.
+
+#### Step 1: Find the Thévenin equivalent of the left circuit
+
+Looking to the left from terminals A and B:
+
+1. **Thévenin Voltage $(V_{\text{th,\ left}})$:**  
+With terminals A and B open, no current flows through the two horizontal $100\ \Omega$ resistors. The left-hand loop consists of the $60\text{ V}$ battery, two $50\ \Omega$ resistors, and one vertical $100\ \Omega$ resistor in series.
+
+    >$\text{Total\ Loop\ Resistance}=50\ \Omega +50\ \Omega +100\ \Omega =200\ \Omega $
+
+    >$\text{Loop\ Current}=\frac{60\text{\ V}}{200\ \Omega }=0.3\text{\ A}$
+
+    The open-circuit voltage across terminals A and B is equal to the voltage drop across the vertical $100\ \Omega$ resistor:
+
+    >$V_{\text{th,\ left}}=0.3\text{\ A}\times 100\ \Omega =30\text{\ V}$
+
+2. **Thévenin Resistance ($R_{\text{th,\ left}}$):**  
+Deactivating the $60\text{ V}$ voltage source (replacing it with a short circuit), the two $50\ \Omega$ resistors are in series ($50 + 50 = 100\ \Omega$), which are in parallel with the vertical $100\ \Omega$ resistor:
+
+    >$R_{\text{parallel}}=100\ \Omega \parallel 100\ \Omega =50\ \Omega $
+
+    Adding the two horizontal $100\ \Omega$ resistors that lead to terminals A and B:
+
+      >$R_{\text{th,\ left}}=100\ \Omega +50\ \Omega +100\ \Omega =250\ \Omega $
+
+#### Step 2: Find the Thévenin equivalent of the right circuit
+
+Looking to the right from terminals A and B:
+1. **Thévenin Voltage ($V_{\text{th,\ right}}$):**  
+The right-hand loop consists of a $10\text{ V}$ source connected in series with a $100\ \Omega$ resistor and the vertical $100\ \Omega$ resistor.
+
+    >$\text{Loop\ Current}=\frac{10\text{\ V}}{100\ \Omega +100\ \Omega }=0.05\text{\ A}$
+
+    The open-circuit voltage across the vertical $100\ \Omega$ resistor is:
+
+    >$V_{\text{th,\ right}}=0.05\text{\ A}\times 100\ \Omega =5\text{\ V}$
+
+2. **Thévenin Resistance ($R_{\text{th,\ right}}$):**  
+Short-circuiting the $10\text{ V}$ source leaves the two rightmost $100\ \Omega$ resistors in parallel:
+
+    >$R_{\text{th,\ right}}=100\ \Omega \parallel 100\ \Omega =50\ \Omega $
+
+#### Step 3: Combine the two equivalents to find $V_{AB}$
+
+Now we connect the left equivalent circuit ($V_{\text{th, left}} = 30\text{ V}$, $R_{\text{th, left}} = 250\ \Omega$) and the right equivalent circuit ($V_{\text{th, right}} = 5\text{ V}$, $R_{\text{th, right}} = 50\ \Omega$) together at terminals A and B.
+
+Using Millman's Theorem (or a simple voltage divider/nodal equation):
+
+>$V_{AB}=\frac{\frac{V_{\text{th,\ left}}}{R_{\text{th,\ left}}}+\frac{V_{\text{th,\ right}}}{R_{\text{th,\ right}}}}{\frac{1}{R_{\text{th,\ left}}}+\frac{1}{R_{\text{th,\ right}}}}$
+
+>$V_{AB}=\frac{\frac{30}{250}+\frac{5}{50}}{\frac{1}{250}+\frac{1}{50}}$
+
+Multiply the numerator and the denominator by $250$:
+
+>$V_{AB}=\frac{30+5(5)}{1+5}=\frac{30+25}{6}=\frac{55}{6}\text{\ V}$
+
+Answer:
+
+>$V_{AB} = \frac{55}{6}\text{ V} \approx 9.17\text{ V}$
+
+---
+#### Millman's Theorem
+
+**Millman's Theorem** is a shortcut method used to find the voltage across a single pair of terminals when you have multiple parallel branches containing voltage sources and resistors.
+
+Instead of writing out long system equations with Nodal or Mesh analysis, Millman's Theorem combines all parallel branches into one simple equation.
+
+#### 💡 The Analogy: A Tug-of-War for Voltage
+
+Imagine multiple batteries connected to the exact same two points (Nodes A and B). Each battery wants to pull the voltage at Node A to its own value.
+
+• A **stronger battery** (higher voltage) pulls harder.
+• A **smaller resistor** (higher conductance, or less resistance) means a wider pipe, so that branch has more influence in the tug-of-war.
+
+Millman's theorem calculates the final compromise voltage where everything balances out.
+
+---
+
+#### 📐 The Formula
+
+For $N$ parallel branches connected between two common nodes ($A$ and $B$), the voltage $V_{AB}$ is:
+
+>$V_{AB}=\frac{\sum \frac{V_{i}}{R_{i}}}{\sum \frac{1}{R_{i}}}=\frac{\frac{V_{1}}{R_{1}}+\frac{V_{2}}{R_{2}}+\dots +\frac{V_{n}}{R_{n}}}{\frac{1}{R_{1}}+\frac{1}{R_{2}}+\dots +\frac{1}{R_{n}}}$
+
+Where:
+
+• $V_{i}$ is the voltage source in branch $i$.  
+• $R_{i}$ is the total resistance in branch $i$.  
+• $\frac{1}{R_{i}}$ is the conductance ($G_{i}$) of that branch.  
+
+---
+
+#### 🔍 How it Applied to Your Circuit
+
+In the final step of your problem, terminals A and B had two parallel parts attached to them:
+1. **Left Branch:** A $30\text{ V}$ source with a $250\ \Omega$ resistor.
+2. **Right Branch:** A $5\text{ V}$ source with a $50\ \Omega$ resistor.
+
+       A  o-------------------------o
+
+          |                         |
+         [ ] 250 Ω                 [ ] 50 Ω
+
+          |                         |
+        ( + ) 30 V                ( + ) 5 V
+        ( - )                     ( - )
+
+          |                         |
+       B  o-------------------------o
+Applying the formula directly:
+
+>$V_{AB}=\frac{\frac{30\text{\ V}}{250\ \Omega }+\frac{5\text{\ V}}{50\ \Omega }}{\frac{1}{250\ \Omega }+\frac{1}{50\ \Omega }}$
+
+By multiplying the entire top and bottom by $250$ to clear the fractions:
+
+>$V_{AB}=\frac{30+5(5)}{1+5}=\frac{55}{6}\text{\ V}\approx 9.17\text{\ V}$
+
+#### ⚠️ Important Rule for Signs
+
+When using Millman's theorem, pay close attention to the **polarity** of the voltage sources. If the positive terminal faces your node (Node A), the voltage is positive. If the negative terminal faces your node, that specific fraction becomes negative (e.g., $-\frac{V_{i}}{R_{i}}$).
+
 --- 
-  
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  35
 
 As válvulas empregadas em sistemas de atuação a base de fluidos (hidráulicos e/ou pneumáticos) são adotadas para controlar
@@ -1826,7 +3110,10 @@ As válvulas empregadas em sistemas de atuação a base de fluidos (hidráulicos
 (E)  &nbsp; pressão e temperatura
 
 --- 
-  
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  36
 
 Os tanques e/ou acumuladores empregados em sistemas de atuação a base de fluidos (hidráulicos e/ou pneumáticos) possuem características análogas às dos capacitores nos sistemas elétricos.
@@ -1839,7 +3126,10 @@ Assim sendo, a relação linear entre a pressão P no interior do tanque/acumula
 (E)  &nbsp; dP/dt = (1/C\_F) \* integral(Q dt)
 
 --- 
-  
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  37
 
 O Teorema do Valor Inicial da Transformada de Laplace estabelece que:
@@ -1851,7 +3141,10 @@ O Teorema do Valor Inicial da Transformada de Laplace estabelece que:
 (E)  &nbsp; x(0+) = lim\_{s -&gt; infty} X(s)/s
 
 --- 
-  
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  38
 
 Os sistemas de atuação pneumáticos NÃO são recomendados quando é necessária(o)
@@ -1863,7 +3156,10 @@ Os sistemas de atuação pneumáticos NÃO são recomendados quando é necessár
 (E)  &nbsp; deslocamento elevado
 
 --- 
-  
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  39
 
 A inversa de uma matriz ortogonal é igual à sua
@@ -1875,7 +3171,10 @@ A inversa de uma matriz ortogonal é igual à sua
 (E)  &nbsp; transposta
 
 --- 
-  
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  40
 
 Se a força aplicada sobre a base incluir todos os termos não lineares do sistema, está sendo empregada a estratégia de
@@ -1886,8 +3185,11 @@ Se a força aplicada sobre a base incluir todos os termos não lineares do siste
 (D)  &nbsp; realimentação para estabilização  
 (E)  &nbsp; observador não linear
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  41
 
 Qual o posto da matriz de estado?
@@ -1898,8 +3200,11 @@ Qual o posto da matriz de estado?
 (D)  &nbsp; 3  
 (E)  &nbsp; 4
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  42
 
 Considere as funções de transferência apresentadas abaixo para responder às questões de n os 42 e 43.
@@ -1914,8 +3219,11 @@ Esse sistema possui
 (D)  &nbsp; quatro polos complexos conjugados  
 (E)  &nbsp; quatro polos negativos
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  43
 
 A função de transferência de X2 indica que o comportamento dessa variável está associado a
@@ -1926,8 +3234,11 @@ A função de transferência de X2 indica que o comportamento dessa variável es
 (D)  &nbsp; dois zeros positivos e três polos nulos  
 (E)  &nbsp; dois zeros positivos e quatro polos negativos
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  44
 
 Sendo a Transformada de Laplace L(x(t)) = X(s) com s = σ + jω e a Transformada de Fourier F(x(t)) = X(jω) tem-se que a Transformada de Fourier é
@@ -1938,8 +3249,11 @@ Sendo a Transformada de Laplace L(x(t)) = X(s) com s = σ + jω e a Transformada
 (D)  &nbsp; um caso particular da Transformada de Laplace  
 (E)  &nbsp; uma generalização da Transformada de Laplace
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  45
 
 Uma IMU (Unidade de Medida Inercial) inclui, necessariamente,
@@ -1950,8 +3264,11 @@ Uma IMU (Unidade de Medida Inercial) inclui, necessariamente,
 (D)  &nbsp; potenciômetros e tacômetros  
 (E)  &nbsp; tacômetros e magnetômetros
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  46
 
 Um controlador PID introduz na malha aberta de um sistema de controle
@@ -1962,8 +3279,11 @@ Um controlador PID introduz na malha aberta de um sistema de controle
 (D)  &nbsp; dois zeros e dois polos ajustáveis  
 (E)  &nbsp; dois zeros ajustáveis e um polo nulo
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  47
 
 Os sistemas de atuação hidráulicos são recomendados quando são necessárias respostas
@@ -1974,8 +3294,11 @@ Os sistemas de atuação hidráulicos são recomendados quando são necessárias
 (D)  &nbsp; lentas e elevadas forças e/ou torques  
 (E)  &nbsp; lentas e pequenas forças e/ou torques
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  48
 
 Uma forma de onda periódica que possui somente o primeiro harmônico (ou frequência fundamental) é
@@ -1986,8 +3309,11 @@ Uma forma de onda periódica que possui somente o primeiro harmônico (ou frequ�
 (D)  &nbsp; quadrada  
 (E)  &nbsp; senoidal
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  49
 
 Num sistema de aquisição de dados, é prevista a digitalização de um sinal analógico de período constante. A frequência de amostragem máxima do conversor A/D (Analógico-Digital) que fará essa digitalização é de 100 KHz.
@@ -1999,8 +3325,11 @@ O período mínimo, em µs, do sinal a ser corretamente digitalizado (evitando &
 (D)  &nbsp; 100  
 (E)  &nbsp; 200
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  50
 
 Considere a exponencial complexa e^(i\*ω\*t), onde &quot;e&quot; é a base do logaritmo natural, &quot;i&quot; é a unidade imaginária (i² = -1), e &quot;ω&quot; e &quot;t&quot; são números reais.
@@ -2012,8 +3341,11 @@ A parte real de e^(i\*ω\*t) é
 (D)  &nbsp; 1  
 (E)  &nbsp; e
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  51
 
 Considere a resposta em frequência de um acelerômetro, entre a tensão de saída e a aceleração de entrada, para um conjunto de parâmetros típicos, mostrada nos Diagramas de Bode da Figura. Essas informações referem-se às questões de n os 51 e 52.
@@ -2026,8 +3358,11 @@ Verifica-se que esse transdutor
 (D)  &nbsp; não apresenta ressonâncias.  
 (E)  &nbsp; não apresenta uma faixa de atenuação constante.
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  52
 
 Para que esse acelerômetro forneça uma resposta adequada na sua faixa útil (de 100 rad/s a 1000 rad/s), é necessário um amplificador adicional na saída, de ganho aproximado
@@ -2038,8 +3373,11 @@ Para que esse acelerômetro forneça uma resposta adequada na sua faixa útil (d
 (D)  &nbsp; 100 db  
 (E)  &nbsp; 200 db
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  53
 
 Um amplificador operacional processa pequenos sinais de modo diferencial que aparecem entre suas duas entradas, desenvolvendo um sinal de saída. Os amplificadores operacionais reais se afastam dos atributos considerados ideais, mas são úteis, para a compreensão de primeiro nível do comportamento do amplificador operacional, considerando-se válidos esses atributos.
@@ -2052,8 +3390,11 @@ NÃO é um dos atributos usualmente associados a amplificadores operacionais ide
 (D)  &nbsp; sensibilidade à tensão em modo comum na entrada  
 (E)  &nbsp; ganho diferencial infinito
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  54
 
 Ao medir um sinal puramente senoidal num osciloscópio, foi verificado que a tensão pico a pico medida era de 40 V.
@@ -2067,8 +3408,11 @@ Dado: √2 = 1,4 ; √3 = 1,7
 (D)  &nbsp; 20,0 V  
 (E)  &nbsp; 8,50 V
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  55
 
 Em um ambiente de controle de processos, um dos principais componentes de um sistema PIMS (Process Information Management System) consiste no historiador de processos. Historiadores, são softwares responsáveis por colher os dados de diversas fontes (sensores, sistemas SCADA, DCS, etc.) e armazená-los em um banco de dados temporal. Para armazenar os dados coletados, historiadores geralmente são executados em microcomputadores (servidores), utilizando discos rígidos internos ou externos.
@@ -2089,8 +3433,11 @@ Dado:
 (D)  &nbsp; 15,6 TB  
 (E)  &nbsp; 31,1 TB
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  56
 
 O diagrama de um programa em linguagem Ladder, mostrado na Figura abaixo, representa o controle de acionamento de um motor. Esse programa foi carregado em um CLP (Controlador Lógico Programável).
@@ -2105,8 +3452,11 @@ Nessas configurações, qual é a função de ter Q0.0 em paralelo a I0.0 no dia
 (D)  &nbsp; Manter o motor ligado, independentemente do acionamento dos botões de PARTIR e PARAR.  
 (E)  &nbsp; Na configuração estabelecida, não apresenta função.
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  57
 
 No processo de modernização de uma refinaria, é comum se começarem os trabalhos fazendo-se um varrimento laser (laser scan), que consiste no uso de um equipamento ótico que faz milhões de medições precisas de distâncias 3D, a partir de um ou mais pontos dentro das instalações.
@@ -2121,8 +3471,11 @@ Se esse equipamento de medição tem erro máximo de 1 cm numa medição de uma 
 (D)  &nbsp; 0,1%  
 (E)  &nbsp; 1%
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  58
 
 O uso de dispositivos conhecidos como diodos de dados (também conhecidos como gateways unidirecionais) tem deixado de ser exclusivo de ambientes militares e de usinas nucleares para ser utilizado em ambientes industriais. Os diodos de dados são dispositivos que fazem transferências de dados entre si em somente uma direção, podendo ser úteis para levar dados do chão de fábrica para o ambiente corporativo, ou até mesmo para nuvem, sem colocar em risco a rede do ambiente industrial. Isso geralmente é garantido de forma física: um dispositivo (TX) possui somente um transmissor, e o outro (RX) possui somente um receptor, como ilustrado na Figura abaixo.
@@ -2139,8 +3492,11 @@ Supondo que o fluxo de dados no link seja constante a uma taxa de 4 MB/s, qual a
 (D)  &nbsp; 14.400 MB  
 (E)  &nbsp; 28.800 MB
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  59
 
 O programa de um CLP (Controlador Lógico Programável) é executado como parte de um processo repetitivo chamado de Ciclo de Varredura.
@@ -2153,8 +3509,11 @@ NÃO faz parte desse ciclo a(o)
 (D)  &nbsp; atualização das saídas  
 (E)  &nbsp; processamento de solicitações de comunicação
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  60
 
 A UCE (Unidade de Controle Eletrônico) é um controlador, com microprocessador embarcado, que os carros modernos possuem para controlar o funcionamento do motor. Isso é feito através da coleta de vários tipos de dados e da atuação sobre o motor.
@@ -2169,8 +3528,11 @@ Assumindo que as saídas dos bicos injetores são abertas uma vez a cada rotaç�
 (D)  &nbsp; 40 ms  
 (E)  &nbsp; 240 ms
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  61
 
 Um retificador de onda completa, descrito na Figura abaixo, é alimentado por uma tensão senoidal V\_I.
@@ -2182,8 +3544,11 @@ Supondo que os diodos D1, D2, D3 e D4 são ideais, a forma de onda esperada para
 (D)  &nbsp; Tensão contínua constante  
 (E)  &nbsp; Onda quadrada
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  62
 
 Um controlador deve medir a quantidade de luz ambiente para decidir se liga ou não as luzes externas de uma unidade fabril. Um arranjo típico de conexão a uma porta Px de E/S (Entrada/Saída) do controlador, utilizando um Resistor Dependente de Luz (ou LDR = Light Dependent Resistor) é mostrado na Figura abaixo.
@@ -2196,8 +3561,11 @@ Se é do interesse escolher um nível de luminosidade específico, não bastando
 (D)  &nbsp; Uma porta de saída com conversor Analógico/Digital (ADC)  
 (E)  &nbsp; Uma porta de saída com conversor Digital/Analógico (DAC)
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  63
 
 Pulseiras antiestáticas são equipamentos que podem ser utilizados por profissionais que executam manutenção em microcomputadores, principalmente quando acessam componentes eletrônicos (circuitos integrados, memórias, discos rígidos, etc.). Elas protegem esses componentes de descargas eletrostáticas (ESD = Electrostatic Discharge), são colocadas ao redor do pulso do profissional e conectadas, usando um condutor e um resistor de alto valor (ex: 1 MΩ) em série, a um condutor aterrado. A Figura abaixo ilustra uma dessas pulseiras.
@@ -2210,8 +3578,11 @@ Essas pulseiras devem ser usadas durante a manutenção de microcomputadores
 (D)  &nbsp; somente quando a umidade relativa do ar for baixa.  
 (E)  &nbsp; somente quando a umidade relativa do ar for alta.
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  64
 
 No que diz respeito à ligação inter-redes e às mensagens deslocadas de uma rede para outra, conversões de protocolo podem fazer-se necessárias. São utilizados gateways, classificados conforme o maior nível de protocolo.
@@ -2224,8 +3595,11 @@ Um gateway é chamado, ou adjetivado, de repetidor quando a conversão de protoc
 (D)  &nbsp; de transporte  
 (E)  &nbsp; de sessão
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  65
 
 Uma das topologias de rede mais utilizadas, tanto locais como metropolitanas, é a topologia em estrela. Neste tipo de topologia, cada estação ou nó de trabalho é interligado a um nó central, também chamado de nó mestre. Várias redes em estrela operam em configurações nas quais o nó central tem tanto a função de gerenciar a comunicação como a de facilitar o processamento de dados. Em outras redes, o nó central tem como única função o gerenciamento das comunicações entre os demais nós.
@@ -2238,8 +3612,11 @@ O nó central cuja função é o chaveamento entre as estações que desejam com
 (D)  &nbsp; ponte ou bridge  
 (E)  &nbsp; primário
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  66
 
 Em sistemas operacionais multitarefas e interativos é comum utilizar um algoritmo de escalonamento de processos. Um algoritmo amplamente usado é conhecido como round-robin.
@@ -2252,8 +3629,11 @@ Nesse algoritmo, cada processo
 (D)  &nbsp; na lista de espera recebe um intervalo de tempo fixo em que é permitido executar. Na sua vez, se esse intervalo é ultrapassado, a CPU dá o controle para o próximo processo da lista, e o processo que estava sendo executado vai para o fim da lista.  
 (E)  &nbsp; na fila de espera possui uma prioridade. As prioridades são usadas para calcular o intervalo de tempo que o processo deve ficar na CPU, quanto maior a prioridade, maior o tempo. Quando esse tempo se esgota, a CPU dá o controle para o próximo processo da lista, e o processo que estava sendo executado vai para o fim da lista.
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  67
 
 Uma das características principais da linguagem de programação Prolog é o uso de
@@ -2264,8 +3644,11 @@ Uma das características principais da linguagem de programação Prolog é o us
 (D)  &nbsp; bottom-up resolution  
 (E)  &nbsp; backtracking
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  68
 
 A capacidade de um programa examinar em tempo de execução seus tipos e estruturas e dinamicamente modificar seu comportamento é conhecida como
@@ -2276,8 +3659,11 @@ A capacidade de um programa examinar em tempo de execução seus tipos e estrutu
 (D)  &nbsp; interpretação  
 (E)  &nbsp; autodeterminação
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  69
 
 Ao implementar uma aplicação de transferência de arquivos de um determinado formato específico, o desenvolvedor reconheceu que o melhor seria contar com um serviço do nível de transporte que fosse confiável, isso é, que fizesse a recuperação de eventuais erros por retransmissão e que fizesse, também, um controle de fluxo fim a fim, liberando a aplicação de implementar tais funcionalidades, deixando-as a cargo do nível de transporte.
@@ -2290,8 +3676,11 @@ Nesse caso, a implementação deve ser desenvolvida tendo como base o serviço d
 (D)  &nbsp; UDP  
 (E)  &nbsp; XML
 
---- 
-  
+---
+---
+<!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  70
 
 Uma aplicação foi desenvolvida de forma a passar um sinal de voz analógico por um filtro cuja saída garante que não restam componentes acima de 6 KHz no sinal resultante. Na sequência, a saída, com o sinal já filtrado, é digitalizada usando a técnica de PCM com 1024 níveis de quantização.
