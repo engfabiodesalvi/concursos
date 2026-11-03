@@ -2970,6 +2970,17 @@ Considerando o Teorema de Thévenin, qual a tensão $V_{AB}$ que será medida, e
 
 ---
 
+A questão **34** do concurso da Transpetro (2018) para Engenharia de Automação (banca Cesgranrio) foi **oficialmente anulada** devido a inconsistências e omissões em seu diagrama elétrico. No entanto, para fins de estudo e aprofundamento na aplicação de teoremas de circuitos lineares, podemos analisá-la considerando uma formulação padrão de malhas e o Teorema de Thévenin.
+
+---
+
+### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia Elétrica / Circuitos Elétricos
+* **Sub-área:** Teoria de Circuitos Lineares, Teoremas de Rede (Teorema de Thévenin / Princípio da Superposição) e Análise de Redes CC em Regime Permanente.
+
+---
+
 #### Resolução
 
 To find the voltage $V_{AB}$ across terminals A and B, we can split the circuit into two parts (left and right of terminals A and B) and find their respective Thévenin equivalent circuits.
