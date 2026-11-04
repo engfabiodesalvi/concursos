@@ -3898,6 +3898,41 @@ Os sistemas de atuação hidráulicos são recomendados quando são necessárias
 (E)  &nbsp; lentas e pequenas forças e/ou torques
 
 ---
+
+#### Classificação da Área de Conhecimento
+
+* **Área de Conhecimento:** Engenharia de Controle e Automação / Engenharia Mecânica
+* **Sub-áreas:** Atuadores e Sistemas Fluidomecânicos / Sistemas Hidráulicos de Potência / Automação Industrial.
+
+--- 
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+Os sistemas de atuação hidráulicos utilizam fluidos líquidos praticamente incompressíveis (geralmente óleos minerais) sob alta pressão para transmitir energia mecânica. Em comparação com sistemas elétricos e pneumáticos, os atuadores hidráulicos são amplamente conhecidos pelas seguintes características fundamentais:
+
+1. **Altíssima Densidade de Potência (Elevadas Forças e Torques):** Como operam sob pressões extremamente elevadas (frequentemente superando os 200 bar), cilindros e motores hidráulicos conseguem gerar forças mecânicas imensas ocupando uma fração do espaço e do peso que um motor elétrico equivalente necessitaria.
+
+2. **Alta Rigidez do Fluido (Respostas Rápidas):** Devido à baixíssima compressibilidade do óleo incompressível, a resposta dinâmica a comandos de válvulas direcionais ou servoválvulas é praticamente instantânea. Isso proporciona uma largura de banda elevada, permitindo acelerações abruptas e respostas rápidas, além de um controle de posição rígido e imune a perturbações de carga.
+
+Comparativamente, sistemas pneumáticos são rápidos mas limitados em força (pela compressibilidade do ar), enquanto sistemas elétricos de grande porte geram forças elevadas mas sofrem com alta inércia mecânica e respostas dinâmicas mais lentas quando levados a limites extremos de torque.
+
+---
+
+#### Análise detalhada das alternativas da Cesgranrio:
+
+• **(A) CORRETA. rápidas e elevadas forças e/ou torques:** É a justificativa clássica para a seleção de sistemas hidráulicos na indústria pesada (siderurgia, prensas, guindastes, aeronáutica). Eles aliam a velocidade de atuação (largura de banda dinâmica) à capacidade de suportar e gerar imensas cargas de trabalho.
+
+• (B) **Incorreta. rápidas e pequenas forças e/ou torques:** Para cargas e forças pequenas, sistemas pneumáticos ou servoelétricos são preferíveis, pois a hidráulica seria economicamente inviável e superdimensionada.
+
+• (C) **Incorreta. rápidas e pequenas acelerações:** Devido à incompressibilidade do óleo e altas forças disponíveis, os sistemas hidráulicos produzem elevadas acelerações quando comandados, e não pequenas acelerações.
+
+• (D) **Incorreta. lentas e elevadas forças e/ou torques:** Os sistemas hidráulicos são capazes de respostas extremamente dinâmicas e velozes devido às servoválvulas modernas de alta performance; limitá-los a "lentas" desconsidera o seu potencial em malhas de controle rápido.
+
+• (E) **Incorreta. lentas e pequenas forças e/ou torques:** Esta alternativa descreve o oposto completo de todas as vantagens intrínsecas da engenharia de potência hidráulica.
+
+**Gabarito: (A)**
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
   - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
@@ -3906,7 +3941,20 @@ Os sistemas de atuação hidráulicos são recomendados quando são necessárias
 
 Uma forma de onda periódica que possui somente o primeiro harmônico (ou frequência fundamental) é
 
-(A)  &nbsp; triangular  
+<table>
+  <tbody>
+    <tr>
+      <td>
+      (A)
+      </td> 
+      <td>
+       <img src="./img/Questao-48-a.png" alt="Onda triangular" width="100"/> 
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
 (B)  &nbsp; retangular  
 (C)  &nbsp; dente de serra  
 (D)  &nbsp; quadrada  
