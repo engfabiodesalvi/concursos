@@ -212,7 +212,7 @@ Rio de Janeiro: Eduerj, 2008.
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ### 1
 
@@ -242,7 +242,7 @@ Embora ele mencione a admiração pela esposa (C) e use metáforas sobre o teatr
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ### 2
 
@@ -270,7 +270,7 @@ No trecho *"**Como** adorasse a mulher, não se vexava de mo dizer muitas vezes"
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ### 3
 
@@ -301,7 +301,7 @@ As demais alternativas utilizam a linguagem em seu sentido denotativo (literal) 
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ### 4
 
@@ -330,7 +330,7 @@ Assim, o trecho refere-se ao momento em que Lobo Neves **ignorava as amarguras e
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ### 5
 
@@ -379,7 +379,7 @@ Portanto, a metáfora de ver o teatro do lado da plateia refere-se ao momento em
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ### 6
 
@@ -419,7 +419,7 @@ insinuação), e sim por desistir voluntariamente de concluir o pensamento para 
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ### 7
 
@@ -470,7 +470,7 @@ Predicativo do Sujeito).
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  8
 
@@ -558,7 +558,7 @@ Por haver essa junção dos dois "a", o uso do acento grave indicador de crase �
 --- 
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  10
 
@@ -993,7 +993,7 @@ Available at: <https://www.ft.com/content/c9bdc750-ec85-11e7-8713-513b1d7ca85a>.
 ---
 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  11
 
@@ -1056,7 +1056,7 @@ A alternativa **(B)** resume perfeitamente o propósito global do artigo. O auto
 ---
 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  12
 
@@ -1121,7 +1121,7 @@ Portanto, a alternativa **(E)** traduz perfeitamente esse trecho ao afirmar que 
 ---
 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  13
 
@@ -1181,7 +1181,7 @@ A questão exige a identificação do sinônimo exato para a locução **"given 
 ---
 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  14
 
@@ -1244,7 +1244,7 @@ Portanto, a alternativa **(D)** expressa com exatidão a paráfrase do texto ao 
 ---
 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  15
 
@@ -1306,7 +1306,7 @@ Buscando a ocorrência da expressão no terceiro parágrafo (focado na China), e
 ---
 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  16
 
@@ -1374,7 +1374,7 @@ Unindo os dois significados contextuais na ordem pedida, temos **improved** (ou 
 ---
 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  17
 
@@ -1435,7 +1435,7 @@ A alternativa **(B)** descreve exatamente esse dado, confirmando que os 70% refe
 ---
 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  18
 
@@ -1492,7 +1492,7 @@ A questão exige a verificação das relações de sentido (sinonímia e antoní
 ---
 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  19
 
@@ -1553,7 +1553,7 @@ A alternativa **(C)** parafraseia perfeitamente esse trecho ao afirmar que a ind
 ---
 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  20
 
@@ -1621,7 +1621,7 @@ Considere o Lugar Geométrico das Raízes da Figura apresentada abaixo.
 ---
 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  21
 
@@ -1937,7 +1937,7 @@ Portanto, confirma-se perfeitamente a **Alternativa (E)**: **dois valores de gan
 ---
 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  23
 
@@ -2165,7 +2165,7 @@ $$\text{Valor Binário} = \mathbf{01100100}_2$$
 --- 
 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  26
 
@@ -2347,7 +2347,7 @@ As duas expressões são matematicamente idênticas, mas a base 2 facilita muito
 ---
 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  27
 
@@ -2423,7 +2423,7 @@ Portanto, o sistema poderá funcionar por **50 dias**, validando a alternativa *
 --- 
 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  28
 
@@ -2503,7 +2503,7 @@ Em termos práticos de instrumentação, juntar e apertar fisicamente três cabo
 --- 
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  29
 
@@ -2586,7 +2586,7 @@ Portanto, o valor da corrente média do sinal periódico é **6 A**, o que valid
 --- 
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  30
 
@@ -2675,7 +2675,7 @@ Portanto, o transistor dissipa **7 watts**, o que valida diretamente a alternati
 --- 
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  31
 
@@ -2755,7 +2755,7 @@ Portanto, a alternativa correta é a **(B)**.
 --- 
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  32
 
@@ -2841,7 +2841,7 @@ Portanto, a corrente $I_2$ que circula pelo circuito secundário é de **1 A**, 
 --- 
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  33
 
@@ -2952,7 +2952,7 @@ Portanto, a corrente que passa no resistor $R_1$ é de **0,3 A**, o que valida d
 ---
 --- 
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  34
 
@@ -3032,17 +3032,17 @@ Now we connect the left equivalent circuit ($V_{\text{th, left}} = 30\text{ V}$,
 
 Using Millman's Theorem (or a simple voltage divider/nodal equation):
 
->$V_{AB}=\frac{\frac{V_{\text{th,\ left}}}{R_{\text{th,\ left}}}+\frac{V_{\text{th,\ right}}}{R_{\text{th,\ right}}}}{\frac{1}{R_{\text{th,\ left}}}+\frac{1}{R_{\text{th,\ right}}}}$
+>$V_{AB}=\dfrac{\dfrac{V_{\text{th,\ left}}}{R_{\text{th,\ left}}}+\dfrac{V_{\text{th,\ right}}}{R_{\text{th,\ right}}}}{\dfrac{1}{R_{\text{th,\ left}}}+\dfrac{1}{R_{\text{th,\ right}}}}$
 
->$V_{AB}=\frac{\frac{30}{250}+\frac{5}{50}}{\frac{1}{250}+\frac{1}{50}}$
+>$V_{AB}=\dfrac{\dfrac{30}{250}+\dfrac{5}{50}}{\dfrac{1}{250}+\dfrac{1}{50}}$
 
 Multiply the numerator and the denominator by $250$:
 
->$V_{AB}=\frac{30+5(5)}{1+5}=\frac{30+25}{6}=\frac{55}{6}\text{\ V}$
+>$V_{AB}=\dfrac{30+5(5)}{1+5}=\dfrac{30+25}{6}=\dfrac{55}{6}\text{\ V}$
 
 Answer:
 
->$V_{AB} = \frac{55}{6}\text{ V} \approx 9.17\text{ V}$
+>$V_{AB} = \dfrac{55}{6}\text{ V} \approx 9.17\text{ V}$
 
 ---
 #### Millman's Theorem
@@ -3066,13 +3066,13 @@ Millman's theorem calculates the final compromise voltage where everything balan
 
 For $N$ parallel branches connected between two common nodes ($A$ and $B$), the voltage $V_{AB}$ is:
 
->$V_{AB}=\frac{\sum \frac{V_{i}}{R_{i}}}{\sum \frac{1}{R_{i}}}=\frac{\frac{V_{1}}{R_{1}}+\frac{V_{2}}{R_{2}}+\dots +\frac{V_{n}}{R_{n}}}{\frac{1}{R_{1}}+\frac{1}{R_{2}}+\dots +\frac{1}{R_{n}}}$
+>$V_{AB}=\dfrac{\sum \dfrac{V_{i}}{R_{i}}}{\sum \dfrac{1}{R_{i}}}=\dfrac{\dfrac{V_{1}}{R_{1}}+\dfrac{V_{2}}{R_{2}}+\dots +\dfrac{V_{n}}{R_{n}}}{\dfrac{1}{R_{1}}+\dfrac{1}{R_{2}}+\dots +\dfrac{1}{R_{n}}}$
 
 Where:
 
 • $V_{i}$ is the voltage source in branch $i$.  
 • $R_{i}$ is the total resistance in branch $i$.  
-• $\frac{1}{R_{i}}$ is the conductance ($G_{i}$) of that branch.  
+• $\dfrac{1}{R_{i}}$ is the conductance ($G_{i}$) of that branch.  
 
 ---
 
@@ -3095,20 +3095,20 @@ In the final step of your problem, terminals A and B had two parallel parts atta
        B  o-------------------------o
 Applying the formula directly:
 
->$V_{AB}=\frac{\frac{30\text{\ V}}{250\ \Omega }+\frac{5\text{\ V}}{50\ \Omega }}{\frac{1}{250\ \Omega }+\frac{1}{50\ \Omega }}$
+>$V_{AB}=\dfrac{\dfrac{30\text{\ V}}{250\ \Omega }+\dfrac{5\text{\ V}}{50\ \Omega }}{\dfrac{1}{250\ \Omega }+\dfrac{1}{50\ \Omega }}$
 
 By multiplying the entire top and bottom by $250$ to clear the fractions:
 
->$V_{AB}=\frac{30+5(5)}{1+5}=\frac{55}{6}\text{\ V}\approx 9.17\text{\ V}$
+>$V_{AB}=\dfrac{30+5(5)}{1+5}=\dfrac{55}{6}\text{\ V}\approx 9.17\text{\ V}$
 
 #### ⚠️ Important Rule for Signs
 
-When using Millman's theorem, pay close attention to the **polarity** of the voltage sources. If the positive terminal faces your node (Node A), the voltage is positive. If the negative terminal faces your node, that specific fraction becomes negative (e.g., $-\frac{V_{i}}{R_{i}}$).
+When using Millman's theorem, pay close attention to the **polarity** of the voltage sources. If the positive terminal faces your node (Node A), the voltage is positive. If the negative terminal faces your node, that specific fraction becomes negative (e.g., $-\dfrac{V_{i}}{R_{i}}$).
 
 --- 
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  35
 
@@ -3120,45 +3120,164 @@ As válvulas empregadas em sistemas de atuação a base de fluidos (hidráulicos
 (D)  &nbsp; pressão e vazão  
 (E)  &nbsp; pressão e temperatura
 
+---
+
+A alternativa correta é a **(D) pressão e vazão**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia de Automação / Sistemas Hidráulicos e Pneumáticos
+* **Sub-área:** Elementos de Controle Final, Válvulas Industriais e Tecnologias de Acionamento por Fluidos.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+Em sistemas de atuação hidráulicos e pneumáticos, os elementos de controle final — especificamente as válvulas — exercem papéis fundamentais na manipulação da energia do fluido sob pressão. As válvulas são classificadas funcionalmente em três grandes categorias principais:
+
+1. **Válvulas Direcionais:** Controlam o sentido do fluxo e o caminho que o fluido percorre no sistema.
+2. **Válvulas de Pressão:** Controlam, limitam ou regulam a pressão do fluido (como válvulas de alívio, redutoras de pressão e sequenciadoras).
+3. **Válvulas de Vazão (ou Fluxo):** Controlam a quantidade de fluido que passa por um trecho em uma unidade de tempo, alterando a velocidade dos atuadores (cilindros e motores).
+
+Portanto, as válvulas nesses sistemas atuam diretamente sobre a **pressão** e a **vazão** do fluido de trabalho para garantir o funcionamento adequado dos mecanismos.
+
+---
+
+#### Análise das Alternativas:
+
+* **(A) apenas vazão:** Incorreta. Ignora o controle essencial de pressão realizado pelas válvulas reguladoras e de alívio.
+* **(B) apenas pressão:** Incorreta. Desconsidera o controle de vazão exercido por válvulas de controle de fluxo.
+* **(C) apenas temperatura:** Incorreta. O controle de temperatura em sistemas oleohidráulicos ou pneumáticos é tipicamente função de trocadores de calor (resfriadores/aquecedores), e não de válvulas de atuação de fluido.
+* **(D) pressão e vazão:** **Correta.** Abrange as duas grandezas físicas fundamentais manipuladas pelas famílias de válvulas em circuitos hidráulicos e pneumáticos industriais.
+* **(E) pressão e temperatura:** Incorreta. Inclui temperatura, grandeza que não é controlada diretamente pelas válvulas de atuação baseadas em fluidos.
+
 --- 
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  36
 
-Os tanques e/ou acumuladores empregados em sistemas de atuação a base de fluidos (hidráulicos e/ou pneumáticos) possuem características análogas às dos capacitores nos sistemas elétricos.
+Os tanques e/ou acumuladores empregados em sistemas de atuação a base de fluidos (hidráulicos e/ou pneumáticos) possuem características análogas às dos capacitores nos sistemas elétricos.  
 Assim sendo, a relação linear entre a pressão P no interior do tanque/acumulador e a vazão de entrada e/ou saída q é
 
-(A)  &nbsp; P = (1/C\_F) \* Q  
-(B)  &nbsp; q = (1/C\_F) \* P  
-(C)  &nbsp; dQ/dt = C\_F \* P  
-(D)  &nbsp; dP/dt = (1/C\_F) \* Q  
-(E)  &nbsp; dP/dt = (1/C\_F) \* integral(Q dt)
+(A)  &nbsp; $\displaystyle P = \frac{1}{C_F}q$  
+
+(B)  &nbsp; $\displaystyle q = \frac{1}{C_F}P$  
+
+(C)  &nbsp; $\displaystyle \frac{dq}{dt} = C_F P$  
+
+(D)  &nbsp; $\displaystyle \frac{dP}{dt} = \frac{1}{C_F} q$  
+
+(E)  &nbsp; $\displaystyle \frac{dP}{dt} = \frac{1}{C_F} \int q\, dt$
+
+---
+
+A alternativa correta é a **(D) $\displaystyle \frac{dP}{dt} = \frac{1}{C_F} q$**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia de Automação / Modelagem de Sistemas Físicos
+* **Sub-área:** Sistemas Dinâmicos, Analogia Eletromecânica/Hidráulica e Acumuladores Hidráulicos e Pneumáticos.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+Em sistemas dinâmicos, a analogia entre domínios físicos relaciona grandezas elétricas e hidráulicas. O **capacitor** em um sistema elétrico armazena carga elétrica ($q_e$), obedecendo à relação fundamental:
+
+
+$$i = \frac{dq_e}{dt} = C \frac{dV}{dt}$$
+
+Nos sistemas hidráulicos e pneumáticos, os tanques ou acumuladores cumprem o papel de armazenamento (capacitância fluida, representada por $C_F$):
+
+* A **pressão ($P$)** é análoga ao potencial elétrico (tensão $V$).
+* A **vazão ($q$)** é análoga à corrente elétrica ($i$).
+
+A variação do volume acumulado no tanque em função do tempo é igual à vazão líquida que entra ($q$). Como a variação do volume é proporcional à variação da pressão multiplicada pela capacitância do tanque ($V = C_F \cdot P$), derivando em relação ao tempo, temos:
+
+
+$$q = C_F \frac{dP}{dt}$$
+
+Isolando a taxa de variação da pressão ($\frac{dP}{dt}$), obtemos a equação característica do elemento capacitivo hidráulico:
+
+
+$$\frac{dP}{dt} = \frac{1}{C_F} q$$
+
+---
+
+#### Análise das Alternativas:
+
+* **(A) $\displaystyle P = \frac{1}{C_F}q$:** Incorreta. Desconsidera a dinâmica temporal e a derivada da pressão em relação ao tempo.
+* **(B) $\displaystyle q = \frac{1}{C_F}P$:** Incorreta. Representa uma relação puramente estática e incorreta para elementos armazenadores de energia que dependem da taxa de variação.
+* **(C) $\displaystyle \frac{dq}{dt} = C_F P$:** Incorreta. Inverte a relação de dependência entre as grandezas de fluxo e esforço.
+* **(D) $\displaystyle \frac{dP}{dt} = \frac{1}{C_F} q$:** **Correta.** Expressa corretamente a equação diferencial dinâmica de um acumulador/tanque fluido análoga ao comportamento do capacitor elétrico.
+* **(E) $\displaystyle \frac{dP}{dt} = \frac{1}{C_F} \int q\, dt$:** Incorreta. A integral da vazão resulta no volume acumulado, não na taxa de variação da pressão.
 
 --- 
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  37
 
 O Teorema do Valor Inicial da Transformada de Laplace estabelece que:
 
-(A)  &nbsp; x(0+) = lim\_{s -&gt; infty} s\*X(s)  
-(B)  &nbsp; X(0+) = lim\_{s -&gt; 0} s\*X(s)  
-(C)  &nbsp; x(0+) = lim\_{s -&gt; infty} X(s)  
-(D)  &nbsp; X(0+) = lim\_{s -&gt; 0} X(s)  
-(E)  &nbsp; x(0+) = lim\_{s -&gt; infty} X(s)/s
+(A)  &nbsp; $\displaystyle x(0^+) = \lim_{\displaystyle s \to \infty} sX(s)$  
+
+(B)  &nbsp; $\displaystyle x(0^+) = \lim_{\displaystyle s \to 0} sX(s)$  
+
+(C)  &nbsp; $\displaystyle x(0^+) = \lim_{\displaystyle s \to \infty} X(s)$  
+
+(D)  &nbsp; $\displaystyle x(0^+) = \lim_{\displaystyle s \to 0} X(s)$  
+
+(E)  &nbsp; $\displaystyle x(0^+) = \lim_{\displaystyle s \to \infty} X(s)/s$
+
+---
+
+A alternativa correta é a **(A) $\displaystyle x(0^+) = \lim_{s \to \infty} sX(s)$**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia Elétrica / Engenharia de Controle e Automação
+* **Sub-área:** Análise de Sistemas Lineares, Sinais e Sistemas, e Aplicações da Transformada de Laplace.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+O **Teorema do Valor Inicial (TVI)** da Transformada de Laplace permite determinar o valor de um sinal ou resposta temporal no instante imediatamente após a aplicação de uma excitação ($t = 0^+$) diretamente a partir de sua representação no domínio complexo $s$, sem a necessidade de realizar a transformada inversa de Laplace.
+
+A formulação matemática rigorosa do Teorema do Valor Inicial é dada por:
+
+$$\lim_{t \to 0^+} x(t) = \lim_{s \to \infty} sX(s)$$
+
+Desde que o limite no lado direito exista e que $x(t)$ não contenha impulsos ou singularidades de ordem superior na origem.
+
+---
+
+#### Análise das Alternativas:
+
+* **(A) $\displaystyle x(0^+) = \lim_{s \to \infty} sX(s)$:** **Correta.** Expressa exatamente a relação matemática do Teorema do Valor Inicial da Transformada de Laplace.
+* **(B) $\displaystyle x(0^+) = \lim_{s \to 0} sX(s)$:** Incorreta. Este limite, quando avaliado com $s \to 0$, refere-se na verdade ao *Teorema do Valor Final* ($\lim_{t \to \infty} x(t) = \lim_{s \to 0} sX(s)$), sob certas condições de estabilidade.
+* **(C) $\displaystyle x(0^+) = \lim_{s \to \infty} X(s)$:** Incorreta. Omite o fator multiplicativo $s$ obrigatório pela propriedade da derivada na transformação de Laplace.
+* **(D) $\displaystyle x(0^+) = \lim_{s \to 0} X(s)$:** Incorreta. Mistura o comportamento para $s \to 0$ com uma formulação incorreta para o valor inicial.
+* **(E) $\displaystyle x(0^+) = \lim_{s \to \infty} X(s)/s$:** Incorreta. Corresponde conceitualmente à integração no domínio do tempo (ou divisão por $s$ no domínio de Laplace), o que contradiz a propriedade do valor inicial.
 
 --- 
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  38
 
-Os sistemas de atuação pneumáticos NÃO são recomendados quando é necessária(o)
+Os sistemas de atuação pneumáticos **NÃO** são recomendados quando é necessária(o)
 
 (A)  &nbsp; elevada potência  
 (B)  &nbsp; elevada velocidade  
@@ -3166,10 +3285,39 @@ Os sistemas de atuação pneumáticos NÃO são recomendados quando é necessár
 (D)  &nbsp; pequena força  
 (E)  &nbsp; deslocamento elevado
 
+---
+
+A alternativa correta é a **(C) grande precisão**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia de Automação / Sistemas Pneumáticos e Hidráulicos
+* **Sub-área:** Tecnologias de Acionamento Industrial, Comparação entre Sistemas Pneumáticos e Hidráulicos, e Características de Atuação.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+Os **sistemas pneumáticos** utilizam ar comprimido como fluido de trabalho. Devido à alta compressibilidade do ar, esses sistemas apresentam características marcantes: são excelentes para aplicações que exigem alta velocidade de atuação, deslocamentos longos ou limpo manuseio, mas possuem limitações severas em termos de posicionamento rígido sob carga.
+
+Portanto, sistemas pneumáticos **não** são recomendados quando se exige **grande precisão** (especialmente em posicionamentos intermediários ou controle fino de malha fechada), uma vez que a compressibilidade do ar provoca amortecimento elástico, flutuações e comportamento esponjoso (*spring-like*) sob variações de carga.
+
+---
+
+#### Análise das Alternativas:
+
+* **(A) elevada potência:** Incorreta. Embora os sistemas hidráulicos operem com pressões muito superiores e maiores potências, a pneumática pode fornecer potências moderadas a altas dependendo do volume de ar e dimensionamento, não sendo sua restrição principal o conceito absoluto de potência.
+* **(B) elevada velocidade:** Incorreta. Os atuadores pneumáticos são amplamente reconhecidos justamente por alcançarem **elevadas velocidades** de operação com facilidade, devido à baixa viscosidade e à expansibilidade rápida do ar.
+* **(C) grande precisão:** **Correta.** A compressibilidade do gás impede um controle de posição rigoroso e estável, tornando a pneumática inadequada para tarefas que exigem exatidão micrométrica ou rigidez posicional sem malhas de realimentação complexas e custosas.
+* **(D) pequena força:** Incorreta. Sistemas pneumáticos lidam muito bem com forças pequenas e moderadas.
+* **(E) deslocamento elevado:** Incorreta. Atuadores pneumáticos lineares (cilindros) podem realizar cursos e deslocamentos longos sem grandes restrições operacionais.
+
 --- 
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  39
 
@@ -3181,10 +3329,97 @@ A inversa de uma matriz ortogonal é igual à sua
 (D)  &nbsp; cofatora transposta  
 (E)  &nbsp; transposta
 
+---
+
+A alternativa correta é a **(E) transposta**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Matemática / Álgebra Linear
+* **Sub-área:** Matrizes, Matrizes Especiais (Matriz Ortogonal) e Inversão de Matrizes.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+Uma **matriz ortogonal** $Q$ (de ordem $n \times n$) é definida como uma matriz cuja matriz transposta coincide com a sua matriz inversa. Em termos formais, uma matriz real $Q$ é ortogonal se, e somente se, o produto dela pela sua transposta resulta na matriz identidade $I$:
+
+$$Q^T Q = Q Q^T = I$$
+
+Pela definição de matriz inversa ($Q^{-1} Q = I$), conclui-se diretamente que a inversa de uma matriz ortogonal é igual à sua transposta:
+
+$$Q^{-1} = Q^T$$
+
+---
+
+#### Análise das Alternativas:
+
+* **(A) adjunta:** Incorreta. A matriz adjunta está relacionada ao cálculo da inversa de uma matriz genérica através da matriz dos cofatores transposta, mas não define a inversa de uma matriz ortogonal de forma direta.
+* **(B) adjunta transposta:** Incorreta. Conceito incorreto para a matriz inversa ortogonal.
+* **(C) cofatora:** Incorreta. A matriz dos cofatores é usada na construção da matriz adjunta, mas não é igual à inversa de uma matriz ortogonal.
+* **(D) cofatora transposta:** Incorreta. A transposta da matriz dos cofatores é a matriz adjunta ($\text{adj}(A) = C^T$), que dividida pelo determinante resulta na inversa geral, mas não caracteriza diretamente a propriedade da matriz ortogonal.
+* **(E) transposta:** **Correta.** Expressa exatamente a propriedade fundamental de uma matriz ortogonal, onde $Q^{-1} = Q^T$.
+
+---
+---
+
+**Utlize as informações a seguir para responder às questões de n<sup><u>os</u></sup> 40 e 41.**
+ 
+Considere o sistema pêndulo invertido com excitação de base mostrado na Figua abaixo.
+
+<img src="./img/Questoes-40-41-1.png" alt="" width="300">
+
+Desprezando a dissipação na junta de união da barra vertical com a base móvel (carrinho) e no movimento da base no terreno, o modelo matemático desse sistema é dado por
+
+
+$$
+\begin{cases}
+  \left(M+m \right) \ddot{Y} - m \left( h \cos \varphi \right) \ddot{\varphi} + m \left( h \operatorname{sen} \varphi \right) \dot{\varphi}^2 = F\left(t \right)  \\
+  \left(J+mh^2 \right) \ddot{\varphi} - mg \left( h \operatorname{sen} \varphi \right) - m \left( h \cos \varphi \right) \ddot{Y} = 0
+\end{cases}
+$$
+
+Supondo a massa da base desprezível, seu modelo de estado para pequenos ângulos e baixas velocidade angulares é
+
+$$ {\displaystyle
+\left[ 
+\begin{array}{cc}
+  \rule{0pt}{3ex} \displaystyle \dot{Y} \\
+  \rule{0pt}{3ex} \displaystyle \dot{\varphi} \\
+  \rule{0pt}{3.5ex} \displaystyle \dot{V} \\
+  \rule{0pt}{3ex} \displaystyle \dot{\omega}
+\end{array}
+\right]
+}
+=
+\begin{bmatrix}
+  0 & 0 & 1 & 0 \\
+  0 & 0 & 0 & 1 \\
+  0 & \dfrac{m g h^2}{J} & 0 & 0 \\[2ex]
+  0 & \dfrac{m g h}{J} & 0 & 0 \\[2ex]
+\end{bmatrix}
+\begin{bmatrix}
+  Y \\
+  \varphi \\
+  V \\
+  \omega
+\end{bmatrix}
++
+\begin{bmatrix}
+  0 \\
+  0 \\
+  \dfrac{\left(J + mh^2 \right)}{mJ} \\[2ex]
+  \dfrac{h}{J} \\[2ex]
+\end{bmatrix}
+F
+$$
+
 --- 
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  40
 
@@ -3197,9 +3432,39 @@ Se a força aplicada sobre a base incluir todos os termos não lineares do siste
 (E)  &nbsp; observador não linear
 
 ---
+#### Classificação da Área de Conhecimento
+
+* **Área de Conhecimento:** Engenharia de Controle e Automação
+* **Sub-áreas:** Controle de Sistemas Não Lineares / Linearização por Realimentação (Feedback Linearization).
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+A questão descreve uma estratégia em que a força aplicada $F(t)$ (a lei de controle) é projetada para conter termos que **cancelam exatamente todas as não-linearidades** do sistema físico (como os termos dependentes de $\cos \varphi$, $\operatorname{sen} \varphi$ e $\.{\varphi }^{2}$).
+
+Quando projetamos uma lei de controle por realimentação de estados que cancela os termos não lineares de uma planta dinamicamente complexa, transformando matematicamente o sistema em um sistema linear equivalente de malha fechada, estamos utilizando a técnica clássica de **Linearização por Realimentação** (*Feedback Linearization* ou Controle por Torque Calculado/Controle Dinâmico Inverso).
+
+---
+
+#### Vamos analisar cada uma das alternativas:
+
+• (A) **Incorreta. controle PID não linear:** Um controlador PID convencional atua com base no erro (Proporcional, Integral e Derivativo) e, mesmo em variantes não lineares (com ganhos variando em função do erro), ele não tem a premissa estrutural de "incluir e cancelar explicitamente todos os termos não lineares do modelo dinâmico" para linearizar o sistema global.
+
+• (B) **CORRETA. linearização por realimentação:** É exatamente a definição da técnica. Através da realimentação dos estados do sistema ($Y, \dot{Y}, \varphi, \dot{\varphi}$), a entrada de controle $F(t)$ é calculada contendo os termos dinâmicos não lineares com sinais invertidos. Isso anula a física não linear do pêndulo e do carrinho, resultando em uma equação linearizada ideal onde técnicas de controle linear (como LQR ou alocação de polos) podem ser aplicadas diretamente.
+
+• (C) **Incorreta. linearização para estabilização:** O termo "linearização" isolado geralmente se refere à aproximação por série de Taylor em torno de um ponto de operação (pequenos sinais), que é uma aproximação local e não envolve projetar uma força que carregue explicitamente os termos não lineares para cancelá-los globalmente.
+
+• (D) **Incorreta. realimentação para estabilização:** Esta é uma descrição muito genérica. Qualquer controle em malha fechada (linear ou não linear) que estabilize o sistema entra nessa categoria, não especificando a estratégia exata descrita no enunciado (que foca no uso dos termos não lineares na lei de controle).
+
+• (E) **Incorreta. observador não linear:** Um observador de estados (como o Filtro de Kalman Estendido ou um observador de Luenberger não linear) serve para *estimar* estados internos que não são medidos diretamente por sensores. Ele não é a força ou estratégia de controle aplicada na base para alterar a dinâmica do sistema.
+
+**Gabarito: (B)**
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  41
 
@@ -3212,15 +3477,89 @@ Qual o posto da matriz de estado?
 (E)  &nbsp; 4
 
 ---
+#### Classificação da Área de Conhecimento
+
+* **Área de Conhecimento:** Engenharia de Controle e Automação
+* **Sub-áreas:** Teoria de Controle Linear / Espaço de Estados / Álgebra Linear Aplicada.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+O **posto de uma matriz** (também chamado de *posto por linhas* ou *posto por colunas*) é definido como o número máximo de linhas (ou colunas) linearmente independentes (L.I.) que ela possui.
+
+A matriz de estado $\mathbf{A}$ do sistema fornecida no enunciado é:
+
+$$\mathbf{A}=\left[\begin{matrix}0&0&1&0\\ 0&0&0&1\\ 0&\dfrac{mgh^{2}}{J}&0&0\\ 0&\dfrac{mgh}{J}&0&0\end{matrix}\right]$$
+
+Para determinar o posto dessa matriz de tamanho $4 \times 4$, vamos analisar a dependência linear entre suas colunas (ou linhas):
+
+1. **Coluna 1:** É um vetor completamente nulo:
+
+$$C_{1}=\left[\begin{matrix}0\\ 0\\ 0\\ 0\end{matrix}\right]$$
+
+Vetores nulos não contribuem para o posto da matriz.
+
+2. **Coluna 3 e Coluna 4:** São vetores da base canônica (com o elemento 1 em posições diferentes):
+
+$$C_{3}=\left[\begin{matrix}1\\ 0\\ 0\\ 0\end{matrix}\right],\quad C_{4}=\left[\begin{matrix}0\\ 1\\ 0\\ 0\end{matrix}\right]$$
+
+Essas duas colunas são claramente linearmente independentes entre si e em relação às outras.
+
+3. Coluna 2: Possui termos não nulos nas linhas 3 e 4:
+
+$$C_{2}=\left[\begin{matrix}0\\ 0\\ \dfrac{mgh^{2}}{J}\\ \dfrac{mgh}{J}\end{matrix}\right]$$
+
+Como as massas, gravidade e dimensões geométricas ($m, g, h, J$) são valores físicos não nulos, essa coluna possui componentes ativos e é totalmente independente de $C_{3}$ e $C_{4}$.
+
+Portanto, temos exatamente 3 colunas linearmente independentes ($C_2, C_3$ e $C_{4}$).
+
+---
+
+#### Análise complementar pelas linhas:
+
+• A Linha 1 $[0, 0, 1, 0]$ é L.I.
+
+• A Linha 2 $[0, 0, 0, 1]$ é L.I.
+
+• A Linha 3 $[0, \frac{mgh^2}{J}, 0, 0]$ e a Linha 4 $[0, \frac{mgh}{J}, 0, 0]$ são **linearmente dependentes (L.D.)** entre si, pois uma é múltiplo escalar da outra (basta multiplicar a Linha 3 por $\frac{1}{h}$ para obter a Linha 4). Elas contam como apenas 1 linha independente.
+
+Somando as linhas L.I. ($1 + 1 + 1 = 3$), confirmamos que o posto da matriz é **3**.
+
+---
+
+#### Análise das alternativas:
+
+• (A) **Incorreta.** O posto seria 0 apenas se a matriz fosse completamente nula.
+
+• (B) **Incorreta.** O posto seria 1 se todas as linhas não nulas fossem múltiplos de uma única linha.
+
+• (C) **Incorreta.** Erro comum caso o candidato desconsiderasse a independência da coluna central em relação às identidades superiores.
+
+• (D) **CORRETA. 3:** Existem exatamente 3 dimensões/direções linearmente independentes na imagem dessa transformação linear.
+
+• (E) **Incorreta.** Para o posto ser 4 (posto cheio), a matriz precisaria ser invertível, o que não ocorre devido à primeira coluna ser inteiramente nula (determinante igual a zero).
+
+**Gabarito: (D)**
+
+---
+---
+
+**Considere as funções de transferência apresentadas abaixo para responder às questões de n<sup><u>os</u></sup> 42 e 43.**
+
+$$ 
+\begin{cases}
+  \displaystyle \frac{X_1(s)}{U(s)} = \frac{k_1}{(s^2 - p^2)} \\[3ex]
+  \displaystyle \frac{X_2(s)}{U(s)} = \frac{k_2(s^2 - z^2)}{(s^2 (s^2 - p^2))}
+\end{cases}
+$$
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
-###  42
-
-Considere as funções de transferência apresentadas abaixo para responder às questões de n os 42 e 43.
-X1(s)/U(s) = k1 / (s² - p²)
-X2(s)/U(s) = k2\*(s² - z²) / (s² \* (s² - p²))
+### 42
 
 Esse sistema possui
 
@@ -3231,13 +3570,71 @@ Esse sistema possui
 (E)  &nbsp; quatro polos negativos
 
 ---
+#### Classificação da Área de Conhecimento
+
+* **Área de Conhecimento:** Engenharia de Controle e Automação
+* **Sub-areas:** Sistemas Lineares / Análise de Estabilidade no Domínio da Frequência / Funções de Transferência.
+
+---
+#### Justificativa Detalhada e Análise das Alternativas
+
+Para determinar a totalidade de polos de um sistema dinâmico linear combinando múltiplas saídas, devemos encontrar as raízes do polinômio característico global do sistema (as raízes comuns do denominador comum mínimo das funções de transferência que conectam a entrada $U(s)$ às saídas).
+
+Analisando os denominadores das funções de transferência dadas:
+
+1. Primeira função de transferência:
+
+$$\frac{X_{1}(s)}{U(s)}=\frac{k_{1}}{s^{2}-p^{2}}$$
+
+
+Os polos desta parcela são encontrados fazendo $s^2 - p^2 = 0$, o que resulta em:
+
+$$s^{1},s^{2}=\pm p$$
+
+Assumindo os parâmetros físicos reais ($p > 0$), isso gera um polo positivo ($+p$) e um polo negativo ($-p$).
+
+2. Segunda função de transferência:
+
+$$\frac{X_{2}(s)}{U(s)}=\frac{k_{2}(s^{2}-z^{2})}{s^{2}(s^{2}-p^{2})}$$
+
+Os polos desta parcela são encontrados fazendo $s^2(s^2 - p^2) = 0$. As raízes são:
+	• $s^2 = 0 \implies s^3, s^4 = 0$ (**dois polos nulos** na origem).
+	• $s^2 - p^2 = 0 \implies s^5, s^6 = \pm p$ (os mesmos polos em $\pm p$ identificados na primeira função).
+
+O polinômio característico que dita a dinâmica global do sistema completo é dado pelo mínimo múltiplo comum dos denominadores: 
+
+$$A(s) = s^2(s^2 - p^2) = s^2(s - p)(s + p)$$
+
+Os quatro polos globais do sistema são:
+
+• $s = 0$ (polo de multiplicidade 2, ou seja, **dois polos nulos**)
+
+• $s = -p$ (**um polo negativo**)
+
+• $s = +p$ (**um polo positivo**)
+
+#### Comparando com as alternativas propostas pela banca Cesgranrio:
+
+• **(A) CORRETA. um polo positivo:** Como deduzido das raízes de $(s^2 - p^2) = 0$, o sistema possui exatamente um único polo com parte real positiva situado em $s = +p$ (o que torna este sistema inerentemente instável).
+
+• (B) **Incorreta. dois polos positivos:** O sistema possui apenas um polo no semiplano direito do plano complexo ($s = +p$).
+
+• (C) **Incorreta. três polos nulos:** O termo $s^{2}$ no denominador indica a presença de exatamente dois polos na origem (nulos), não três.
+
+• (D) **Incorreta. quatro polos complexos conjugados:** Os polos encontrados ($0, 0, p, -p$) são todos números puramente reais, não possuindo parte imaginária.
+
+• (E) **Incorreta. quatro polos negativos:** O sistema possui apenas um polo estritamente negativo ($s = -p$).
+
+**Gabarito: (A)**
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  43
 
-A função de transferência de X2 indica que o comportamento dessa variável está associado a
+A função de transferência de $X_2$ indica que o comportamento dessa variável está associado a
 
 (A)  &nbsp; um zero positivo e dois polos nulos  
 (B)  &nbsp; um zero positivo e quatro polos complexos conjugados  
@@ -3246,9 +3643,68 @@ A função de transferência de X2 indica que o comportamento dessa variável es
 (E)  &nbsp; dois zeros positivos e quatro polos negativos
 
 ---
+
+#### Classificação da Área de Conhecimento
+
+* **Área de Conhecimento:** Engenharia de Controle e Automação
+* **Sub-áreas:** Análise de Sistemas de Controle Lineares / Diagrama de Polos e Zeros / Estabilidade.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+Para responder à questão, precisamos encontrar e classificar os zeros (raízes do numerador) e os polos (raízes do denominador) especificamente para a função de transferência da variável $X_2(s)$:
+
+$$\frac{X_{2}(s)}{U(s)}=\frac{k_{2}(s^{2}-z^{2})}{s^{2}(s^{2}-p^{2})}$$
+
+1. **Análise dos Zeros (Numerador)**
+
+Igualando o polinômio do numerador a zero:
+
+$$s^{2}-z^{2}=0\implies (s-z)(s+z)=0$$
+
+As raízes são: [1] (https://www.youtube.com/watch?v=AZ7_MvANy_Q), [2] (https://www.youtube.com/watch?v=8M63_fstcm4)
+
+• $s = +z$ (**um zero positivo** / no semiplano direito)
+
+• $s = -z$ (**um zero negativo** / no semiplano esquerdo)
+
+*Nota: Portanto, o sistema possui apenas **um** zero positivo, invalidando qualquer alternativa que mencione "dois zeros positivos".*
+
+2. **Análise dos Polos (Denominador)**
+
+Igualando o polinômio do denominador a zero:
+
+$$s^{2}(s^{2}-p^{2})=0\implies s^{2}(s-p)(s+p)=0$$
+
+As raízes são: [1] (https://www.youtube.com/watch?v=8M63_fstcm4), [2] (https://www.youtube.com/watch?v=AZ7_MvANy_Q)
+
+• $s^2 = 0 \implies s = 0, \, s = 0$ (**dois polos nulos** na origem)
+
+• $s = +p$ (**um polo positivo**)
+
+• $s = -p$ (**um polo negativo**) [1] (https://www.maplesoft.com/content/EngineeringFundamentals/10/MapleDocument_10/Transfer%20Functions,%20Poles%20and%20Zeros.pdf), [2] (https://www.youtube.com/watch?v=xS_H59oJtUg)
+
+---
+
+#### Análise das Alternativas
+
+• **(A) CORRETA. um zero positivo e dois polos nulos:** Como determinado na análise, a função de transferência possui, entre seus elementos, exatamente um zero real positivo ($s = +z$) e dois polos na origem ($s = 0$). A afirmação é perfeitamente condizente com a física matemática do sistema. [1] (https://www.passeidireto.com/arquivo/75008095/controle-e-automacao-i)
+
+• (B) **Incorreta. um zero positivo e quatro polos complexos conjugados:** Embora possua um zero positivo, todos os seus polos ($0, 0, p, -p$) são estritamente reais, não havendo nenhum par complexo conjugado. [1] (https://www.youtube.com/watch?v=8M63_fstcm4)
+
+• (C) **Incorreta. dois zeros positivos e dois polos positivos:** Conforme demonstrado, um dos zeros é negativo ($s = -z$) e o sistema possui apenas um polo positivo ($s = +p$).
+
+• (D) **Incorreta. dois zeros positivos e três polos nulos:** O sistema possui apenas um zero positivo e exatamente dois polos nulos (provenientes do termo $s^{2}$).
+
+• (E) **Incorreta. dois zeros positivos e quatro polos negativos:** O sistema possui apenas um zero positivo e nenhum de seus polos é complexo ou puramente quadruplicado na região negativa.
+
+**Gabarito: (A)** [1] (https://www.passeidireto.com/arquivo/75008095/controle-e-automacao-i)
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  44
 
@@ -3261,9 +3717,52 @@ Sendo a Transformada de Laplace L(x(t)) = X(s) com s = σ + jω e a Transformada
 (E)  &nbsp; uma generalização da Transformada de Laplace
 
 ---
+
+#### Classificação da Área de Conhecimento
+
+* **Área de Conhecimento:** Engenharia de Controle e Automação / Engenharia Elétrica
+* **Sub-áreas:** Sinais e Sistemas / Análise no Domínio da Frequência / Transformadas Integrais.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+A relação entre a Transformada de Laplace e a Transformada de Fourier é um dos conceitos fundamentais da teoria de sinais e sistemas lineares.
+
+A **Transformada de Laplace** de um sinal contínuo $x(t)$ é dada por:
+
+$$X(s)=\int _{-\infty }^{\infty }x(t)e^{-st}dt$$
+
+Onde a variável complexa é definida como $\mathbf{s = \sigma + j\omega}$. O termo $\sigma $ representa a atenuação ou taxa de crescimento exponencial (parte real), enquanto $\omega $ representa a frequência angular (parte imaginária).
+
+A **Transformada de Fourier** do mesmo sinal $x(t)$ é expressa por:
+
+$$X(j\omega )=\int _{-\infty }^{\infty }x(t)e^{-j\omega t}dt$$
+
+Se avaliarmos a Transformada de Laplace estritamente sobre o eixo imaginário do plano complexo $s$ (ou seja, definindo a parte real $\mathbf{\sigma = 0}$), a variável se reduz a $s = j\omega$. Ao substituir $s = j\omega$ na integral de Laplace, obtemos exatamente a equação da Transformada de Fourier:
+
+$$X(s)\Big|{}_{s=j\omega }=X(j\omega )$$
+
+Portanto, a Transformada de Fourier é obtida restringindo-se o domínio da Transformada de Laplace ao eixo $j\omega$, o que a caracteriza matematicamente como **um caso particular da Transformada de Laplace** (assumindo que a região de convergência de $X(s)$ inclua o eixo imaginário).
+
+Analisando cada uma das alternativas propostas pela Cesgranrio:
+
+• (A) **Incorreta. dependente da Transformada de Laplace:** A Transformada de Fourier existe por si só de forma independente para uma vasta classe de sinais (que atendem às condições de Dirichlet), não necessitando da existência da ferramenta de Laplace para ser definida.
+
+• (B) **Incorreta. função da Transformada de Laplace:** Dizer que é uma "função da transformada" sugeriria um operador atuando sobre o resultado global de $X(s)$, o que é conceitualmente impreciso. Ela é uma restrição de domínio.
+
+• (C) **Incorreta. equivalente à Transformada de Laplace:** Elas não são equivalentes. A Transformada de Laplace analisa o sinal em todo o plano complexo $s$ (frequências complexas), enquanto Fourier analisa apenas o comportamento puramente harmônico senoidal (eixo imaginário).
+
+• **(D) CORRETA. um caso particular da Transformada de Laplace:** Como demonstrado, quando a atenuação $\sigma $ é nula ($\sigma = 0$), a Transformada de Laplace colapsa exatamente na Transformada de Fourier. Fourier é o caso específico de Laplace mapeado sobre o eixo de frequências reais.
+
+• (E) **Incorreta. uma generalização da Transformada de Laplace:** A relação inversa é a verdadeira. A Transformada de Laplace é uma generalização da Transformada de Fourier, estendendo a análise de frequências para sinais que crescem exponencialmente através da introdução do fator multiplicativo $e^{-\sigma t}$.
+
+**Gabarito: (D)**
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  45
 
@@ -3276,9 +3775,46 @@ Uma IMU (Unidade de Medida Inercial) inclui, necessariamente,
 (E)  &nbsp; tacômetros e magnetômetros
 
 ---
+
+#### Classificação da Àrea de Conhecimento
+
+* **Área de Conhecimento:** Engenharia de Controle e Automação / Instrumentação Industrial
+* **Sub-areas:** Sensores e Transdutores / Navegação Inercial / Sistemas de Instrumentação e Medição.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+Uma **IMU (*Inertial Measurement Unit* ou Unidade de Medida Inercial)** é um dispositivo eletrônico ou eletromecânico integrado que mede e relata a força específica de um corpo, a sua taxa angular e, às vezes, a orientação do dispositivo. Ela é o componente central utilizado em sistemas de navegação inercial de aeronaves, drones, espaçonaves, navios e mísseis.
+
+Para mapear e rastrear completamente o movimento de um objeto em um espaço tridimensional (6 graus de liberdade — 3 de translação e 3 de rotação), uma IMU opera medindo duas grandezas fundamentais através de seus componentes internos essenciais:
+
+1. **Aceleração Linear:** Medida por **acelerômetros** em três eixos ortogonais ($X, Y, Z$).
+
+2. **Velocidade Angular:** Medida por **girômetros** (também chamados popularmente de giroscópios) em três eixos ortogonais (movimentos de *roll*, *pitch* e *yaw*).
+
+Algumas IMUs avançadas (conhecidas como MARG - *Magnetic, Angular Rate, and Gravity*) incorporam adicionalmente magnetômetros para bússola e correção de deriva, mas a definição estrita e necessária de uma IMU exige a combinação de **acelerômetros** e **girômetros**.
+
+---
+
+#### Análise detalhada das alternativas da Cesgranrio:
+
+• (A) **Incorreta. acelerômetros e barômetros:** Embora os acelerômetros façam parte, os barômetros medem a pressão atmosférica (útil para estimar altitude). Eles não medem efeitos inerciais de movimento e rotação intrínsecos, não compondo necessariamente uma IMU.
+
+• **(B) CORRETA. acelerômetros e girômetros:** É a composição elementar e obrigatória de qualquer unidade de medida inercial para capturar tanto o deslocamento linear quanto a rotação no espaço.
+
+• (C) **Incorreta. potenciômetros e girômetros:** Potenciômetros são sensores resistivos de posição angular ou linear por contato mecânico (como em juntas robóticas simples). Eles não são sensores inerciais.
+
+• (D) **Incorreta. potenciômetros e tacômetros:** Tacômetros medem a velocidade de rotação de um eixo mecânico (como o motor de um carro) e potenciômetros medem deslocamento. Nenhum dos dois opera sob o princípio da inércia para navegação livre.
+
+• (E) **Incorreta. tacômetros e magnetômetros:** O tacômetro é de uso rotativo local e o magnetômetro mede campos magnéticos. Eles não suprem a medição de aceleração linear e velocidade angular exigidas por uma IMU.
+
+**Gabarito: (B)**
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  46
 
@@ -3291,9 +3827,65 @@ Um controlador PID introduz na malha aberta de um sistema de controle
 (E)  &nbsp; dois zeros ajustáveis e um polo nulo
 
 ---
+
+#### Classificação da Área de Conhecimento
+
+* **Área de Conhecimento:** Engenharia de Controle e Automação
+* **Sub-áreas:** Modelagem e Sintonia de Controladores / Resposta em Frequência / Ação de Controle PID.
+
+---
+
+#### Justificativa Detalhada e Análise das Alternativas
+
+Para compreender os efeitos que um controlador PID introduz na malha aberta de um sistema de controle, devemos analisar matematicamente a sua **função de transferência** no domínio da frequência complexa (Laplace).
+
+A equação temporal clássica de um controlador PID paralelo ideal é dada por:
+
+$$c(t)=K_{p}\,e(t)+K_{i}\int _{0}^{t}e(\tau )d\tau +K_{d}\,\frac{de(t)}{dt}$$
+
+Aplicando a Transformada de Laplace (considerando condições iniciais nulas), obtemos a função de transferência do controlador $G_c(s)$:
+
+$$G_{c}(s)=K_{p}+\frac{K_{i}}{s}+K_{d}\,s$$
+
+Para analisar a quantidade e a natureza dos polos e zeros introduzidos, devemos colocar toda a expressão sobre um **denominador comum**:
+
+$$G_{c}(s)=\frac{K_{p}\cdot s+K_{i}+K_{d}\cdot s^{2}}{s}$$
+
+Reordenando os termos do numerador em ordem decrescente de potência:
+
+$$G_{c}(s)=\frac{K_{d}\,s^{2}+K_{p}\,s+K_{i}}{s}$$
+
+#### Análise de Polos e Zeros do Controlador PID:
+
+1. **Polos (Raízes do Denominador):**  
+O denominador possui apenas o termo $s$. Igualando a zero ($s = 0$), identificamos um único polo localizado na origem, o qual é chamado tecnicamente de polo nulo ou integrador puro.
+
+2. **Zeros (Raízes do Numerador):**  
+O numerador é um polinômio de segundo grau ($K_d \, s^2 + K_p \, s + K_i = 0$). Pelo Teorema Fundamental da Álgebra, equações quadráticas possuem exatamente **dois zeros.**  
+Como a localização dessas raízes no plano complexo depende diretamente dos valores escolhidos para os ganhos proporcional ($K_{p}$), integral ($K_{i}$) e derivativo ($K_{d}$), esses **dois zeros são totalmente ajustáveis** pelo projetista durante a sintonia do controlador.
+
+Dessa forma, conclui-se que o controlador PID insere na malha aberta **dois zeros ajustáveis e um polo nulo**.
+
+---
+
+#### Análise das Alternativas
+
+• (A) **Incorreta. zeros nulos:** Zeros nulos seriam raízes na origem (termos multiplicativos em $s$ isolados no numerador), o que faria o controlador zerar o sinal em regime permanente, algo que o PID não faz.
+
+• (B) **Incorreta. polos não nulos:** O polo do PID está localizado exatamente na origem ($s=0$), portanto ele é um polo nulo (integrador).
+
+• (C) **Incorreta. dois zeros nulos e um polo ajustável:** É o inverso. Os zeros são ajustáveis por meio da sintonia dos ganhos, e o polo é fixo na origem (nulo).
+
+• (D) **Incorreta. dois zeros e dois polos ajustáveis:** Uma estrutura PID ideal paralela introduz apenas um único polo. Dois polos ajustáveis exigiriam filtros derivados de segunda ordem incorporados ao controlador, o que modificaria a estrutura padrão ideal analisada na questão.
+
+• **(E) CORRETA. dois zeros ajustáveis e um polo nulo:** Perfeito. O polinômio quadrático no numerador gera dois zeros que mudam de posição conforme sintonizamos os ganhos, e o termo $s$ isolado no denominador gera o integrador (polo nulo na origem).
+
+**Gabarito: (E)**
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  47
 
@@ -3308,7 +3900,7 @@ Os sistemas de atuação hidráulicos são recomendados quando são necessárias
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  48
 
@@ -3323,7 +3915,7 @@ Uma forma de onda periódica que possui somente o primeiro harmônico (ou frequ�
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  49
 
@@ -3339,7 +3931,7 @@ O período mínimo, em µs, do sinal a ser corretamente digitalizado (evitando &
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  50
 
@@ -3355,7 +3947,7 @@ A parte real de e^(i\*ω\*t) é
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  51
 
@@ -3372,7 +3964,7 @@ Verifica-se que esse transdutor
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  52
 
@@ -3387,7 +3979,7 @@ Para que esse acelerômetro forneça uma resposta adequada na sua faixa útil (d
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  53
 
@@ -3404,7 +3996,7 @@ NÃO é um dos atributos usualmente associados a amplificadores operacionais ide
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  54
 
@@ -3422,7 +4014,7 @@ Dado: √2 = 1,4 ; √3 = 1,7
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  55
 
@@ -3447,7 +4039,7 @@ Dado:
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  56
 
@@ -3466,7 +4058,7 @@ Nessas configurações, qual é a função de ter Q0.0 em paralelo a I0.0 no dia
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  57
 
@@ -3485,7 +4077,7 @@ Se esse equipamento de medição tem erro máximo de 1 cm numa medição de uma 
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  58
 
@@ -3506,7 +4098,7 @@ Supondo que o fluxo de dados no link seja constante a uma taxa de 4 MB/s, qual a
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  59
 
@@ -3523,7 +4115,7 @@ NÃO faz parte desse ciclo a(o)
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  60
 
@@ -3542,7 +4134,7 @@ Assumindo que as saídas dos bicos injetores são abertas uma vez a cada rotaç�
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  61
 
@@ -3558,7 +4150,7 @@ Supondo que os diodos D1, D2, D3 e D4 são ideais, a forma de onda esperada para
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  62
 
@@ -3575,7 +4167,7 @@ Se é do interesse escolher um nível de luminosidade específico, não bastando
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  63
 
@@ -3592,7 +4184,7 @@ Essas pulseiras devem ser usadas durante a manutenção de microcomputadores
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  64
 
@@ -3609,7 +4201,7 @@ Um gateway é chamado, ou adjetivado, de repetidor quando a conversão de protoc
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  65
 
@@ -3626,7 +4218,7 @@ O nó central cuja função é o chaveamento entre as estações que desejam com
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  66
 
@@ -3643,7 +4235,7 @@ Nesse algoritmo, cada processo
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  67
 
@@ -3658,7 +4250,7 @@ Uma das características principais da linguagem de programação Prolog é o us
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  68
 
@@ -3673,7 +4265,7 @@ A capacidade de um programa examinar em tempo de execução seus tipos e estrutu
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  69
 
@@ -3690,7 +4282,7 @@ Nesse caso, a implementação deve ser desenvolvida tendo como base o serviço d
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as deidas sub-áreas de conhecimento);
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
   - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
 ###  70
 
