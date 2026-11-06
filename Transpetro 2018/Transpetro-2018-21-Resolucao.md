@@ -3945,26 +3945,297 @@ Uma forma de onda periódica que possui somente o primeiro harmônico (ou frequ�
   <tbody>
     <tr>
       <td>
-      (A)
+      (A) &nbsp;
       </td> 
       <td>
        <img src="./img/Questao-48-a.png" alt="Onda triangular" width="100"/> 
       </td>
     </tr>
-
+    <tr>
+      <td>
+      (B) &nbsp;
+      </td> 
+      <td>
+       <img src="./img/Questao-48-b.png" alt="Onda retangular" width="100"/> 
+      </td>
+    </tr>
+    <tr>
+      <td>
+      (C) &nbsp;
+      </td> 
+      <td>
+       <img src="./img/Questao-48-c.png" alt="Onda dente de serra" width="100"/> 
+      </td>
+    </tr>    
+        <tr>
+      <td>
+      (D) &nbsp;
+      </td> 
+      <td>
+       <img src="./img/Questao-48-d.png" alt="Onda quadrada" width="100"/> 
+      </td>
+    </tr>
+    <tr>
+      <td>
+      (E) &nbsp;
+      </td> 
+      <td>
+       <img src="./img/Questao-48-e.png" alt="Onda senoidal" width="100"/> 
+      </td>
+    </tr>    
   </tbody>
 </table>
 
-(B)  &nbsp; retangular  
-(C)  &nbsp; dente de serra  
-(D)  &nbsp; quadrada  
-(E)  &nbsp; senoidal
+---
+
+A alternativa correta é a **(E)** (onda senoidal).
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia Elétrica / Circuitos de Corrente Alternada
+* **Sub-área:**
+  * Sinais e Sistemas (sinais periódicos e análise espectral);
+  * Análise de Fourier (Série de Fourier e espectro de amplitudes);
+  * Qualidade de Energia (harmônicos e distorção harmônica total, THD)
+  * Formas de onda (senoidal, quadrada, triangular, dente de serra, pulsos).
+
+---
+
+#### Conceitos Fundamentais
+
+* **Frequência fundamental (1º harmônico):** componente senoidal cuja frequência é igual à da onda periódica, $\displaystyle f_1 = \frac{1}{T}$.
+* **Harmônicos superiores:** componentes de frequência $ \displaystyle f_n = nf_1$, com n = 2, 3, 4, ...
+  * **Harmônicos ímpares:** n = 3, 5, 7, ...
+  * **Harmônicos pares:** n = 2, 4, 6, ...
+* **Série de Fourier:** toda onda periódica que satisfaz as condições de Dirichlet pode ser escrita como
+
+  $$x(t) = A_0 + Σ A_n · sen(n\omega_1t + \varphi_n)$$
+  
+  * com n = 1, 2, 3, ...  
+
+  em que $A_0$ é o nível médio (componente contínua, CC), $A_1$ é a amplitude da fundamental e $A_n$ (n ≥ 2) são as amplitudes dos harmônicos superiores.
+* **Distorção harmônica total (THD):** &nbsp; $$\displaystyle THD =\frac{\sqrt{\left(A_2^2 + A_3^2 + A_4^2 + \ldots\right)}}{ A_1}$$ Uma onda tem **somente o primeiro harmônico** quando THD = 0, e isso só ocorre na senoide pura.
+
+---
+
+#### Condições de Dirichlet
+
+As **condições de Dirichlet** são um conjunto de requisitos **suficientes** para que um sinal periódico $x(t)$, de período $T$, possa ser representado por uma Série de Fourier que **converge** para o próprio sinal. Elas respondem à pergunta: "toda onda periódica tem Série de Fourier?". Para as ondas de interesse prático, sim.
+
+**As três condições (em um período T):**
+
+1. **Absolutamente integrável:** a área sob o módulo do sinal deve ser finita.
+
+   $\int |x(t)| \, dt < \infty$ (integral sobre um período)
+
+   Isso garante que os coeficientes $A_n$ existam e sejam finitos.
+
+2. **Número finito de máximos e mínimos:** o sinal não pode oscilar infinitas vezes em um período (variação limitada).
+
+3. **Número finito de descontinuidades, todas finitas:** o sinal pode ter "saltos", mas em quantidade finita e de tamanho finito (sem tender ao infinito).
+
+**Comportamento da convergência**
+
+* Nos pontos onde $x(t)$ é **contínua**, a série converge para o **valor do próprio sinal**.
+* Nos pontos de **descontinuidade** ($t_0$), a série converge para a **média dos limites laterais**:
+
+  $$x(t_0) = \frac{\left[x\left({t_0}^+\right) + x\left({t_0}^-\right)\right]}{2}$$
+
+
+  Por exemplo, em uma onda quadrada que salta de −1 para +1, a série vale **0** exatamente no instante do salto.
+* **Fenômeno de Gibbs:** perto de uma descontinuidade, a soma parcial da série apresenta um "sobressinal" de cerca de **9% do tamanho do salto**. Esse valor **não diminui** ao se acrescentar mais harmônicos. Apenas a região afetada fica mais estreita.
+
+**Exemplos de sinais que NÃO satisfazem as condições**
+
+| Sinal | Condição violada |
+|-------|------------------|
+| $\displaystyle x(t) = \frac{1}{t}$ (repetido periodicamente) | Não é absolutamente integrável (a área é infinita) |
+| $x(t) = \tan(t)$ | Descontinuidades infinitas e área infinita |
+| $\displaystyle x(t) = \operatorname{sen}\left(\frac{1}{t}\right)$, para $0 < t ≤ T$ | Infinitos máximos e mínimos em um período finito |
+| Escada com degraus cada vez menores, acumulando-se em um ponto | Infinitas descontinuidades em um período |
+
+**Aplicação à questão**
+
+As cinco formas de onda das alternativas (triangular, retangular, dente de serra, quadrada e senoidal) **satisfazem as três condições**: são limitadas, têm poucos máximos e mínimos, e as descontinuidades (quando existem) são saltos finitos. Portanto **todas** possuem Série de Fourier. O que muda de uma para outra é o **conteúdo harmônico**, não a existência da série.
+
+| Onda | Descontinuidades? | Série de Fourier existe? | Só o 1º harmônico? |
+|------|:-----------------:|:------------------------:|:------------------:|
+| Triangular | Não (tem "quinas") | Sim | Não |
+| Retangular | Sim (saltos finitos) | Sim | Não |
+| Dente de serra | Sim (saltos finitos) | Sim | Não |
+| Quadrada | Sim (saltos finitos) | Sim | Não |
+| Senoidal | Não | Sim | **Sim** |
+
+**Pontos de atenção para a prova**
+
+* As condições de Dirichlet são **suficientes, não necessárias**: existem sinais que as violam e ainda assim admitem representação em série de Fourier em outro sentido (por exemplo, convergência em média quadrática). Cuidado com enunciados que as tratem como "necessárias e suficientes".
+* Uma onda pode ter **descontinuidades** e mesmo assim satisfazer Dirichlet, desde que sejam **finitas e em quantidade finita**.
+* O fenômeno de Gibbs é consequência direta das descontinuidades. Ele **não aparece** na onda senoidal nem, de forma relevante, na triangular (que é contínua).
+
+---
+
+#### Justificativa Detalhada
+
+De acordo com a **Série de Fourier**, qualquer forma de onda periódica **não senoidal** pode ser decomposta em uma soma de componentes senoidais: a frequência fundamental (primeiro harmônico) e múltiplos inteiros dela, os harmônicos superiores. O que distingue uma forma de onda da outra é o **conjunto de harmônicos** presente (pares, ímpares ou ambos) e a **velocidade com que a amplitude decresce** com a ordem n.
+
+A única forma de onda periódica cujo espectro tem **apenas a frequência fundamental**, sem nenhum harmônico superior, é a **onda senoidal pura**. As demais têm arestas, descontinuidades ou mudanças bruscas de inclinação, e essas características só são sintetizáveis somando senoides de frequências mais altas.
+
+---
+
+#### Análise das Alternativas:
+
+* **(A) Onda triangular:** Incorreta. Contém **somente harmônicos ímpares** (1º, 3º, 5º, ...), com amplitude proporcional a **$\displaystyle \mathbf{\frac{1}{n^2}}$**. Decai rápido, mas os harmônicos superiores existem.
+
+  * Série: $\displaystyle x(t) = \left(\frac{8}{\pi^2}\right) \left[\operatorname{sen}(ωt) − \left(\frac{1}{9}\right)\operatorname{sen}(3ωt) + \left(\frac{1}{25}\right)\operatorname{sen}(5ωt) − \ldots \right]$
+
+* **(B) Onda retangular:** Incorreta. Em um trem de pulsos retangulares com razão cíclica (duty cycle) diferente de 50%, o espectro contém **harmônicos pares e ímpares**, além de **nível CC**. A envoltória das amplitudes segue uma função sinc, e alguns harmônicos podem se anular conforme a razão cíclica (por exemplo, o 4º harmônico para duty de 25%).
+  * Só se restringe a harmônicos ímpares quando o duty é de exatamente 50% e a onda não tem componente CC, caso em que ela se torna a onda quadrada.
+
+* **(C) Onda dente de serra:** Incorreta. Contém **todos os harmônicos, pares e ímpares**, com amplitude proporcional a **$\displaystyle \mathbf{\frac{1}{n}}$**. 
+
+  * Série: $\displaystyle x(t) = \left(\frac{2}{\pi}\right)  \left[\operatorname{sen}\left(ωt\right) − \left(\frac{1}{2}\right)\operatorname{sen}\left(2ωt\right) + \left(\frac{1}{3}\right)\operatorname{sen}\left(3ωt\right) − \ldots\right]$
+
+* **(D) Onda quadrada:** Incorreta. É composta **exclusivamente por harmônicos ímpares**, com amplitude proporcional a **$\displaystyle \mathbf{\frac{1}{n}}$**. O decaimento é lento, o que explica as transições abruptas e o fenômeno de Gibbs. 
+
+  * Série: $\displaystyle x(t) = \left(\frac{4}{\pi}\right) \left[\operatorname{sen}(ωt) + \left(\frac{1}{3}\right) \operatorname{sen}(3ωt) + \left(\frac{1}{5}\right) \operatorname{sen}(5ωt) + \ldots \right]$
+
+* **(E) Onda senoidal:** **Correta.** Representa uma função seno pura de frequência única, $x(t) = A\operatorname{sen}(ωt + \varphi)$. Seu espectro tem **uma única linha**, na frequência fundamental. Tem **THD = 0**.
+
+---
+
+#### Quadro-resumo
+
+| Alternativa | Forma de onda | Harmônicos presentes | Decaimento de Aₙ | Só o 1º harmônico? |
+|:-----------:|---------------|----------------------|:----------------:|:------------------:|
+| (A) | Triangular | Ímpares | 1/n² | Não |
+| (B) | Retangular (duty ≠ 50%) | Pares e ímpares + CC | Envoltória sinc | Não |
+| (C) | Dente de serra | Pares e ímpares | 1/n | Não |
+| (D) | Quadrada (duty = 50%) | Ímpares | 1/n | Não |
+| (E) | **Senoidal** | **Somente o 1º** | — | **Sim** |
+
+---
+
+#### Análie das formas de onda utilizando python
+  
+O script utilizado foi disponibilizado na pasta python e está acessível através deste link:
+
+[Análise das formas de onda utilizando python na questão 48](./python/questao-48-harmonicos.py)
+
+O script analisa as cinco formas de onda presentes nas alternativas da questão 48.
+
+Resultado da análise:
+
+```bash
+==============================================================================
+QUESTÃO 48 - Amplitudes dos harmônicos (onda normalizada)
+==============================================================================
+Alt. Forma de onda                        THD   Conteúdo harmônico
+------------------------------------------------------------------------------
+(A)  Onda triangular                   0.1212   1º + harmônicos superiores ímpares
+(B)  Onda retangular (duty 25%)        0.9223   1º + harmônicos superiores ímpares e pares
+(C)  Onda dente de serra               0.8031   1º + harmônicos superiores ímpares e pares
+(D)  Onda quadrada                     0.4834   1º + harmônicos superiores ímpares
+(E)  Onda senoidal                     0.0000   somente o 1º harmônico
+------------------------------------------------------------------------------
+
+Amplitude relativa ao 1º harmônico (A_k / A_1):
+  k |    (A)    |    (B)    |    (C)    |    (D)    |    (E)   
+---------------------------------------------------------------
+  1 |   1.0000  |   1.0000  |   1.0000  |   1.0000  |   1.0000 
+  2 |     0     |   0.7071  |   0.5000  |     0     |     0    
+  3 |   0.1111  |   0.3333  |   0.3333  |   0.3333  |     0    
+  4 |     0     |     0     |   0.2500  |     0     |     0    
+  5 |   0.0400  |   0.2000  |   0.2000  |   0.2000  |     0    
+  6 |     0     |   0.2357  |   0.1667  |     0     |     0    
+  7 |   0.0204  |   0.1429  |   0.1429  |   0.1429  |     0    
+  8 |     0     |     0     |   0.1250  |     0     |     0    
+  9 |   0.0123  |   0.1111  |   0.1111  |   0.1111  |     0    
+ 10 |     0     |   0.1414  |   0.1000  |     0     |     0    
+
+>>> Alternativa(s) com SOMENTE o 1º harmônico: E
+>>> Gabarito confirmado: (E) Onda senoidal.
+
+==============================================================================
+CONDIÇÕES DE DIRICHLET - Fenômeno de Gibbs (onda quadrada, salto = 2)
+==============================================================================
+ Harm. (K) |   Pico da soma parcial |   Sobressinal (% do salto)
+------------------------------------------------------------------
+         5 |                 1.1884 |                      9.42%
+        21 |                 1.1797 |                      8.98%
+       101 |                 1.1790 |                      8.95%
+       501 |                 1.1790 |                      8.95%
+------------------------------------------------------------------
+Limite teórico do sobressinal: ~8,95% do salto (não diminui com K).
+Série em x = 0,5 (descontinuidade): 0.000000  -> média dos limites laterais (+1 e -1) = 0
+>>> Fenômeno de Gibbs confirmado (sobressinal ~9% independente de K).
+
+==============================================================================
+FUNÇÃO SINC - A_n = 2*A*d*|sinc(n*d)|  versus FFT (trem de pulsos 0/1)
+==============================================================================
+
+duty = 25%  |  CC = 0.2500 (esperado A*d = 0.2500)
+  Harmônicos nulos (n*d inteiro): [4, 8, 12]
+  Erro máximo |teoria - FFT| para n=1..15: 8.74e-07
+    n |      FFT |  2d|sinc(nd)| |  A_n/A_1
+    1 |   0.4502 |        0.4502 |   1.0000
+    2 |   0.3183 |        0.3183 |   0.7071
+    3 |   0.1501 |        0.1501 |   0.3333
+    4 |   0.0000 |        0.0000 |   0.0000
+    5 |   0.0900 |        0.0900 |   0.2000
+
+duty = 50%  |  CC = 0.5000 (esperado A*d = 0.5000)
+  Harmônicos nulos (n*d inteiro): [2, 4, 6, 8, 10, 12, 14]
+  Erro máximo |teoria - FFT| para n=1..15: 9.36e-07
+    n |      FFT |  2d|sinc(nd)| |  A_n/A_1
+    1 |   0.6366 |        0.6366 |   1.0000
+    2 |   0.0000 |        0.0000 |   0.0000
+    3 |   0.2122 |        0.2122 |   0.3333
+    4 |   0.0000 |        0.0000 |   0.0000
+    5 |   0.1273 |        0.1273 |   0.2000
+```
+
+##### Figura 1 - Formas de onda e seus espectros de Fourier
+
+<img src="./img/Questao-48-Figure-1.png" alt="Formas de onda e seus espectros de Fourier" />
+
+##### Figura 2 - Reconstrução por Série de Fourier: só a senoide dispensa harmônicos superiores
+
+<img src="./img/Questao-48-Figure-2.png" alt="Reconstrução por Série de Fourier: só a senoide dispensa harmônicos superiores"/>
+
+##### Figura 3 - Séries de Fourier teóricas (somas parciais)
+
+<img src="./img/Questao-48-Figure-3.png" alt="Séries de Fourier teóricas (somas parciais)"/>
+
+##### Figura 4 - Condições de Dirichiet: convergência na descontinuidade e fenômeno de Gibbs
+
+<img src="./img/Questao-48-Figure-4.png" alt="Condições de Dirichiet: convergência na descontinuidade e fenômeno de Gibbs"/>
+
+##### Figura 5 - Função sinc: envoltória dos harmônicos de um trem de pulsos retangulares
+
+<img src="./img/Questao-48-Figure-5.png" alt="Função sinc: envoltória dos harmônicos de um trem de pulsos retangulares"/>
+
+---
+
+#### Dicas para a prova
+
+* Se a pergunta for sobre "somente a fundamental", a resposta é sempre a **senoide**. Qualquer onda com quinas, degraus ou retas é não senoidal e, portanto, tem harmônicos.
+* **Simetria de meia onda** (como na quadrada e na triangular simétricas) implica ausência de harmônicos pares.
+* **Quanto mais abruptas as transições**, mais lento o decaimento do espectro: a quadrada e a dente de serra $\displaystyle \left(\frac{1}{n}\right)$ têm muito mais conteúdo harmônico que a triangular $\displaystyle \left(\frac{1}{n^2}\right)$.
+* Em instalações elétricas, cargas não lineares (conversores, retificadores, inversores) distorcem a corrente e injetam harmônicos na rede. Por isso a THD é um indicador de qualidade de energia.
+
 
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  49
 
 Num sistema de aquisição de dados, é prevista a digitalização de um sinal analógico de período constante. A frequência de amostragem máxima do conversor A/D (Analógico-Digital) que fará essa digitalização é de 100 KHz.
@@ -3977,29 +4248,231 @@ O período mínimo, em µs, do sinal a ser corretamente digitalizado (evitando &
 (E)  &nbsp; 200
 
 ---
+
+A alternativa correta é a **(C) 20**.
+
+---
+
+### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia Elétrica / Engenharia de Automação
+* **Sub-áreas e Itens Correlatos:**
+* **Processamento Digital de Sinais (PDS):** Amostragem de sinais contínuos, Teorema da Amostragem de Nyquist-Shannon, frequência de amostragem ($f_s$), frequência máxima de banda ($f_{max}$), prevenção de *aliasing* (sobreposição espectral) e filtros antialiasing.
+* **Sistemas de Aquisição de Dados (SAD):** Conversores Analógico-Digitais (A/D), taxas de amostragem e conversão temporal.
+
+---
+
+#### Conceitos Fundamentais
+
+1. **Teorema da Amostragem (Nyquist-Shannon):** Para que um sinal analógico limitado em banda possa ser perfeitamente reconstruído a partir de suas amostras discretas sem perda de informação (evitando o fenômeno de *aliasing*), a frequência de amostragem ($f_s$) deve ser estritamente maior que o dobro da maior frequência presente no sinal ($f_{max}$):
+
+$$f_s > 2 f_{max} \quad \text{ou} \quad f_{max} \le \frac{f_s}{2}$$
+
+
+2. **Frequência de Nyquist:** O limite crítico $f_N = \frac{f_s}{2}$ define a frequência máxima do sinal que pode ser corretamente digitalizada.
+3. **Relação entre Período e Frequência:** O período ($T$) de um sinal periódico é o inverso de sua frequência ($f$):
+
+$$T = \frac{1}{f} \implies f = \frac{1}{T}$$
+
+---
+
+#### Quadro-Resumo
+
+| Parâmetro | Valor / Expressão | Descrição |
+| --- | --- | --- |
+| Frequência de amostragem ($f_s$) | $100\text{ kHz} = 100 \times 10^3\text{ Hz}$ | Taxa máxima de conversão do conversor A/D |
+| Frequência máxima do sinal ($f_{max}$) | $\frac{f_s}{2} = 50\text{ kHz}$ | Limite superior para evitar *aliasing* |
+| Período mínimo do sinal ($T_{min}$) | $\frac{1}{f_{max}} = \frac{1}{50\text{ kHz}} = 20\ \mu\text{s}$ | Menor período correspondente à frequência máxima |
+
+---
+
+#### Pontos de Atenção para a Prova
+
+* **Cuidado com as unidades:** O enunciado fornece a frequência em kHz e pede o resultado em microssegundos ($\mu s$). É fundamental dominar a conversão de unidades temporais ($1\text{ ms} = 10^{-3}\text{ s}$ e $1\text{ s} = 10^6\ \mu\text{s}$).
+* **Inversão de Razão:** O examinador tenta confundir o candidato induzindo-o a calcular diretamente $1 / f_s$ (o que daria $10\ \mu\text{s}$, correspondente à metade do período correto). Lembre-se de que o período mínimo do sinal exige calcular a frequência máxima de Nyquist primeiro.
+
+---
+
+#### Justificativa Detalhada
+
+Para evitar o fenômeno de *aliasing* (distorção espectral), a frequência de amostragem ($f_s$) deve atender ao critério de Nyquist:
+
+
+$$f_s \ge 2 f_{max}$$
+
+Como o problema fornece a frequência de amostragem máxima de $100\text{ kHz}$, podemos isolar a frequência máxima suportada pelo sistema sem perda de fidelidade:
+
+
+$$f_{max} \le \frac{f_s}{2}$$
+
+$$f_{max} \le \frac{100\text{ kHz}}{2} = 50\text{ kHz}$$
+
+O enunciado solicita o **período mínimo** ($T_{min}$) do sinal a ser corretamente digitalizado. O menor período possível corresponde à maior frequência admissível ($f_{max}$):
+
+
+$$T_{min} = \frac{1}{f_{max}} = \frac{1}{50 \times 10^3\text{ Hz}} = 0,00002\text{ s}$$
+
+Convertendo para microssegundos ($\mu\text{s}$):
+
+
+$$T_{min} = 20 \times 10^{-6}\text{ s} = 20\ \mu\text{s}$$
+
+Portanto, o período mínimo do sinal deve ser de $20\ \mu\text{s}$, o que valida a alternativa **(C)**.
+
+---
+
+#### Análise das Alternativas
+
+* **(A) 5:** Incorreta. Resultaria de um erro de fator 4 na relação de cálculo entre a frequência de amostragem e o período.
+* **(B) 10:** Incorreta. Corresponde ao inverso direto da frequência de amostragem ($1 / 100\text{ kHz} = 10\ \mu\text{s}$), representando o período de amostragem do conversor e não o período mínimo do sinal analisado.
+* **(C) 20:** **Correta.** Obtida corretamente calculando o inverso da frequência limite de Nyquist ($50\text{ kHz}$), resultando em $20\ \mu\text{s}$.
+* **(D) 100:** Incorreta. Confunde o valor numérico da frequência de amostragem com o período temporal.
+* **(E) 200:** Incorreta. Decorre de uma duplicação incorreta no cálculo do período.
+
+---
+
+#### Dicas para a Prova (Banca Cesgranrio)
+
+1. **Associação Rápida:** Sempre que a Cesgranrio cobrar Nyquist envolvendo período e frequência, lembre-se do fluxo mental: $f_s \rightarrow f_{max} = f_s / 2 \rightarrow T_{min} = 1 / f_{max}$.
+2. **Atenção aos Detalhes:** A banca adora colocar nas alternativas os "distratores parciais" (como o valor de $10\ \mu\text{s}$ na letra B). Faça o cálculo por etapas e confira as unidades antes de marcar a resposta definitiva.
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  50
 
-Considere a exponencial complexa e^(i\*ω\*t), onde &quot;e&quot; é a base do logaritmo natural, &quot;i&quot; é a unidade imaginária (i² = -1), e &quot;ω&quot; e &quot;t&quot; são números reais.
-A parte real de e^(i\*ω\*t) é
+Considere a exponencial complexa $\displaystyle e^{i \omega t}$, onde &quot;e&quot; é a base do logaritmo natural, &quot;$i$&quot; é a unidade imaginária ($i^2$ = -1), e &quot;ω&quot; e &quot;$t$&quot; são números reais.
+A parte real de $\displaystyle e^{i\omega t}$ é
 
-(A)  &nbsp; cos(ωt) + sen(ωt)  
-(B)  &nbsp; cos(ωt)  
-(C)  &nbsp; sen(ωt)  
+(A)  &nbsp; $\cos(\omega t) + \operatorname{sen}(\omega t)$  
+(B)  &nbsp; $\cos(ωt)$  
+(C)  &nbsp; $\operatorname{sen}(ωt)$  
 (D)  &nbsp; 1  
-(E)  &nbsp; e
+(E)  &nbsp; $e$
+
+---
+
+A alternativa correta é a **(B) $\cos(\omega t)$**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Matemática / Análise Matemática e Engenharia Elétrica
+* **Sub-áreas e Itens Correlatos:**
+* **Números Complexos:** Forma polar, exponencial complexa, fórmula de Euler, partes real e imaginária de números complexos.
+* **Sinais e Sistemas / Análise de Fourier:** Representação de sinais harmônicos e senoidais no domínio do tempo usando exponenciais complexas.
+
+
+
+---
+
+#### Conceitos Fundamentais
+
+1. **Fórmula de Euler:** Estabelece a relação fundamental entre a exponencial complexa e as funções trigonométricas para qualquer número real $\theta$ (neste caso, $\theta = \omega t$):
+
+$$e^{i \theta} = \cos(\theta) + i \operatorname{sen}(\theta)$$
+
+
+2. **Partes Real e Imaginária:** Dado um número complexo na forma retangular $z = a + bi$ (onde $a$ e $b$ são reais), a sua parte real é $\text{Re}(z) = a$ e a sua parte imaginária é $\text{Im}(z) = b$.
+
+---
+
+#### Quadro-Resumo
+
+| Expressão Complexa | Forma Trigonométrica (Euler) | Parte Real | Parte Imaginária |
+| --- | --- | --- | --- |
+| $e^{i \omega t}$ | $\cos(\omega t) + i \operatorname{sen}(\omega t)$ | $\cos(\omega t)$ | $\operatorname{sen}(\omega t)$ |
+
+---
+
+#### Pontos de Atenção para a Prova
+
+* **Distinção entre Real e Imaginário:** A banca costuma colocar nas alternativas tanto a parte real quanto a parte imaginária (ou a soma de ambas). Lembre-se sempre:
+* **Parte real:** associada ao operador $\cos(\theta)$.
+* **Parte imaginária:** associada ao operador $\operatorname{sen}(\theta)$ (sem incluir o fator $i$ na própria parte imaginária).
+
+
+
+---
+
+#### Justificativa Detalhada
+
+Aplicando diretamente a **Fórmula de Euler** para a exponencial complexa fornecida no enunciado ($e^{i\omega t}$), onde o argumento é $\theta = \omega t$:
+
+$$e^{i\omega t} = \cos(\omega t) + i \operatorname{sen}(\omega t)$$
+
+Como $\omega$ e $t$ são números reais, os termos $\cos(\omega t)$ e $\operatorname{sen}(\omega t)$ também são estritamente reais. O termo que multiplica a unidade imaginária $i$ é o seno, enquanto o termo isolado é o cosseno.
+
+Portanto, a **parte real** da expressão é $\cos(\omega t)$.
+
+---
+
+#### Análise das Alternativas
+
+* **(A) $\cos(\omega t) + \operatorname{sen}(\omega t)$:** Incorreta. Representa a soma algébrica das partes real e imaginária (sem o operador $i$), e não apenas a parte real.
+* **(B) $\cos(\omega t)$:** **Correta.** Corresponde exatamente ao componente real da expansão de Euler da exponencial complexa.
+* **(C) $\operatorname{sen}(\omega t)$:** Incorreta. Representa a *parte imaginária* do número complexo (o coeficiente que multiplica $i$).
+* **(D) 1:** Incorreta. Valor resultante apenas se o argumento do expoente fosse zero ($\omega t = 0$).
+* **(E) $e$:** Incorreta. Confunde a base do logaritmo natural com o resultado da função trigonométrica.
+
+---
+
+#### Dicas para a Prova (Banca Cesgranrio)
+
+1. **Decore a Identidade de Euler:** Em questões de engenharia e sinais, a conversão entre fasores, senoidais e exponenciais complexas ($e^{j\theta}$ ou $e^{i\theta}$) é recorrente. Tenha sempre em mente que o cosseno é a projeção no eixo real (horizontal) e o seno no eixo imaginário (vertical).
+
+---
+---
+
+**Considere a resposta em frequência de um acelerômetro, entre a tensão de saída e a aceleração de entrada, para um conjunto de parâmetros típicos, mostrada nos Diagramas de Bode da Figura. Essas informações referem-se às questões de n<sup><u>os</u></sup> 51 e 52.**
+
+<img src="./img/Questoes-51-52.png" alt="Diagramas de Bode" width="700" />
+
+</br>
+
+[Repsdução e análise dos diagramas de bode para as questões 51 e 52](./python/questao-51-52-bode-acelerometro.py)
+
+<img src="./img/Questoes-51-52-python.png" alt="Diagramas de Bode (tensão de saída / aceleração)" width="700" />
+
+#### Análise
+
+```bash
+   w [rad/s]   modulo [dB]   fase [graus]
+         0.1        -132.0           89.4
+         1.0        -112.0           84.3
+        10.0         -95.0           45.0
+       100.0         -92.0            5.7
+      1000.0         -91.8            0.4
+      3000.0         -89.8           -0.5
+      6300.0         -58.0          -89.9
+     10000.0         -95.6         -178.7
+    100000.0        -140.0         -179.9
+
+Faixa util 100-1000 rad/s: modulo medio = -92.0 dB
+Ganho aproximado do amplificador: 92 dB
+Maior valor de modulo em todo o espectro: -58.0 dB (< 0 dB)
+Figura salva em: bode_acelerometro.png
+```
 
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  51
-
-Considere a resposta em frequência de um acelerômetro, entre a tensão de saída e a aceleração de entrada, para um conjunto de parâmetros típicos, mostrada nos Diagramas de Bode da Figura. Essas informações referem-se às questões de n os 51 e 52.
 
 Verifica-se que esse transdutor
 
@@ -4010,10 +4483,94 @@ Verifica-se que esse transdutor
 (E)  &nbsp; não apresenta uma faixa de atenuação constante.
 
 ---
+
+Gabarito considerado: **(A)**, informado à IA.
+
+#### 1. Área de conhecimento
+
+**Área:** Instrumentação e Controle (Automação).
+
+| Sub-área | Itens relacionados |
+|---|---|
+| Sensores e transdutores | Acelerômetros, princípio massa-mola-amortecedor, sensibilidade (V por m/s²) |
+| Resposta em frequência | Diagramas de Bode (módulo e fase), faixa útil, frequência de ressonância |
+| Sistemas dinâmicos | Sistemas de 2ª ordem subamortecidos, fator de amortecimento (ζ), frequência natural (ωn), fator de qualidade (Q) |
+| Condicionamento de sinais | Ganho e atenuação em dB, filtros passa-alta, passa-baixa e passa-faixa, amplificação |
+
+#### 2. Conceitos fundamentais
+
+- **Módulo em dB:** 20·log|G(jω)|. Valor negativo significa saída menor que a entrada (atenuação). Valor positivo significa amplificação. **0 dB** é o limite entre os dois.
+- **Filtro:** sistema que atenua a amplitude do sinal. Em Bode, o critério direto é comparar o módulo com 0 dB.
+- **Ressonância:** pico no módulo e queda de fase de 180° em um sistema de 2ª ordem pouco amortecido. Aqui o pico é de ≈ 34 dB acima do patamar (Q ≈ 50).
+- **Faixa útil do acelerômetro:** trecho plano do módulo, onde a sensibilidade é constante. Fica abaixo da ressonância.
+- **Sensibilidade:** razão entre a tensão de saída e a aceleração de entrada. Um patamar em −92 dB corresponde a ≈ 2,5×10⁻⁵ V por m/s².
+
+#### 3. Quadro-resumo
+
+Valores lidos da figura e conferidos com o script em Python.
+
+| Região | Frequência (rad/s) | Módulo | Fase |
+|---|---|---|---|
+| Baixas frequências | 0,1 a 10 | −132 a −95 dB (sobe 20 dB/década) | +90° a +45° |
+| Patamar (faixa útil) | 10 a 3000 | ≈ −92 dB | ≈ 0° |
+| Ressonância | ≈ 6300 | pico de ≈ −58 dB | queda para −180° |
+| Altas frequências | > 7000 | cai 40 dB/década até ≈ −140 dB | −180° |
+
+**Fato decisivo:** o maior módulo de todo o espectro é −58 dB, **abaixo de 0 dB**. Em nenhuma frequência a saída supera a entrada.
+
+#### 4. Pontos de atenção para a prova
+
+- **Leia o valor absoluto do módulo, não só a forma da curva.** Toda a curva está abaixo de 0 dB, então há atenuação em qualquer frequência.
+- **"Sempre" não é automaticamente armadilha.** Aqui ele é verdadeiro porque nada na curva chega a 0 dB. Confira o gráfico antes de eliminar pelo absoluto.
+- **Ressonância não é amplificação em sentido absoluto.** O pico de −58 dB é maior que o patamar, mas continua muito abaixo de 0 dB.
+- **Patamar plano em dB negativo é sensibilidade constante**, que define a faixa útil. É diferente de ausência de atenuação.
+- **A leitura da banca é pelo valor em dB.** Minha primeira resolução marcou (B) por olhar só a forma da curva (sobe, plano, desce), e essa leitura não coincide com o gabarito.
+
+#### 5. Justificativa detalhada
+
+1. **Região de baixa frequência:** o módulo parte de −132 dB e sobe até o patamar. Está sempre abaixo de 0 dB, portanto há atenuação.
+2. **Patamar (10 a 3000 rad/s):** o módulo é ≈ −92 dB, ou seja, ganho linear de ≈ 2,5×10⁻⁵. O sinal de saída é muito menor que o de entrada. Atenuação constante.
+3. **Ressonância (≈ 6300 rad/s):** o módulo sobe a −58 dB (ganho linear ≈ 1,3×10⁻³). É um realce local, mas continua atenuando em relação à entrada.
+4. **Altas frequências:** o módulo cai 40 dB por década até ≈ −140 dB. Atenuação crescente.
+
+**Conclusão:** em toda a faixa de 0,1 a 10⁵ rad/s o módulo é negativo em dB. O transdutor **sempre** reduz a amplitude do sinal, o que sustenta a alternativa (A).
+
+**Ressalva técnica:** em instrumentação, um ganho fixo e pequeno no patamar é sensibilidade, e não necessariamente filtragem. A alternativa (A) só se sustenta pela leitura que a banca faz, de atenuação permanente em todo o espectro. É a leitura coerente com o gabarito que você informou.
+
+#### 6. Análise das alternativas
+
+A confiabilidade é uma estimativa de a alternativa ser a correta, dado o gabarito (A) e a leitura do gráfico. Não é um dado estatístico.
+
+| Alt. | Afirmação | Análise | Confiabilidade |
+|---|---|---|---|
+| **A** | sempre atua como um filtro | Módulo negativo em todas as frequências, sem faixa com ganho ≥ 0 dB. O "sempre" é verdadeiro. **Correta.** | **≈ 88%** |
+| **B** | é um filtro para altas e baixas frequências | Plausível pela forma de passa-faixa, mas a atenuação nas bordas é suave, há ressonância no meio, e o enunciado é ambíguo. Foi a minha resposta inicial. | **≈ 8%** |
+| **C** | amplifica sinais de alta frequência | O pico de −58 dB fica muito abaixo de 0 dB, e depois dele o módulo cai. Não há amplificação. | **≈ 2%** |
+| **D** | não apresenta ressonâncias | Há pico nítido e queda de fase de 0° para −180° perto de 6300 rad/s. Falsa. | **≈ 0%** |
+| **E** | não apresenta uma faixa de atenuação constante | O patamar em ≈ −92 dB é justamente uma faixa de atenuação constante. Falsa. | **≈ 2%** |
+
+Os 12% fora de (A) refletem que o gabarito não foi encontrado, sendo a alternativa (A) confirmada para a IA, tornando a confiabilidade de (A) ser praticamente 100%.
+
+#### 7. Dicas para a prova
+
+1. **Leia o eixo do módulo antes da forma.** Verifique se a curva cruza 0 dB. Se nunca cruza, o sistema só atenua.
+2. **Teste cada alternativa contra um ponto concreto do gráfico**, como o patamar, o pico ou a extremidade, e não contra uma impressão geral.
+3. **Separe forma de valor:** a forma (sobe, plano, desce) indica o tipo de resposta, e o valor em dB indica atenuação ou ganho.
+4. **Use o par módulo e fase para identificar ressonância:** pico no módulo mais queda de 180° na fase.
+5. **Aproveite o mesmo gráfico na questão 52.** Na faixa útil de 100 a 1000 rad/s o módulo é ≈ −92 dB, então o amplificador precisa de ganho de ≈ **+92 dB**, e a opção mais próxima é a de 100 dB. Confira com o enunciado completo, pois só vi parte das alternativas.
+
+#### ✅ Gabarito considerado: **(A)**
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  52
 
 Para que esse acelerômetro forneça uma resposta adequada na sua faixa útil (de 100 rad/s a 1000 rad/s), é necessário um amplificador adicional na saída, de ganho aproximado
@@ -4025,33 +4582,191 @@ Para que esse acelerômetro forneça uma resposta adequada na sua faixa útil (d
 (E)  &nbsp; 200 db
 
 ---
+
+Resposta obtida por cálculo: **(D) 100 dB**.
+
+#### 1. Área de conhecimento
+
+**Área:** Instrumentação e Controle (Automação).
+
+| Sub-área | Itens relacionados |
+|---|---|
+| Sensores e transdutores | Acelerômetros, sensibilidade (V por m/s²), faixa útil de medição |
+| Resposta em frequência | Leitura do módulo no Diagrama de Bode, patamar plano, ressonância |
+| Condicionamento de sinais | Amplificadores de instrumentação, ganho em dB, compensação de sensibilidade |
+| Álgebra de decibéis | Conversão dB para razão linear, soma de ganhos em cascata |
+
+### 2. Conceitos fundamentais
+
+- **Ganho em dB:** $20\log_{10}$(razão de tensões). Ganhos em cascata **somam** em dB.
+- **Resposta adequada:** saída com amplitude comparável à entrada, ou seja, módulo total próximo de **0 dB** na faixa útil.
+- **Compensação:** se o sensor atenua em −X dB, o amplificador precisa de **+X dB** para que o conjunto fique em 0 dB.
+- **Faixa útil:** trecho plano do módulo. Aqui o patamar é praticamente constante, então um único ganho fixo compensa toda a faixa.
+- **Conversão:** $20 dB = 10, 40 dB = 100, 92 dB \approx 4×10⁴, 100 dB = 10⁵$.
+
+## 3. Quadro-resumo
+
+| Grandeza | Valor |
+|---|---|
+| Faixa útil | 100 a 1000 rad/s |
+| Módulo do acelerômetro na faixa | ≈ −92 dB (≈ 2,5×10⁻⁵ em razão linear) |
+| Variação do módulo na faixa | menos de 0,3 dB (−92,0 em 100 rad/s, −91,8 em 1000 rad/s) |
+| Módulo desejado na saída | ≈ 0 dB |
+| Ganho necessário | **≈ +92 dB** |
+| Alternativa mais próxima | **100 dB** (diferença de 8 dB) |
+
+## 4. Pontos de atenção para a prova
+
+- **O sinal do ganho importa.** O sensor atenua, então a compensação é positiva. A alternativa de −100 dB piora a situação.
+- **Em prova de múltipla escolha o valor é aproximado.** O enunciado diz "ganho aproximado", então escolha a opção mais próxima de 92 dB, mesmo sem coincidir exatamente.
+- **Ler o patamar no eixo certo.** O patamar fica em −92 dB, entre −90 e −100 no eixo do módulo. Não confunda com o pico de −58 dB.
+- **Não use o pico de ressonância como referência.** Ele fica em ≈ 6300 rad/s, fora da faixa útil de 100 a 1000 rad/s.
+- **Resposta adequada é 0 dB, não 0 de ganho linear.** 0 dB de ganho significa ganho unitário, o que não compensa nada.
+
+## 5. Justificativa detalhada
+
+1. **Leitura do módulo na faixa útil.** Entre 100 e 1000 rad/s a curva é praticamente plana em ≈ −92 dB. Por isso um único ganho fixo resolve a faixa inteira.
+2. **Critério de resposta adequada.** Para a saída acompanhar a entrada com amplitude comparável, o módulo total (acelerômetro mais amplificador) deve ficar em ≈ 0 dB.
+3. **Cálculo.**
+
+   ganho do amplificador (dB) = 0 − (−92) = **+92 dB**
+
+   Em razão linear, isso é 10^(92/20) ≈ 4×10⁴. Para cada unidade de entrada, o amplificador precisa multiplicar por cerca de 40 mil vezes.
+4. **Escolha da alternativa.** Entre as opções, +100 dB é a mais próxima de +92 dB. Com ela o módulo total fica em ≈ +8 dB, ou seja, uma folga de ≈ 2,5× em amplitude, aceitável para uma resposta "aproximada".
+5. **Verificação cruzada.** O script em Python calcula o módulo médio na faixa útil e retorna −92,0 dB, o que dá ganho de 92 dB. Isso confirma a leitura do gráfico.
+
+## 6. Análise das alternativas
+
+A confiabilidade é minha estimativa de a alternativa ser a correta, com base no cálculo e na leitura do gráfico. Não é um dado estatístico.
+
+| Alt. | Ganho | Módulo total resultante | Análise | Confiabilidade |
+|---|---|---|---|---|
+| **A** | −100 dB | ≈ −192 dB | Ganho negativo atenua ainda mais o sinal, sentido oposto ao necessário. Falsa. | **≈ 1%** |
+| **B** | 0 dB | ≈ −92 dB | Ganho unitário não compensa nada. O sinal continua 40 mil vezes menor que a entrada. Falsa. | **≈ 2%** |
+| **C** | 50 dB | ≈ −42 dB | Compensa só metade da atenuação em dB. O sinal ainda fica muito atenuado. Falsa. | **≈ 4%** |
+| **D** | 100 dB | ≈ +8 dB | Mais próxima do ganho necessário de 92 dB. **Correta** pela leitura do gráfico. | **≈ 90%** |
+| **E** | 200 dB | ≈ +108 dB | Ganho muito acima do necessário. O erro seria de 108 dB, uma amplificação de ≈ 2,5×10⁵. Falsa. | **≈ 3%** |
+
+Os 10% fora de (D) refletem que eu não confirmei o gabarito oficial. Se o seu gabarito marcar (D), a confiabilidade é praticamente 100%.
+
+## 7. Dicas para a prova
+
+1. **Resolva em dB, sem converter para razão linear.** A conta é só subtração: ganho = 0 − (módulo do sensor).
+2. **Leia o patamar na região pedida.** Use sempre a faixa do enunciado (100 a 1000 rad/s), não o pico nem o início da curva.
+3. **Elimine por sinal e por ordem de grandeza.** −100 dB e 0 dB saem por sinal e por inutilidade. 50 dB e 200 dB saem por estarem longe de 92 dB.
+4. **Aproximação de leitura.** Em gráficos de prova, o patamar entre −90 e −100 dB leva à opção 100 dB. A diferença de 8 dB é esperada.
+5. **Cuide da escala do eixo vertical.** Cada divisão do módulo no gráfico vale 10 dB. Um erro de uma divisão já muda a conta.
+6. **Associe as duas questões.** A questão 51 pede a leitura do módulo (sempre abaixo de 0 dB), e a 52 pede a compensação desse mesmo valor. Uma leitura correta serve para as duas.
+
+## ✅ Resposta por cálculo: **(D) 100 dB**
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  53
 
 Um amplificador operacional processa pequenos sinais de modo diferencial que aparecem entre suas duas entradas, desenvolvendo um sinal de saída. Os amplificadores operacionais reais se afastam dos atributos considerados ideais, mas são úteis, para a compreensão de primeiro nível do comportamento do amplificador operacional, considerando-se válidos esses atributos.
 
+>JUNG, Walter G.. **Op Amp Applications Handbook**. EUA: 
+Newnes / Elsevier, 2005. 878 p. Copyright (c) by Analog 
+Devices. Adaptado. 
+
 NÃO é um dos atributos usualmente associados a amplificadores operacionais ideais a(o)
 
 (A)  &nbsp; impedância de entrada infinita  
-(B)  &nbsp; tensão de offset zero entre as entradas  
+(B)  &nbsp; tensão de *offset* zero entre as entradas  
 (C)  &nbsp; corrente zero nas entradas  
 (D)  &nbsp; sensibilidade à tensão em modo comum na entrada  
 (E)  &nbsp; ganho diferencial infinito
 
 ---
+
+A alternativa correta é a **(D) sensibilidade à tensão em modo comum na entrada**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia Elétrica / Eletrônica Analógica
+* **Sub-áreas e Itens Correlatos:**
+* **Amplificadores Operacionais (Op Amps):** Características de amplificadores operacionais ideais e reais, ganho em malha aberta, impedância de entrada e saída, correntes de polarização (*bias*), tensão de *offset* e Rejeição de Modo Comum (CMRR).
+* **Circuitos Lineares:** Análise de circuitos com realimentação utilizando amplificadores operacionais sob a aproximação ideal.
+
+
+
+---
+
+#### Conceitos Fundamentais
+
+1. **Amplificador Operacional Ideal:** É um modelo matemático simplificado utilizado na análise de circuitos eletrônicos que assume propriedades extremas (infinitas ou nulas) para facilitar o cálculo analítico sem perda significativa de precisão em primeira aproximação.
+2. **Rejeição de Modo Comum (CMRR):** Um Op Amp ideal amplifica apenas a diferença de tensão entre suas entradas (sinal diferencial) e rejeita completamente qualquer sinal comum a ambas as entradas (sinal em modo comum). Isso significa que ele possui **ganho em modo comum nulo** e, portanto, **nenhuma sensibilidade à tensão em modo comum** (o que equivale a um CMRR infinito).
+
+---
+
+#### Quadro-Resumo
+
+| Parâmetro / Característica | Valor no Op Amp Ideal | Significado Físico / Conceitual |
+| --- | --- | --- |
+| **Ganho Diferencial ($A_{OL}$)** | Infinito ($\infty$) | Garante que a tensão diferencial entre as entradas seja praticamente nula quando há realimentação negativa. |
+| **Impedância de Entrada ($R_{in}$)** | Infinito ($\infty$) | Nenhuma corrente drena para os terminais de entrada. |
+| **Corrente de Entrada ($I_{in}$)** | Zero ($0$) | Consequência direta da impedância de entrada infinita. |
+| **Tensão de Offset ($V_{os}$)** | Zero ($0$) | Com saídas nulas quando a entrada diferencial é zero. |
+| **Rejeição a Modo Comum (CMRR)** | Infinito ($\infty$) | **Insensibilidade completa** a tensões aplicadas igualmente em ambas as entradas. |
+
+---
+
+#### Pontos de Atenção para a Prova
+
+* **O Comando "NÃO É":** Questões de múltipla escolha que utilizam termos excludentes ("NÃO é") exigem muita atenção para não marcar a característica correta de um componente real confundindo-a com o modelo ideal.
+* **Modo Comum:** Lembre-se de que a rejeição a modo comum ideal é infinita, logo a *sensibilidade* a esse modo deve ser **nula**, e não presente.
+
+---
+
+#### Justificativa Detalhada
+
+As características clássicas associadas a um amplificador operacional ideal incluem: ganho diferencial infinito ($A_{OL} = \infty$), impedância de entrada infinita ($R_{in} = \infty$), correntes de entrada iguais a zero, tensão de *offset* nula e impedância de saída nula ($R_{out} = 0$).
+
+Além disso, um Op Amp ideal rejeita perfeitamente qualquer sinal que apareça simultaneamente e com a mesma amplitude em suas duas entradas (sinal em modo comum). Isso significa que o ganho em modo comum é zero e o **CMRR (Common-Mode Rejection Ratio)** é infinito. Portanto, um amplificador operacional ideal **não possui sensibilidade à tensão em modo comum**, tornando a alternativa (D) a resposta correta para o que **não** pertence ao conjunto de atributos ideais.
+
+---
+
+#### Análise das Alternativas
+
+* **(A) impedância de entrada infinita:** Atributo ideal verdadeiro. Garante que nenhuma corrente flua para os terminais de entrada do componente.
+* **(B) tensão de offset zero entre as entradas:** Atributo ideal verdadeiro. Significa que, com tensão de entrada diferencial nula, a saída também é exatamente zero.
+* **(C) corrente zero nas entradas:** Atributo ideal verdadeiro, decorrente diretamente da impedância de entrada infinita.
+* **(D) sensibilidade à tensão em modo comum na entrada:** **Correta (Gabarito).** É um atributo incorreto para o modelo ideal, pois o Op Amp ideal possui *rejeição infinita* a sinais em modo comum (ou seja, sensibilidade nula).
+* **(E) ganho diferencial infinito:** Atributo ideal verdadeiro. Fundamental para a aplicação da regra do curto virtual na análise de circuitos com realimentação negativa.
+
+---
+
+#### Dicas para a Prova (Banca Cesgranrio)
+
+1. **Decore o "Pacote Ideal":** Sempre revise os 4 pilares do Op Amp ideal antes da prova: $A = \infty$, $R_{in} = \infty$, $R_{out} = 0$ e $\text{CMRR} = \infty$. Qualquer variação disso nas alternativas aponta para comportamentos reais ou incorretos.
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  54
 
 Ao medir um sinal puramente senoidal num osciloscópio, foi verificado que a tensão pico a pico medida era de 40 V.
 Qual o valor RMS eficaz aproximado desse sinal?
 
-Dado: √2 = 1,4 ; √3 = 1,7
+Dado: $\sqrt{2} = 1,4; \sqrt{3} = 1,7$
 
 (A)  &nbsp; 28,0 V  
 (B)  &nbsp; 14,0 V  
@@ -4060,10 +4775,101 @@ Dado: √2 = 1,4 ; √3 = 1,7
 (E)  &nbsp; 8,50 V
 
 ---
+
+A alternativa correta é a **(B) 14,0 V**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia Elétrica / Circuitos de Corrente Alternada
+* **Sub-áreas e Itens Correlatos:**
+* **Circuitos Elétricos de CA:** Valores característicos de sinais senoidais (valor de pico, valor pico a pico e valor RMS ou eficaz).
+* **Instrumentação Básica:** Utilização e leitura de formas de onda em osciloscópios.
+
+
+
+---
+
+#### Conceitos Fundamentais
+
+1. **Tensão Pico a Pico ($V_{pp}$):** É a diferença entre o valor máximo (pico positivo) e o valor mínimo (pico negativo) de uma forma de onda senoidal simétrica:
+
+$$V_{pp} = 2 \cdot V_p$$
+
+
+2. **Tensão de Pico ($V_p$):** Representa a amplitude máxima do sinal senoidal em relação ao eixo de referência (zero):
+
+$$V_p = \frac{V_{pp}}{2}$$
+
+
+3. **Valor RMS (Root Mean Square / Eficaz):** Corresponde ao valor de uma tensão contínua equivalente que produziria a mesma dissipação de potência em uma carga resistiva. Para um sinal puramente senoidal, a relação com o valor de pico é dada por:
+
+$$V_{rms} = \frac{V_p}{\sqrt{2}} = \frac{V_{pp}}{2\sqrt{2}}$$
+
+
+
+---
+
+#### Quadro-Resumo
+
+| Parâmetro | Relação / Fórmula | Valor Aplicado à Questão |
+| --- | --- | --- |
+| **Tensão Pico a Pico ($V_{pp}$)** | Dado no enunciado | $40\text{ V}$ |
+| **Tensão de Pico ($V_p$)** | $\displaystyle \frac{V_{pp}}{2}$ | $\displaystyle \frac{40}{2} = 20\text{ V}$ |
+| **Valor RMS ($V_{rms}$) / Eficaz** | $\displaystyle \frac{V_p}{\sqrt{2}} = \frac{V_{pp}}{2\sqrt{2}}$ | $\displaystyle \frac{20}{1,4} \approx 14,28\text{ V} \approx 14,0\text{ V}$ |
+
+---
+
+#### Pontos de Atenção para a Prova
+
+* **Armadilha com o valor Pico a Pico:** O erro clássico do candidato é aplicar a divisão por $\sqrt{2}$ diretamente sobre a tensão pico a pico ($40 / 1,4 \approx 28,57\text{ V}$). Note que a alternativa **(A)** traz exatamente esse valor como distrator para pegar quem comete esse deslize.
+* **Uso das aproximações:** Utilize estritamente os dados fornecidos pelo enunciado ($\sqrt{2} = 1,4$) para alinhar seu cálculo com o gabarito da banca.
+
+---
+
+#### Justificativa Detalhada
+
+O enunciado informa que a tensão pico a pico ($V_{pp}$) medida no osciloscópio é de $40\text{ V}$.
+
+Primeiramente, calculamos a tensão de pico ($V_p$) do sinal:
+
+
+$$V_p = \frac{V_{pp}}{2} = \frac{40\text{ V}}{2} = 20\text{ V}$$
+
+Em seguida, aplicamos a relação para encontrar o valor RMS (eficaz) utilizando a aproximação fornecida ($\sqrt{2} = 1,4$):
+
+
+$$V_{rms} = \frac{V_p}{\sqrt{2}} = \frac{20}{1,4} = \frac{200}{14} \approx 14,2857\text{ V}$$
+
+Arredondando para o valor aproximado correspondente nas alternativas, obtemos **$14,0\text{ V}$**, o que valida a alternativa **(B)**.
+
+---
+
+#### Análise das Alternativas
+
+* **(A) 28,0 V:** Incorreta. É o distrator clássico obtido ao dividir diretamente a tensão pico a pico por $\sqrt{2}$ ($40 / 1,4 \approx 28,57\text{ V}$), esquecendo de converter para a tensão de pico primeiro.
+* **(B) 14,0 V:** **Correta.** Obtida corretamente dividindo a tensão de pico ($20\text{ V}$) por $\sqrt{2}$ ($1,4$), resultando em aproximadamente $14,28\text{ V}$.
+* **(C) 17,0 V:** Incorreta. Valor resultante de operações incorretas envolvendo razões trigonométricas ou fatores inadequados.
+* **(D) 20,0 V:** Incorreta. Corresponde apenas à tensão de pico ($V_p$), e não ao valor RMS eficaz solicitado.
+* **(E) 8,50 V:** Incorreta. Valor sem correspondência com as fórmulas fundamentais de sinais senoidais.
+
+---
+
+#### Dicas para a Prova (Banca Cesgranrio)
+
+1. **Atenção aos Distratores Estruturados:** A banca elabora as alternativas colocando os valores intermediários do cálculo (como o $20\text{ V}$ na letra D) e o erro conceitual direto (como o $28\text{ V}$ na letra A). Faça os cálculos por etapas (Pico a Pico $\rightarrow$ Pico $\rightarrow$ RMS) para não cair nessas armadilhas.
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  55
 
 Em um ambiente de controle de processos, um dos principais componentes de um sistema PIMS (Process Information Management System) consiste no historiador de processos. Historiadores, são softwares responsáveis por colher os dados de diversas fontes (sensores, sistemas SCADA, DCS, etc.) e armazená-los em um banco de dados temporal. Para armazenar os dados coletados, historiadores geralmente são executados em microcomputadores (servidores), utilizando discos rígidos internos ou externos.
@@ -4085,17 +4891,131 @@ Dado:
 (E)  &nbsp; 31,1 TB
 
 ---
+
+A alternativa correta é a **(D) 15,6 TB**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia de Automação / Sistemas de Informação e Controle Industrial
+* **Sub-áreas e Itens Correlatos:**
+* **Sistemas PIMS (*Process Information Management System*) e Historiadores:** Arquitetura de armazenamento de dados industriais, amostragem temporal, taxas de gravação e volumetria de dados.
+* **Infraestrutura de Dados e Computação:** Unidades de medida de armazenamento digital (Bytes, MB, GB, TB) e taxas de compressão de dados.
+
+
+
+---
+
+#### Conceitos Fundamentais
+
+1. **Taxa de Amostragem Temporal:** A frequência de amostragem ($f$) é o inverso do intervalo de tempo entre as amostras ($T$). Se um sensor envia dados a cada $50\text{ ms}$ ($0,05\text{ s}$), a frequência é de $20\text{ Hz}$ (20 amostras por segundo).
+2. **Volumetria de Dados:** O espaço total de armazenamento ($V$) depende do número de sensores, da frequência de envio, do tamanho de cada pacote de dados e do tempo total de retenção.
+3. **Taxa de Compressão (2:1):** Significa que os dados compactados ocupam metade do volume original sem compressão ($\text{Volume}_{\text{comprimido}} = \frac{\text{Volume}_{\text{bruto}}}{2}$).
+4. **Conversão de Unidades Comerciais (Padrão Decimal):**
+* $1\text{ ano} = 360\text{ dias}$
+* $1\text{ dia} = 24\text{ horas} = 86.400\text{ segundos}$
+* $1\text{ TB} = 10^{12}\text{ bytes}$ ($1.000\text{ GB}$)
+
+
+
+---
+
+#### Quadro-Resumo
+
+| Parâmetro | Valor Utilizado | Descrição / Cálculo |
+| --- | --- | --- |
+| **Número de Sensores ($N$)** | $1.000$ | Fontes geradoras de dados |
+| **Frequência por Sensor ($f$)** | $20\text{ amostras/s}$ | $\frac{1}{0,05\text{ s}}$ |
+| **Tamanho do Pacote** | $10\text{ bytes/amostra}$ | Carga útil de dados por envio |
+| **Taxa de Geração Total** | $200.000\text{ bytes/s}$ | $1.000 \times 20\text{ amostras/s} \times 10\text{ bytes}$ |
+| **Tempo Total (5 anos)** | $155.520.000\text{ segundos}$ | $5 \times 360 \times 24 \times 3.600$ |
+| **Volume Bruto (Sem Compressão)** | $\approx 31,104\text{ TB}$ | $200.000\text{ bytes/s} \times 155.520.000\text{ s}$ |
+| **Volume Líquido (Com Compressão)** | $\approx 15,552\text{ TB}$ | Dividido por 2 (taxa de compressão 2:1) |
+
+---
+
+#### Pontos de Atenção para a Prova
+
+* **Cuidado com a pegadinha da compressão:** A alternativa **(E)** ($31,1\text{ TB}$) corresponde exatamente ao volume calculado *sem* aplicar a taxa de compressão de 2:1. A banca coloca essa armadilha para pegar candidatos que esquecem de dividir o valor final pela metade.
+* **Atenção ao ano comercial:** O enunciado define explicitamente que $1\text{ ano} = 360\text{ dias}$. Não utilize 365 dias para não alterar o resultado dos segundos totais.
+
+---
+
+#### Justificativa Detalhada
+
+Vamos calcular o volume de dados passo a passo:
+
+1. **Taxa de geração de dados por segundo de um único sensor:**
+
+$$\text{Taxa}_{\text{sensor}} = \frac{1\text{ amostra}}{0,05\text{ s}} \times 10\text{ bytes} = 20\text{ am/s} \times 10\text{ bytes} = 200\text{ bytes/s}$$
+
+
+2. **Taxa de geração de dados combinada de todos os $1.000$ sensores:**
+
+$$\text{Taxa}_{\text{total}} = 1.000 \times 200\text{ bytes/s} = 200.000\text{ bytes/s}$$
+
+
+3. **Quantidade total de segundos em 5 anos (considerando 1 ano = 360 dias):**
+
+$$\text{Segundos/dia} = 24\text{ h} \times 60\text{ min} \times 60\text{ s} = 86.400\text{ s}$$
+
+
+$$\text{Segundos/ano} = 360 \times 86.400\text{ s} = 31.104.000\text{ s}$$
+
+
+$$\text{Segundos em 5 anos} = 5 \times 31.104.000\text{ s} = 155.520.000\text{ s}$$
+
+
+4. **Volume de dados bruto (não comprimido) gerado no período:**
+
+$$\text{Volume}_{\text{bruto}} = 200.000\text{ bytes/s} \times 155.520.000\text{ s} = 31.104.000.000.000\text{ bytes} = 31,104\text{ TB}$$
+
+
+5. **Aplicação da taxa de compressão de 2:1:**
+
+$$\text{Volume}_{\text{comprimido}} = \frac{31,104\text{ TB}}{2} = 15,552\text{ TB} \approx 15,6\text{ TB}$$
+
+
+
+O valor obtido aproxima-se perfeitamente da alternativa **(D)**.
+
+---
+
+#### Análise das Alternativas
+
+* **(A) 8,6 MB:** Incorreta. Ordem de grandeza totalmente incompatível com o volume de dados industriais acumulados ao longo de anos.
+* **(B) 3,1 TB:** Incorreta. Representa um erro de fator 10 ou equívoco nos cálculos temporais.
+* **(C) 6,2 TB:** Incorreta. Erro decorrente de divisões incorretas no fator de compressão ou tempo.
+* **(D) 15,6 TB:** **Correta.** Valor exato obtido após o cômputo completo da volumetria e aplicação da taxa de compressão 2:1 ($15,552\text{ TB}$).
+* **(E) 31,1 TB:** Incorreta. Distrator crítico que indica o volume total calculado *antes* de aplicar a compressão de 2:1.
+
+---
+
+#### Dicas para a Prova (Banca Cesgranrio)
+
+1. **Divida o problema em blocos:** Resolva primeiro a taxa por segundo (frequência $\times$ tamanho do pacote $\times$ número de itens), depois calcule o tempo total em segundos e multiplique. Deixe a compressão por último.
+2. **Fique atento a potências de 10:** Como a banca padronizou $1\text{ TB} = 1.000\text{ GB} = 1.000.000\text{ MB}$, os cálculos com potências de 10 tornam-se diretos ao cortar zeros.
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  56
-
+<!--Observação: o diagrama utliza "1" no lugar "I"! -->
 O diagrama de um programa em linguagem Ladder, mostrado na Figura abaixo, representa o controle de acionamento de um motor. Esse programa foi carregado em um CLP (Controlador Lógico Programável).
 
-Sabe-se que I0.0 é referente a um botão de PARTIR normalmente aberto, que I0.1 é referente a um botão de PARAR normalmente fechado, e que Q0.0 é uma saída normalmente aberta, ligada a um contato que precisa ser energizado para ligar um motor.
+<img src="./img/Questao-56.png" alt="Diagrama de um programa em linguagem Ladder" width="300"/>
 
-Nessas configurações, qual é a função de ter Q0.0 em paralelo a I0.0 no diagrama?
+Sabe-se que 10.0 é referente a um botão de PARTIR normalmente aberto, que 10.1 é referente a um botão de PARAR normalmente fechado, e que Q0.0 é uma saída normalmente aberta, ligada a um contato que precisa ser energizado para ligar um motor.
+
+Nessas configurações, qual é a função de ter Q0.0 em paralelo a 10.0 no diagrama?
 
 (A)  &nbsp; Ser uma alternativa para a partida do motor, mesmo com o botão PARAR acionado.  
 (B)  &nbsp; Manter o motor ligado após o botão de PARTIR ser acionado e depois ser liberado.  
@@ -4104,10 +5024,89 @@ Nessas configurações, qual é a função de ter Q0.0 em paralelo a I0.0 no dia
 (E)  &nbsp; Na configuração estabelecida, não apresenta função.
 
 ---
+
+A alternativa correta é a **(B) Manter o motor ligado após o botão de PARTIR ser acionado e depois ser liberado**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia de Automação / Automação Industrial
+* **Sub-áreas e Itens Correlatos:**
+* **Controladores Lógicos Programáveis (CLP / PLC):** Linguagem Ladder (norma IEC 61131-3), lógica combinacional e sequencial, relés virtuais e instruções de retenção.
+* **Acionamentos Elétricos e Comandos:** Circuitos de comando para motores industriais, botoeiras de impulso (pulsadores) e circuitos de selo/retenção.
+
+
+
+---
+
+#### Conceitos Fundamentais
+
+1. **Linguagem Ladder:** É uma linguagem de programação gráfica amplamente utilizada em CLPs, estruturada com base nos antigos diagramas de comandos elétricos a relés, utilizando "linhas de energia" (rungs) horizontais.
+2. **Contato de Selo (Retenção ou *Latch*):** Em comandos elétricos e lógica Ladder, as botoeiras de partida tradicionais são do tipo pulso (retorno por mola, NA — Normalmente Aberto). Quando o operador pressiona o botão, o sinal é enviado, mas ao soltar, o botão abre novamente. Para que o sistema permaneça ligado após o operador soltar o botão, utiliza-se um contato auxiliar da própria saída ($Q0.0$) em **paralelo** com a entrada de partida ($10.0$), criando um caminho alternativo para a corrente lógica.
+
+---
+
+#### Quadro-Resumo
+
+| Elemento do Diagrama | Função Principal no Circuito | Estado / Comportamento |
+| --- | --- | --- |
+| **$10.0$ (PARTIR)** | Botão de pulso de entrada (NA) | Inicia o ciclo de acionamento ao ser pressionado.
+
+ |
+| **$10.1$ (PARAR)** | Contato de segurança/desligamento | Corta a linha lógica quando acionado (interrupção em série).
+
+ |
+| **$Q0.0$ (Contato em paralelo)** | **Selo / Retenção** | Mantém a lógica fechada após o botão de PARTIR ser solto.
+
+ |
+| **$Q0.0$ (Bobina de Saída)** | Acionamento do motor | Energiza o atuador físico correspondente ao motor.
+
+ |
+
+---
+
+#### Pontos de Atenção para a Prova
+
+* **Identificação Visual do Selo:** Sempre que você visualizar um contato associado à saída ($Q0.0$) colocado em **paralelo** com o contato de entrada responsável por ligar o sistema ($10.0$), trata-se do clássico **circuito de selo**.
+* **Diferença entre Paralelo e Série:** O contato de selo fica em *paralelo* com a partida para manter o circuito fechado, enquanto o botão de parada ($10.1$) fica em *série* para interromper a alimentação da linha quando acionado.
+
+---
+
+#### Justificativa Detalhada
+
+Quando o operador aciona o botão de PARTIR ($10.0$), o contato fecha e a energia lógica passa por $10.1$ (PARAR), energizando a saída $Q0.0$.
+
+No instante em que $Q0.0$ é energizada, o contato auxiliar aberto $Q0.0$ (posicionado em paralelo com $10.0$) fecha instantaneamente. Quando o operador retira o dedo do botão de PARTIR ($10.0$), este retorna à sua posição aberta, interrompendo o fluxo por aquele ramo superior. No entanto, o circuito continua fechado pelo ramo inferior através do contato auxiliar $Q0.0$ em paralelo. Essa realimentação garante que o motor permaneça ligado de forma contínua até que o botão de PARAR ($10.1$) seja acionado.
+
+---
+
+#### Análise das Alternativas
+
+* **(A) Ser uma alternativa para a partida do motor, mesmo com o botão PARAR acionado:** Incorreta. O botão PARAR ($10.1$) está em série na linha lógica; se ele estiver aberto/acionado, corta a continuidade de toda a linha, impedindo a partida ou mantendo o desligamento.
+* **(B) Manter o motor ligado após o botão de PARTIR ser acionado e depois ser liberado:** **Correta.** Descreve com exatidão a função primária do circuito de selo (retenção) implementado pelo contato $Q0.0$ em paralelo.
+
+
+* **(C) Desligar o motor, caso o botão de PARTIR seja acionado após o motor estar funcionando:** Incorreta. Pressionar a botoeira de partida novamente com o sistema já energizado não altera o estado do selo nem desliga o motor.
+* **(D) Manter o motor ligado, independentemente do acionamento dos botões de PARTIR e PARAR:** Incorreta. O circuito depende do botão PARAR para ser desligado; se o botão PARAR for acionado, o motor desliga imediatamente.
+* **(E) Na configuração estabelecida, não apresenta função:** Incorreta. O arranjo em paralelo possui uma função lógica fundamental e indispensável em comandos industriais (o selo).
+
+---
+
+#### Dicas para a Prova (Banca Cesgranrio)
+
+1. **Associação Mental Rápida:** Viu contato de saída em paralelo com a entrada de start em questão de CLP? A resposta certa sempre envolverá **"manter ligado"**, **"retenção"** ou **"selo"**.
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  57
 
 No processo de modernização de uma refinaria, é comum se começarem os trabalhos fazendo-se um varrimento laser (laser scan), que consiste no uso de um equipamento ótico que faz milhões de medições precisas de distâncias 3D, a partir de um ou mais pontos dentro das instalações.
@@ -4123,13 +5122,103 @@ Se esse equipamento de medição tem erro máximo de 1 cm numa medição de uma 
 (E)  &nbsp; 1%
 
 ---
+
+A alternativa correta é a **(C) 0,01%**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia de Instrumentação / Engenharia de Projetos Industriais
+* **Sub-áreas e Itens Correlatos:**
+* **Metrologia e Medições Industriais:** Erro de medição, erro absoluto, erro relativo percentual, precisão e exatidão de instrumentos ópticos.
+* **Engenharia de Planta e As-Built:** Tecnologias de digitalização tridimensional (*laser scan*) e levantamento de campo.
+
+
+
+---
+
+#### Conceitos Fundamentais
+
+1. **Erro Absoluto ($E_{abs}$):** É a diferença máxima tolerada ou estimada entre o valor medido e o valor real. No problema, o erro máximo é dado como $1\text{ cm}$.
+2. **Valor de Referência / Distância Medida ($V_{ref}$):** É a grandeza total de referência sobre a qual o erro incide. No problema, a distância total é de $100\text{ m}$.
+3. **Erro Relativo Percentual ($E_{\%}$):** É a razão entre o erro absoluto e o valor de referência, multiplicada por $100$ para expressar o resultado em porcentagem:
+
+$$E_{\%} = \left( \frac{E_{abs}}{V_{ref}} \right) \times 100\%$$
+
+
+
+---
+
+#### Quadro-Resumo
+
+| Parâmetro | Valor / Unidade | Conversão para Mesma Unidade |
+| --- | --- | --- |
+| **Erro Máximo Absoluto ($E_{abs}$)** | $1\text{ cm}$ | $0,01\text{ m}$ |
+| **Distância Total ($V_{ref}$)** | $100\text{ m}$ | $100\text{ m}$ |
+| **Fórmula do Erro Relativo** | $\frac{E_{abs}}{V_{ref}} \times 100\%$ | $\frac{0,01\text{ m}}{100\text{ m}} \times 100\%$ |
+
+---
+
+#### Pontos de Atenção para a Prova
+
+* **Homogeneidade de Unidades:** O erro é dado em centímetros ($1\text{ cm}$) e a distância em metros ($100\text{ m}$). **Sempre converta as grandezas para a mesma unidade** antes de realizar a divisão (neste caso, convertendo $1\text{ cm}$ para $0,01\text{ m}$).
+
+---
+
+#### Justificativa Detalhada
+
+Para encontrar o valor percentual do erro máximo associado à medição, calculamos o erro relativo percentual utilizando os valores convertidos para a mesma unidade:
+
+1. Convertendo o erro absoluto de centímetros para metros:
+
+$$1\text{ cm} = 0,01\text{ m}$$
+
+
+2. Aplicando os valores na fórmula do erro relativo percentual:
+
+$$E_{\%} = \left( \frac{0,01\text{ m}}{100\text{ m}} \right) \times 100\%$$
+
+
+3. Efetuando a divisão e multiplicando por 100%:
+
+$$E_{\%} = 0,0001 \times 100\% = 0,01\%$$
+
+
+
+Portanto, o erro máximo associado é de **0,01%**, o que valida o gabarito oficial na alternativa **(C)**.
+
+---
+
+#### Análise das Alternativas
+
+* **(A) 0,0001%:** Incorreta. Corresponde apenas à razão numérica adimensional sem aplicar a multiplicação correspondente à conversão para porcentagem.
+* **(B) 0,001%:** Incorreta. Erro de uma ordem de grandeza nos cálculos decimais.
+* **(C) 0,01%:** **Correta.** Resultado exato da aplicação da relação de erro percentual com unidades homogêneas ($0,01 / 100 \times 100\% = 0,01\%$).
+* **(D) 0,1%:** Incorreta. Decorre de um escorregamento de uma casa decimal no cálculo final da porcentagem.
+* **(E) 1%:** Incorreta. Representaria um erro de $1\text{ m}$ para uma distância de $100\text{ m}$.
+
+---
+
+#### Dicas para a Prova (Banca Cesgranrio)
+
+1. **Atenção nas Casas Decimais:** Em questões de metrologia e porcentagem, a Cesgranrio gosta de colocar alternativas variando por fatores de 10 (como $0,001\%$, $0,01\%$ e $0,1\%$). Faça a conversão de unidades com calma e confira a quantidade de zeros após a vírgula antes de assinalar a resposta definitiva.
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  58
 
 O uso de dispositivos conhecidos como diodos de dados (também conhecidos como gateways unidirecionais) tem deixado de ser exclusivo de ambientes militares e de usinas nucleares para ser utilizado em ambientes industriais. Os diodos de dados são dispositivos que fazem transferências de dados entre si em somente uma direção, podendo ser úteis para levar dados do chão de fábrica para o ambiente corporativo, ou até mesmo para nuvem, sem colocar em risco a rede do ambiente industrial. Isso geralmente é garantido de forma física: um dispositivo (TX) possui somente um transmissor, e o outro (RX) possui somente um receptor, como ilustrado na Figura abaixo.
+
+<img src="./img/Questao-58.png" alt="Sistema de Controle Industrial ilustrando o uso do Diodo de Dados" width="300"/>
 
 Apesar de proverem alto nível de segurança, tais dispositivos apresentam um problema potencial: como a comunicação é unilateral, caso o link de comunicação apresente algum problema, o transmissor não tem como saber se o receptor recebeu suas mensagens, e, potencialmente, dados do ambiente industrial podem ser perdidos.
 
@@ -4144,10 +5233,100 @@ Supondo que o fluxo de dados no link seja constante a uma taxa de 4 MB/s, qual a
 (E)  &nbsp; 28.800 MB
 
 ---
+
+A alternativa correta é a **(E) 28.800 MB**.
+
+---
+
+#### Classificação da Área de Conhecimento
+
+* **Área Principal:** Engenharia de Automação / Redes Industriais e Cibersegurança
+* **Sub-áreas e Itens Correlatos:**
+* **Cibersegurança Industrial:** Redes industriais, arquitetura de segurança perimetral, diodos de dados (gateways unidirecionais) e separação de redes (chão de fábrica vs. ambiente corporativo/nuvem).
+* **Sistemas de Informação e Armazenamento:** Cálculo de volumetria de dados, taxas de transferência e capacidade de armazenamento de *buffer* em sistemas tolerantes a falhas.
+
+
+
+---
+
+#### Conceitos Fundamentais
+
+1. **Diodo de Dados (Unidirectional Security Gateway):** Dispositivo de hardware que permite a transmissão de dados em apenas um sentido (de TX para RX), garantindo isolamento físico e impedindo qualquer invasão ou tráfego reverso do ambiente corporativo para a rede industrial crítica.
+2. **Volumetria de Armazenamento (*Buffer*):** Como a comunicação é estritamente unidirecional, o transmissor não recebe confirmação de entrega (*feedback*). Caso ocorra uma interrupção no link, os dados gerados precisam ser armazenados localmente no lado transmissor (TX) para posterior retransmissão, exigindo capacidade de armazenamento proporcional ao tempo de interrupção e à taxa de fluxo.
+
+---
+
+#### Quadro-Resumo
+
+| Parâmetro | Valor / Unidade | Descrição / Operação |
+| --- | --- | --- |
+| **Taxa de Fluxo de Dados** | $4\text{ MB/s}$ | Volume de dados gerado por segundo |
+| **Tempo de Interrupção do Link** | $2\text{ horas}$ | Duração máxima sem conexão considerada no problema |
+| **Conversão Temporal** | $7.200\text{ segundos}$ | $2\text{ horas} \times 60\text{ minutos} \times 60\text{ segundos}$ |
+| **Armazenamento Necessário** | $28.800\text{ MB}$ | $4\text{ MB/s} \times 7.200\text{ s}$ |
+
+---
+
+#### Pontos de Atenção para a Prova
+
+* **Atenção à Conversão de Unidades de Tempo:** O fluxo de dados é dado em megabytes por *segundo* (MB/s), mas o tempo de indisponibilidade é fornecido em *horas*. O erro mais comum é multiplicar diretamente por 2, ignorando a conversão para segundos. Sempre reduza as grandezas temporais para a unidade base da taxa (segundos).
+
+---
+
+#### Justificativa Detalhada
+
+Para determinar o espaço de armazenamento necessário no dispositivo TX para suportar 2 horas de interrupção sem perda de dados, realizamos o cálculo por etapas:
+
+1. **Converter o tempo de interrupção de horas para segundos:**
+
+$$\text{Tempo} = 2\text{ horas} \times 60\text{ minutos/hora} \times 60\text{ segundos/minuto}$$
+
+
+$$\text{Tempo} = 7.200\text{ segundos}$$
+
+
+2. **Calcular o volume total de dados gerados no período:**
+
+$$\text{Armazenamento} = \text{Taxa de Fluxo} \times \text{Tempo em segundos}$$
+
+
+$$\text{Armazenamento} = 4\text{ MB/s} \times 7.200\text{ s}$$
+
+
+$$\text{Armazenamento} = 28.800\text{ MB}$$
+
+
+
+Portanto, o espaço necessário é de **28.800 MB**, o que valida a alternativa **(E)**.
+
+---
+
+#### Análise das Alternativas
+
+* **(A) 8 MB:** Incorreta. Representa apenas o produto direto de $4 \times 2$, ignorando totalmente a conversão das horas para minutos e segundos.
+* **(B) 240 MB:** Incorreta. Corresponde ao cálculo considerando apenas 1 minuto (multiplicando 4 MB/s por 60 segundos), desconsiderando o restante do período de interrupção.
+* **(C) 480 MB:** Incorreta. Corresponde ao cálculo para um intervalo de 2 minutos ($4 \times 120$).
+* **(D) 14.400 MB:** Incorreta. Representa o resultado obtido caso a interrupção fosse de apenas 1 hora ($4 \times 3.600$).
+* **(E) 28.800 MB:** **Correta.** Resultado exato da multiplicação da taxa de $4\text{ MB/s}$ pelos $7.200\text{ segundos}$ correspondentes a 2 horas de operação contínua.
+
+
+
+---
+
+#### Dicas para a Prova (Banca Cesgranrio)
+
+1. **Método Dimensional:** Em questões de volumetria de dados envolvendo taxas e tempo, alinhe sempre as unidades antes de multiplicar (ex: $\text{[Unidade/s]} \times \text{[s]} = \text{[Unidade Total]}$). A Cesgranrio costuma colocar nas alternativas os valores calculados com conversões parciais de tempo (como esquecer de passar de horas para segundos ou minutos).
+
+---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  59
 
 O programa de um CLP (Controlador Lógico Programável) é executado como parte de um processo repetitivo chamado de Ciclo de Varredura.
@@ -4163,8 +5342,13 @@ NÃO faz parte desse ciclo a(o)
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  60
 
 A UCE (Unidade de Controle Eletrônico) é um controlador, com microprocessador embarcado, que os carros modernos possuem para controlar o funcionamento do motor. Isso é feito através da coleta de vários tipos de dados e da atuação sobre o motor.
@@ -4182,8 +5366,13 @@ Assumindo que as saídas dos bicos injetores são abertas uma vez a cada rotaç�
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  61
 
 Um retificador de onda completa, descrito na Figura abaixo, é alimentado por uma tensão senoidal V\_I.
@@ -4198,8 +5387,13 @@ Supondo que os diodos D1, D2, D3 e D4 são ideais, a forma de onda esperada para
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  62
 
 Um controlador deve medir a quantidade de luz ambiente para decidir se liga ou não as luzes externas de uma unidade fabril. Um arranjo típico de conexão a uma porta Px de E/S (Entrada/Saída) do controlador, utilizando um Resistor Dependente de Luz (ou LDR = Light Dependent Resistor) é mostrado na Figura abaixo.
@@ -4215,8 +5409,13 @@ Se é do interesse escolher um nível de luminosidade específico, não bastando
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  63
 
 Pulseiras antiestáticas são equipamentos que podem ser utilizados por profissionais que executam manutenção em microcomputadores, principalmente quando acessam componentes eletrônicos (circuitos integrados, memórias, discos rígidos, etc.). Elas protegem esses componentes de descargas eletrostáticas (ESD = Electrostatic Discharge), são colocadas ao redor do pulso do profissional e conectadas, usando um condutor e um resistor de alto valor (ex: 1 MΩ) em série, a um condutor aterrado. A Figura abaixo ilustra uma dessas pulseiras.
@@ -4232,8 +5431,13 @@ Essas pulseiras devem ser usadas durante a manutenção de microcomputadores
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  64
 
 No que diz respeito à ligação inter-redes e às mensagens deslocadas de uma rede para outra, conversões de protocolo podem fazer-se necessárias. São utilizados gateways, classificados conforme o maior nível de protocolo.
@@ -4249,8 +5453,13 @@ Um gateway é chamado, ou adjetivado, de repetidor quando a conversão de protoc
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  65
 
 Uma das topologias de rede mais utilizadas, tanto locais como metropolitanas, é a topologia em estrela. Neste tipo de topologia, cada estação ou nó de trabalho é interligado a um nó central, também chamado de nó mestre. Várias redes em estrela operam em configurações nas quais o nó central tem tanto a função de gerenciar a comunicação como a de facilitar o processamento de dados. Em outras redes, o nó central tem como única função o gerenciamento das comunicações entre os demais nós.
@@ -4266,8 +5475,13 @@ O nó central cuja função é o chaveamento entre as estações que desejam com
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  66
 
 Em sistemas operacionais multitarefas e interativos é comum utilizar um algoritmo de escalonamento de processos. Um algoritmo amplamente usado é conhecido como round-robin.
@@ -4283,8 +5497,13 @@ Nesse algoritmo, cada processo
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  67
 
 Uma das características principais da linguagem de programação Prolog é o uso de
@@ -4298,8 +5517,13 @@ Uma das características principais da linguagem de programação Prolog é o us
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  68
 
 A capacidade de um programa examinar em tempo de execução seus tipos e estruturas e dinamicamente modificar seu comportamento é conhecida como
@@ -4313,8 +5537,13 @@ A capacidade de um programa examinar em tempo de execução seus tipos e estrutu
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  69
 
 Ao implementar uma aplicação de transferência de arquivos de um determinado formato específico, o desenvolvedor reconheceu que o melhor seria contar com um serviço do nível de transporte que fosse confiável, isso é, que fizesse a recuperação de eventuais erros por retransmissão e que fizesse, também, um controle de fluxo fim a fim, liberando a aplicação de implementar tais funcionalidades, deixando-as a cargo do nível de transporte.
@@ -4330,8 +5559,13 @@ Nesse caso, a implementação deve ser desenvolvida tendo como base o serviço d
 ---
 ---
 <!-- resolver a questão no contexto do concurso transpetro com banca cesgranrio: 
-  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento);
-  - apresentar uma justificativa detalhada contendo uma análise das alternativas; -->
+  - identificar a área de conhecimento da questão (classifique a área de conhecimento e as devidas sub-áreas de conhecimento, listando os itens constante em cada sub-area);
+  - conceitos fundamentais;
+  - quadro-resumo;
+  - pontos de atenção para a prova;
+  - apresentar uma justificativa detalhada;
+  - análise das alternativas;
+  - dicas para a prova; -->
 ###  70
 
 Uma aplicação foi desenvolvida de forma a passar um sinal de voz analógico por um filtro cuja saída garante que não restam componentes acima de 6 KHz no sinal resultante. Na sequência, a saída, com o sinal já filtrado, é digitalizada usando a técnica de PCM com 1024 níveis de quantização.
